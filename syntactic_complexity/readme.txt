@@ -1,0 +1,3 @@
+Full data on syntactic complexity for the 149 web pages from the WHO, CDC, ECDC, and governments. Summary statistics for mean length of clause (MLC) and dependent clauses per T-unit (DC/T) are provided in the Table in the main paper.  
+
+All data was generated using the L2 Syntactic Complexity Analyzer (http://www.personal.psu.edu/xxl13/downloads/l2sca.html). Extensive documentation is available on the download page. 
