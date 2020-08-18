@@ -1,0 +1,69 @@
+file,tokens,raw count,fraction
+CDC_txt_all/CDCmainfaq.txt,9410,30,0.248
+CDC_txt_all/Collegesunivfaq.txt,1817,22,0.182
+CDC_txt_all/Domestic travel.txt,729,13,0.107
+CDC_txt_all/Landing page_daily lifeand coping.txt,61,0,0.0
+CDC_txt_all/Landing page_if you_re sick.txt,68,3,0.025
+CDC_txt_all/Landing page_people additional precautions_higher risk.txt,92,3,0.025
+CDC_txt_all/Landing page_school.txt,264,8,0.066
+CDC_txt_all/Landingpage_colleges.txt,277,7,0.058
+CDC_txt_all/RetirementFAQ.txt,515,9,0.074
+CDC_txt_all/Travelers Prohibited from Entry to the United States.txt,132,4,0.033
+CDC_txt_all/Travelers Returning from International Travel.txt,258,6,0.05
+CDC_txt_all/What you can do if higher risk.txt,941,17,0.14
+CDC_txt_all/airport-baggage-cargo-handlers.txt,798,12,0.099
+CDC_txt_all/airport-custodial-staff.txt,813,12,0.099
+CDC_txt_all/airport-customer-factsheet.txt,880,13,0.107
+CDC_txt_all/airport-passenger-assistance-workers.txt,876,14,0.116
+CDC_txt_all/animals.txt,983,12,0.099
+CDC_txt_all/asthma.txt,516,12,0.099
+CDC_txt_all/care-for-someone.txt,626,10,0.083
+CDC_txt_all/caring-for-yourself-at-home.txt,347,6,0.05
+CDC_txt_all/checklist-household-ready.txt,285,5,0.041
+CDC_txt_all/checklist.txt,480,3,0.025
+CDC_txt_all/children.txt,1387,11,0.091
+CDC_txt_all/cleaning-disinfection.txt,1726,13,0.107
+CDC_txt_all/cloth-face-cover-faq.txt,541,6,0.05
+CDC_txt_all/cloth-face-cover.txt,302,7,0.058
+CDC_txt_all/community_faithleaderschecklist.txt,367,6,0.05
+CDC_txt_all/correctionallandingpage.txt,359,9,0.074
+CDC_txt_all/correctiondetentionFAQ.txt,4595,24,0.198
+CDC_txt_all/cruise ships.txt,421,8,0.066
+CDC_txt_all/detailed guidance cleaning-disinfection.txt,1504,12,0.099
+CDC_txt_all/disinfecting-building-facility.txt,868,7,0.058
+CDC_txt_all/disinfecting-your-home.txt,709,3,0.025
+CDC_txt_all/diy-cloth-face-coverings.txt,254,5,0.041
+CDC_txt_all/election-polling-locations.txt,994,18,0.149
+CDC_txt_all/event-planners-and-attendees-faq.txt,834,14,0.116
+CDC_txt_all/get-your-household-ready-for-COVID-19.txt,1874,18,0.149
+CDC_txt_all/groups-at-higher-risk.txt,160,4,0.033
+CDC_txt_all/guidance-business-response.txt,2205,24,0.198
+CDC_txt_all/guidance-community-faith-organizations.txt,6434,33,0.273
+CDC_txt_all/guidance-correctional-detention.txt,11572,50,0.413
+CDC_txt_all/guidance-for-childcare.txt,3122,23,0.19
+CDC_txt_all/guidance-for-schools.txt,4226,30,0.248
+CDC_txt_all/guidance-ihe-response.txt,4890,30,0.248
+CDC_txt_all/guidance-law-enforcement.txt,549,15,0.124
+CDC_txt_all/guidance-retirement-response.txt,2500,26,0.215
+CDC_txt_all/hiv.txt,938,13,0.107
+CDC_txt_all/homelesssheltersplan-prepare-respond.txt,2289,24,0.198
+CDC_txt_all/homelesssheltersscreening-clients-respiratory-infection-symptoms.txt,427,7,0.058
+CDC_txt_all/how-covid-spreads.txt,338,5,0.041
+CDC_txt_all/landing page and symptoms.txt,160,8,0.066
+CDC_txt_all/landing page_large events.txt,338,9,0.074
+CDC_txt_all/landing page_prevent.txt,74,4,0.033
+CDC_txt_all/managing-stress-anxiety.txt,889,11,0.091
+CDC_txt_all/mass-gatherings-ready-for-covid-19.txt,2708,22,0.182
+CDC_txt_all/older-adults.txt,683,11,0.091
+CDC_txt_all/pregnancy-breastfeeding.txt,857,10,0.083
+CDC_txt_all/prevention.txt,667,11,0.091
+CDC_txt_all/retirementchecklist.txt,1223,17,0.14
+CDC_txt_all/retirementlandingpage.txt,186,6,0.05
+CDC_txt_all/schools-faq.txt,2526,25,0.207
+CDC_txt_all/steps-when-sick.txt,1259,8,0.066
+CDC_txt_all/student-foreign-travel.txt,218,7,0.058
+CDC_txt_all/talking-with-children.txt,970,4,0.033
+CDC_txt_all/testing.txt,443,11,0.091
+CDC_txt_all/travel FAQ.txt,951,13,0.107
+CDC_txt_all/unsheltered-homelessness.txt,1477,17,0.14
+CDC_txt_all/water.txt,739,15,0.124
