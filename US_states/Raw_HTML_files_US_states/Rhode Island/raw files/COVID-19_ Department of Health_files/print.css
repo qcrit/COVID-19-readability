@@ -1,0 +1,78 @@
+/* line 11, ../scss/print.scss */
+body {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  font-size: 18px;
+  line-height: auto;
+  margin: 3em; }
+
+
+
+/* line 17, ../scss/print.scss */
+ul, ul li {
+  margin-top: 0px;
+  margin-left: 10pt; }
+
+/* line 22, ../scss/print.scss */
+body a {
+  text-decoration: none;
+  color: #000; }
+
+/* line 28, ../scss/print.scss */
+h1 {
+  color: #194b80; }
+
+/* line 32, ../scss/print.scss */
+.search, #mobile-header, ul.socialmedia, .breadcrumbs, .skip, .top-bar, #sidr-main, .orbitslider, .twitter-timeline, .basefooter, .coa, #icons, .vertical-nav, .flickrslideshow, video, object, .youtube, .bx-wrapper {
+  display: none; }
+
+/* line 34, ../scss/print.scss
+.agencylogo {
+  float: left; 
+  /*my edit*//*
+  background-image: url(/img/site/sealprint.gif);
+  background-color:#666;
+  }
+*/
+/* line 35, ../scss/print.scss */
+.agencyname {
+  float: left;
+  padding-left: .5em;
+  display: block; }
+
+/* line 37, ../scss/print.scss */
+#header {
+  display: block;
+  clear: both;
+  margin-bottom: 1.5em; }
+
+/* line 41, ../scss/print.scss */
+#header:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  /* My addition. Not sure it's a good idea, but there you go. */
+  clear: both;
+  visibility: hidden; }
+
+/* line 44, ../scss/print.scss */
+table {
+  max-width: 90%;
+  margin-top: 1em;
+  border: solid 1px #ccc;
+  padding: .25em; }
+  /* line 48, ../scss/print.scss */
+  table caption {
+    text-align: left;
+    margin-bottom: .25em; }
+  /* line 49, ../scss/print.scss */
+  table th {
+    text-align: left;
+    border-bottom: solid 1px #ccc; }
+  /* line 50, ../scss/print.scss */
+  table td {
+    border-right: solid 1px #ccc;
+    padding: .25em; }
+    /* line 51, ../scss/print.scss */
+    table td:last-child {
+      border: none; }

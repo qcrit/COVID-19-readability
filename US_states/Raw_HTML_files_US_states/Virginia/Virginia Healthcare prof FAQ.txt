@@ -1,0 +1,511 @@
+Who is at risk for severe disease from COVID-19?
+While information so far suggests that most COVID-19 illness is mild, a report out of
+China suggests serious illness occurs in 16% of cases. Older people (≥60 years of age)
+are at greater risk for serious illness. Additionally, those with certain underlying medical conditions (listed below) might be at increased risk for serious illness from COVID-19.Chronic liver disease as defined by your doctor. (e.g., cirrhosis, chronic
+hepatitis). Patient has been told to avoid or reduce the dose of medications
+because of liver disease or is under treatment for liver disease.Neurological and neurologic and neurodevelopment conditions [including disorders of the brain, spinal cord, peripheral nerve, and muscle such as cerebral palsy, epilepsy (seizure disorders), stroke, intellectual disability, moderate to severe developmental delay, muscular dystrophy, or spinal cord injury].
+
+How is COVID-19 transmitted?
+Continued research around the world aims to better understand the dynamics of SARSCoV-2 transmission. At this time, it seems that respiratory droplets are the primary driver
+of disease transmission. The possibility of aerosol or fecal-oral transmission has been
+proposed, but is not thought to contribute significantly to disease transmission. It is not yet known if other body fluids from an infected person, such as vomit, urine, breast milk, or semen can contain viable, infectious SARS-CoV-2.
+
+When is someone infectious?
+The onset and duration of viral shedding and period of infectiousness for COVID-19 are
+not yet known. It is possible that SARS-CoV-2 RNA may be detectable in the upper or
+lower respiratory tract for weeks after illness onset, similar to infection with MERS-CoV
+and SARS-CoV. However, detection of viral RNA does not necessarily mean that
+infectious virus is present. Asymptomatic infection with SARS-CoV-2 has been reported,
+but it is not yet known what role asymptomatic infection plays in transmission. Similarly,
+the role of pre-symptomatic transmission (infection detection during the incubation
+period prior to illness onset) is unknown.
+
+Do people infected with SARS-CoV-2 (the virus that causes COVID-19) shed the
+virus before showing symptoms?
+The shedding profile of SARS-CoV-2 and the cause of COVID-19 is being studied. If
+similar to other coronaviruses, viral shedding may occur before and after onset of
+symptoms. The quantity of virus shed before one becomes aware of symptoms is likely
+less than what is shed when one is sick, when respiratory secretions are more likely to
+contribute to transmission via coughing, sneezing or medical procedures.
+It is very important that people with even mild signs of illness (fever, cough,
+shortness of breath) stay home to prevent spreading illness to others! Even those
+with mild illness might be capable of transmitting the disease. All patients, even those with mild illness, should be provided with correct self-isolation guidance. 
+
+Can people who recover from COVID-19 be infected again?
+The immune response to COVID-19 is not yet understood. Patients with MERS-CoV
+infection are unlikely to be re-infected shortly after they recover, but it is not yet known whether similar immune protection will be observed for patients with COVID-19.
+
+Where can I find more information about COVID-19 in Virginia?
+The Virginia Department of Health is regularly updating their website with the latest
+information on COVID-19 in Virginia.
+
+I would like to request a presentation providing more information on COVID-19 to
+my organization. Who should I contact?
+
+Who is at risk for severe disease from COVID-19?
+
+How do I determine who to test for SARS-CoV-2?
+Clinicians should use their judgement to determine if a patient has signs and symptoms
+compatible with COVID-19 and whether the patient should be tested. Most patients with
+confirmed COVID-19 have developed fever and/or symptoms of acute respiratory illness (e.g., cough, difficulty breathing). Epidemiologic factors that may help guide decisions on whether to test include: any persons, including healthcare workers, who have had close
+contact with a laboratory-confirmed COVID-19 patient within 14 days of symptom onset,
+or a history of travel from affected geographic areas within 14 days of symptom onset. 
+
+Which patients are being tested for COVID-19?
+Clinicians are now able to access laboratory tests for diagnosing COVID-19 through
+clinical laboratories performing tests authorized by FDA under an Emergency Use
+Authorization (EUA). This will expand testing to a wider group of symptomatic patients.
+Please contact your laboratory partners to discuss testing availability and instructions.
+Health Department approval is NOT required for COVID-19 testing performed through
+private clinical laboratories.
+
+Because of a limited number of tests available, testing performed at DCLS, Virginia’s
+state lab, is reserved for patients who meet VDH’s priority investigation criteria. If you
+have a patient who meets VDH criteria (outlined below), please contact your local health
+department to request approval for testing.
+
+Person who resides in a nursing home or long-term care facility AND who has
+fever or signs/symptoms of a lower respiratory illness AND who tested negative
+for influenza on initial work-up AND a respiratory virus panel negative for all
+pathogens AND no alternative diagnosis. 
+
+How do I report someone who may be a PUI to the Virginia Health Department?
+If you are a healthcare professional evaluating a patient for suspected COVID-19, please
+contact your local health department immediately.
+
+I have a patient who might have been exposed to someone with COVID-19, but
+they are not currently showing signs of illness. Should I test that person?
+Testing of asymptomatic persons is not recommended at this time. Advise the person to
+monitor their health closely and call back if they develop a fever, cough, or shortness of
+breath within 14 days after contact with a person with COVID-19.
+
+Do I need to call my local health department if I have a patient who tests positive
+for the common human coronaviruses?
+No. There are several other human coronaviruses, such as 229E, NL63, OC43 and
+HKU1 which commonly cause respiratory infection and are included in some multiplex
+respiratory panels. If one of these viruses is identified, you do not need to report this to your local health department.
+
+Do patients with confirmed or suspected COVID-19 need to be admitted to the
+hospital?
+Not all patients with COVID-19 require hospital admission (see additional information on implementing appropriate home care below). Patients whose clinical presentation warrants in-patient clinical management for supportive medical care should be admitted to the hospital under appropriate isolation precautions. The decision to monitor these patients in the inpatient or outpatient setting should be made on a case-by-case basis. This decision will depend on the clinical presentation, the patient’s ability to engage in monitoring, the ability for safe isolation at home, and the risk of transmission in the patient’s home environment. All decisions regarding the movement of people being tested for COVID-19 must be made in conjunction with the local health department. 
+
+In consultation with local health department staff, a healthcare professional should
+assess whether the residential setting is appropriate for home care. Considerations for
+care at home include whether: The patient is stable enough to receive care at home.
+Appropriate caregivers are available at home. There is a separate bedroom where the patient can recover without sharing immediate space with others.Resources for access to food and other necessities are available. 
+
+There are household members who may be at increased risk of complications
+from COVID-19 infection (.e.g., people >60 years old, young children, pregnant
+women, people who are immunocompromised or who have chronic heart, lung,
+or kidney conditions).
+
+All decisions regarding the movement of people being tested for COVID-19 must be
+made in conjunction with the local health department. It is very important that people
+with even mild signs of illness (fever, cough, shortness of breath) stay home to
+prevent spreading illness to others! Even those with mild illness might be capable
+of transmitting the disease. All patients, even those with mild illness, should be provided with correct self-isolation guidance. 
+
+If a patient is being evaluated and tested for COVID-19 and the healthcare
+providers decide hospitalization is warranted, but the patient refuses to stay, can
+they be legally held?
+Yes. The Virginia Department of Health (VDH) can serve temporary legal orders that
+require a hospital to isolate the patient and, if necessary, detain the patient until VDH
+determines that the patient no longer represents a potential threat to the public.
+
+How can an outpatient practice best prepare for a COVID-19 outbreak and the
+possibility that a patient infected with SARS-CoV-2 might come into the practice?
+Outpatient health care settings should devise strategies to rapidly identify patients who
+might have COVID-19 and take immediate steps to prevent them from potentially
+infecting others. The following are suggested actions: Post signage in multiple languages instructing patients to report recent travel and fever or respiratory illness (e.g., cough or shortness of breath). Posters can be downloaded from this Virginia Department of Health webpage.Train triage staff to place a face mask (surgical, procedure) on any patient who
+presents with fever, cough or shortness of breath. If the patient did, isolate the patient immediately. Ideally, isolate in an airborne infection isolation room (AIIR) or a private room with a closed door.
+
+If the patient cannot be evaluated using CDC’s recommended infection
+prevention and control precautions (see question, “Can people suspected of
+having COVID-19 be evaluated safely in an outpatient setting?” below), the
+outpatient practice will need to arrange referral and transport of the masked
+patient to a setting where this can be done. Inform the receiving facility and the
+local health department about any patient who might have COVID-19 before the
+patient is sent to another facility. 
+
+Can people suspected of having COVID-19 be evaluated safely in an outpatient
+setting?
+Yes. If the outpatient setting can follow CDC’s infection prevention and control
+precautions as follows: Place patients who may be infected with SARS-CoV-2 in an AIIR or, if unavailable, a private room with a closed door, and Use gloves, gowns, fit-tested N95 respirators, and goggles or face shields when caring for such patients. Keep a log of personnel who cared for such patients. If the patient cannot be evaluated using CDC’s recommended infection prevention and control precautions, the outpatient practice will need to arrange referral and transport of the masked patient to a setting where this can be done. Inform the Virginia Department of Health and the receiving facility about any patients who might have COVID-19 before the patient is sent to another facility. VDH strongly encourages health care providers be fit-tested for N-95 respirator use if they have not done so in the past year.
+
+How can I prepare for a contact tracing investigation if COVID-19 is confirmed?
+Inform the infection control team at your healthcare facility that you have evaluated a
+patient who is now considered a PUI for COVID-19. Begin collecting a log of workers
+who had contact with the patient while they were at your facility.
+
+When can hospitalized patients with confirmed COVID-19 be discharged from the
+hospital?
+Patients can be discharged from the healthcare facility whenever clinically indicated.
+Isolation should be maintained at home if the patient returns home before the time
+period recommended for discontinuation of hospital Transmission-Based Precautions
+described below. Decisions to discontinue Transmission-Based Precautions or in-home isolation can be made on a case-by-case basis in consultation with clinicians, infection prevention and control specialists, and public health based upon multiple factors, including disease severity, illness signs and symptoms, and results of laboratory testing for COVID-19 in respiratory specimens. 
+
+When can home isolation be discontinued for a patient with COVID-19?
+Persons directed to isolate at home can stop home isolation under the following
+conditions: No fever for at least 72 hours (that is three full days of no fever without the use of medicine that reduces fevers) AND Other symptoms have improved (for example, when cough or shortness of breath have improved) AND At least 7 days have passed since symptoms first appeared.
+
+What do I need to know if a patient with confirmed or suspected COVID-19 asks
+about having a pet or other animal in the home?
+The Virginia Department of Health recommends restricting contact with pets and other
+animals while sick with COVID-19. Although there have not been reports of pets or other
+animals becoming sick with COVID-19, it is still recommended to limit contact with
+animals until more information is known about the virus. When possible, have another
+person care for the animal. If the patient must care for, or be around animals, while sick, it is recommended they wash their hands before and after animal interactions and wear a facemask. See additional information under “Animals and COVID-19”.
+
+Are private laboratories testing for COVID-19?
+Yes, private laboratories started testing for COVID-19. Please contact your laboratory
+partners to discuss testing availability and instructions. Health Department approval is
+NOT required for COVID-19 testing performed through private clinical laboratories.
+
+What specimens should I collect for SARS-CoV-2 testing through DCLS?
+First, consult with your local health department to see if SARS-CoV-2 testing is
+warranted. If testing is approved, you will receive specific instructions on which
+specimens to collect and to how to arrange for transportation of those samples to
+Virginia’s public health laboratory, the Division of Consolidated Laboratory Services
+(DCLS). General sample information for testing is outlined below and is available on the
+DCLS website. This may be subject to change over time as we learn more about the virus, so please consult with your local health department to ensure you have the most
+up to date information. Testing is performed on respiratory specimens only. Dry NP swabs are NOT acceptable specimens.
+
+How do I prepare specimens for shipment to the Division of Consolidated
+Laboratory Services (DCLS) for testing?
+Your local health department will help you with paperwork and preparations for
+specimen shipping to DCLS. Collected specimens should be stored and shipped
+refrigerated at 4˚C. DCLS will coordinate courier pick-up of specimens. Specimens
+cannot be shipped to DCLS without advance notification to DCLS.
+
+What is the expected turnaround time for reporting of COVID-19 test results at
+DCLS?
+DCLS is batching specimens for SARS-CoV-2 testing. For specimens tested in the
+morning, results will be available by 2 pm; for specimens tested in the afternoon, results
+will be available by 8 pm. Verbal reporting of SARS-CoV-2 and Influenza results will be provided to the submitter. Hard copy test results will be sent within 2 business days after testing is complete. A preliminary report of COVID-19 test results may be sent if RVP testing is pending.
+
+How should I interpret a positive test result from DCLS?
+A positive test result for COVID-19 indicates that RNA from SARS-CoV-2 was detected,
+and the patient is presumptively infected with SARS-CoV-2 and presumed to be
+contagious. Laboratory test results should always be considered in the context of clinical
+observations and epidemiological data in making a final diagnosis and patient
+management decisions. Patient management should follow current CDC guidelines.
+The CDC COVID-19 Real-Time RT-PCR Diagnostic Panel (the test being used by
+DCLS) has been designed to minimize the likelihood of false positive test results.
+However, in the event of a false positive result, risks to patients could include the
+following: a recommendation for isolation of the patient, monitoring of household or other
+close contacts for symptoms, patient isolation that might limit contact with family or
+friends and may increase contact with other potentially COVID-19 infected patients,
+limits in the ability to work, the delayed diagnosis and treatment for the true infection
+causing the symptoms, unnecessary prescription of a treatment or therapy, or other
+unintended adverse effects.
+
+How should I interpret a negative test result from DCLS?
+A negative test result for this test means that SARS-CoV-2 RNA was not present in the
+specimen above the limit of detection. However, a negative result does not rule out
+SARS-CoV-2 infection and should not be used as the sole basis for treatment or patient
+management decisions. A negative result does not exclude the possibility of SARS-CoV2 infection. When diagnostic testing is negative, the possibility of a false negative result should be considered, especially if the patient’s recent exposures or clinical presentation indicate that SARS-CoV-2 infection is likely, and diagnostic tests for other causes of illness (e.g.,other respiratory illness) are negative. If COVID-19 is still suspected based on exposure history and clinical findings, re-testing should be considered in consultation with public health authorities.
+Risks to a patient of a false negative include: delayed or lack of supportive treatment,
+lack of monitoring of infected individuals and their household or other close contacts for
+symptoms resulting in increased risk of spread of COVID-19 within the community, or
+other unintended adverse events.
+
+What other respiratory illnesses should I consider in my differential diagnoses?
+How do I proceed with these results?
+Other differential diagnoses should be based on the physician’s clinical judgement
+depending on the patient’s illness and risk factors. Given that it is still flu season, VDH strongly recommends testing for influenza.
+
+Do current diagnostic assays for routine human coronaviruses cross-react with
+SARS-CoV-2?
+No. Multi-pathogen molecular assays, such as those manufactured by Biofire or
+Genmark, can detect a number of human respiratory viruses, including other
+coronaviruses that can cause acute respiratory illness, but they do not detect COVID-19.
+
+What are the current recommendations for travelers?
+If the patient was in a country with a COVID-19 outbreak and has a fever, cough, or
+difficulty breathing within 14 days after leaving, and symptoms are moderate to severe,
+they should seek medical advice – Call ahead before going to a doctor’s office or
+emergency room. The traveler should inform about recent travel and symptoms and: Avoid contact with others. Do not travel on public transportation while sick. Cover your mouth and nose with a tissue or your sleeve (not your hands) when coughing or sneezing.
+
+Wash hands often with soap and water for at least 20 seconds to avoid
+spreading the virus to others. Wash your hands with soap and water immediately after coughing, sneezing or blowing your nose. If soap and water are not readily available, you can use an alcohol-based hand sanitizer that contains 60%–95% alcohol. Always wash hands with soap and water if hands are visibly dirty. It is very important that people with even mild signs of illness (fever, cough, shortness of breath) stay home to prevent spreading illness to others! Even those with mild illness could pass the infection to others.
+
+What if I need to provide necessary routine medical treatment to someone who
+has been told to stay home and self-monitor for COVID-19?
+First, rule out the possibility that the patient could be ill with COVID-19. If possible, ask the patient before arrival if they have a fever, cough or shortness of breath. If the patient has a fever, cough or shortness of breath, determine if the patient requires medical evaluation for COVID-19. If the patient does not have a fever, cough or shortness of breath, proceed with medical care. If possible, provide the services in a private room or an area where there is a 6-foot distance between the patient and other patients. If possible, ask the patient to avoid sitting in the waiting room. In some settings, patients might opt to wait in a personal vehicle or outside the health care facility where they can
+be contacted by mobile phone when it is their turn to be evaluated.Keep a log of personnel who provided care to the patient.
+
+How should healthcare personnel protect themselves when evaluating a patient
+who may have COVID-19?
+Although the transmission dynamics have yet to be determined, CDC currently
+recommends a cautious approach to persons under investigation (PUI) for COVID-19.
+Healthcare personnel evaluating PUI or providing care for patients with confirmed
+COVID-19 should use Standard Precautions, Contact Precautions, Airborne
+Precautions, and use eye protection (e.g., goggles or a face shield). See the Interim
+Infection Prevention and Control Recommendations for Patients with Known or Patients
+Under Investigation for Coronavirus Disease 2019 (COVID-19) in Healthcare Settings.
+
+Should any diagnostic or therapeutic interventions be withheld due to concerns
+about transmission of COVID-19?
+Patients should receive any interventions they would normally receive as standard of
+care. Patients with suspected or confirmed COVID-19 should be asked to wear a
+surgical mask as soon as they are identified and be evaluated in a private room with the door closed, ideally an airborne infection isolation room, if available. Healthcare
+personnel entering the room should use Standard Precautions, Contact Precautions,
+Airborne Precautions, and use eye protection (e.g., goggles or a face shield).
+
+What should outpatient providers do to protect themselves if they are not fit-tested for an N95 respirator?
+Outpatient providers are strongly advised to set up triage mechanisms to identify
+patients who might be at-risk of exposure to SARS-CoV-2. Current CDC infection
+control guidance states that people who meet PUI criteria should only be evaluated in a
+facility that can employ the recommended precautions, including employees who are fit-tested for N95 respirators. If that is not possible in your setting, then the patient needs to be transported to a facility that can. If you already have a system in place to transfer a patient to another facility, use that system.
+
+After a PUI or confirmed case of COVID-19 exits an exam room, what is the recommended cleaning and down-time before the room can be returned to routine use?
+Providers entering a room after a patient exits should use respiratory protection. Airborne infections isolation room (AIIR): If the change rate is known, leave the room
+empty for enough air changes per hour (ACH) to occur, to clear the room of infectious particles. Regular exam room: In settings where an AIIR is unavailable, providers can examine patients in a closed room while wearing appropriate PPE. It is unknown how long
+SARS-CoV-2 remains infectious in the air. In the interim, it is reasonable to wait two
+hours, which is commonly used for pathogens spread by the airborne route (e.g.,
+measles, tuberculosis). The room should undergo appropriate cleaning and surface
+disinfection before it is returned to routine use.
+
+If a PUI or a confirmed case of COVID-19 is transported in an ambulance, what is
+the cleaning procedure and down-time recommendation before that ambulance is
+allowed back into service?
+At this time, routine disinfection procedures for rooms, equipment and ambulances are
+recommended. Any waste generated is not considered Category A waste. Use disposable or dedicated patient-care equipment (e.g., blood pressure cuffs). If common use of equipment for multiple patients is unavoidable, clean and disinfect such equipment before use on another patient according to the equipment and disinfectant manufacturers’ instructions for use. It is not known how long SARS-CoV-2 remains infectious in the air. Therefore, the current recommendation is to use a time period consistent with airborne pathogens such as measles or tuberculosis. This means that the ambulance used to transport a patient with suspected COVID-19 infection should not be used for a period of two hours after the patient exits the vehicle or in accordance with the ACH, if that is known. If not known, emergency medical services agencies are encouraged to consult with the ambulance manufacturer to determine the vehicle's passenger compartment ACH for 99.9% removal of airborne contaminants. Use this to decide when it is safe to reintroduce the vehicle if less than the two-hour recommendation.
+
+Why are droplet precautions recommended for other human coronaviruses (229E,
+NL63, OC43, and HKu1), while airborne precautions are recommended for SARSCoV-2?
+Airborne precautions are recommended until more is understood about transmission
+dynamics of SARSCoV-2. This recommendation is made in an abundance of caution
+since this virus is new.
+
+What is the recommendation for environmental cleaning products in clinical
+settings?
+Routine cleaning and disinfection procedures are appropriate for SARS-CoV-2 in
+healthcare settings, including patient-care areas in which aerosol-generating procedures
+are performed. Clean frequently touched, non-porous surfaces and objects with
+cleansers and water prior to applying an EPA-registered, hospital-grade disinfectant that
+is effective against SARS-CoV-2. Refer to product label for appropriate contact time.
+
+How can my facility keep patients safe in the waiting room?
+Providers are strongly advised to set up triage mechanisms to identify patients who
+might be at-risk of exposure to SARS-CoV-2. Patients suspected to have COVID-19
+should be quickly triaged to minimize time in the waiting room. People in the waiting
+room with respiratory symptoms should be asked to put on a mask and sit at least 6 feet
+apart from others.
+
+Is a fit-tested N95 respirator required for collecting specimens for SARSCoV-2 testing?
+Healthcare personnel (HCP) in the room should wear an N-95 or higher-level respirator
+(or facemask if a respirator is not available), eye protection, gloves, and a gown.
+The number of HCP present during the procedure should be limited to only those
+essential for patient care and procedure support. Visitors should not be present for
+specimen collection. Specimen collection can be performed in a normal examination
+room with the door closed.
+
+How do I properly don and doff recommended personal protective equipment?
+Employers should select appropriate personal protective equipment (PPE) and provide it
+to healthcare workers in accordance with OSHA’s PPE standards (29 CFR 1910 Subpart
+I). Healthcare providers must receive training on and demonstrate an understanding of
+when to use PPE; what PPE is necessary; how to properly don, use, and doff PPE in a
+manner to prevent self-contamination; how to properly dispose of or disinfect and
+maintain PPE; and the limitations of PPE. Any reusable PPE must be properly cleaned,
+decontaminated, and maintained after and between uses. For additional information, see the Interim Infection Prevention and Control Recommendations for Patients with Confirmed Coronavirus Disease 2019 (COVID-19)or Persons Under Investigation for COVID-19 in Healthcare Settings.
+
+What measures should be considered in the setting of a potential impending shortage of N95 respirators?
+General infection prevention and control measures to optimize use along with
+contingency capacity strategies should be implemented. This includes limiting the
+number of patients going to the hospital or outpatient settings, limiting face-to-face
+healthcare provider encounters with patients by bundling care activities, excluding nonessential personnel from entering the patient care areas, wearing the same N95
+respirator for repeated close contact encounters with several patients, and potentially
+using N95 respirators beyond the manufacturer-designated shelf life. Facilities should
+report supply chain issues to their Regional Healthcare Coalition. The coalition may be
+able to leverage existing resources. Additional CDC guidance can be found here.
+
+When extending the use of the same N95 respirator or reusing the same N95 respirator for multiple patients in shortage situations, when should the mask be discarded?
+Discard N95 respirators following use during aerosol generating procedures, when
+respirators are contaminated with blood, respiratory or nasal secretions, or other bodily
+fluids from patients, when used following close contact with any patient co-infected with
+an infectious disease requiring contact precautions, or if the integrity of any part of the respirator is compromised. Additional CDC guidance can be found here.
+
+Can an expired N95 respirator be used?
+In times of shortage, consideration can be made to use N95 respirators beyond the
+manufacturer-designated shelf life. Facilities should contact the manufacturer to receive
+further guidance before using or disposing of the expired respirators. CDC/NIOSH also
+lists specific models that have continued to perform past their manufacturer-designated
+shelf life. Users should perform a user seal check immediately after they don each
+respirator and should not use a respirator on which they cannot perform a successful
+user seal check. If the integrity of any part of the respirator is compromised, or if a
+successful user seal check cannot be performed, discard the respirator and try another
+respirator. Additional CDC guidance can be found here.
+
+What measures should be considered in facilities with N95 respirator
+shortages?
+The following measures may be considered in addition to conventional and contingency
+capacity strategies during periods of N95 respirator shortages: Report supply chain issues to the Regional Healthcare Coalition. The coalition may be able to leverage existing resources. Use respirators approved under standards used in other countries that are similar to NIOSH-approved N95 respirators.
+
+Prioritize the use of N95 respirators and facemasks by activity type and use of
+source control. Specific CDC recommendations can be found here.
+
+What measures should be considered in facilities with an impending
+shortage of facemasks?
+The following contingency and crisis strategies are based upon these assumptions: Facilities have reported supply chain issues to the Regional Healthcare Coalition.
+The coalition may be able to leverage existing resources. Strategies include: Remove facemasks for visitors in public areas. Implement extended use of facemasks.
+
+What measures should be considered in facilities with facemask
+shortages?
+These strategies assume facilities have implemented the strategies recommended for an
+impending facemask shortage. 
+
+What measures should be considered in facilities with an impending shortage of gowns? 
+
+Strategies include: Selectively cancel elective and non-urgent procedures and appointments for which a gown is typically used by HCP. Shift gown use towards cloth isolation gowns. Consider the use of coveralls. Use of expired gowns beyond the manufacturer-designated shelf life for training. Use gowns or coveralls conforming to international standards.
+More guidance from the CDC can be found here. 
+
+What measures should be considered in facilities with gown shortages?
+These strategies assume facilities have implemented the strategies recommended for an
+impending gown shortage. Additional recommendations include: Cancel all elective and non-urgent procedures and appointments for which a gown is typically used by HCP. Extended use of isolation gowns. Re-use of cloth isolation gowns. 
+
+If a healthcare worker was exposed to a PUI and develops a fever, cough,
+or shortness of breath, do they need testing if the PUI’s test results are pending?
+This situation will be handled on a case-by-case basis. In general, a lower threshold will
+be used when deciding to test potentially exposed healthcare workers.
+
+If a PUI is under home isolation, can their household contacts attend work
+or school?
+Yes, as long as the contacts are asymptomatic. It is very important that people with
+even mild signs of illness (fever, cough, shortness of breath) stay home to prevent
+spreading illness to others! Even those with mild illness could pass the infection
+to others. If infection with COVID-19 is confirmed, all household contacts will be subject
+to home isolation and will no longer be allowed to attend work or school.
+
+How should health care facilities manage visitors of a PUI and COVID-19
+patients?
+Provide clear messaging that visitors should not enter the facility when they are ill.
+Schedule all visitors to PUIs or known COVID-19 patients. Upon arrival at the facility be
+sure to: Screen visitors for symptoms of acute respiratory illness before entering the
+health care facility. Evaluate risk to the health of the visitor (e.g., visitor might have underlying illness putting them at higher risk for COVID-19) and ability to comply with precautions. Direct visitors to follow respiratory hygiene and cough etiquette precautions while in the facility. Provide instructions before visitors enter patients’ rooms on hand hygiene, limiting surfaces touched, and use of PPE according to current facility policy
+while in the patient’s room. Maintain a record (logbook) of all people, including visitors, who enter patient rooms. Remove visitors during aerosol-generating procedures.
+
+How do I help a patient who may feel targeted by the stigma and discrimination associated with COVID-19?
+Emotional reactions to stressful situations such as this emerging health crisis are
+expected. Remind patients that feeling sad, anxious, overwhelmed or having trouble
+sleeping or other symptoms of distress is normal. If symptoms become worse, last longer than a month or if someone struggles to participate in their usual daily activities, encourage them to reach out for support and help. Calls and texts are answered by trained counselors who will listen to the caller’s concerns, explore coping and other available supports, and offer referrals to community resources for follow-up care and support. 
+
+What type of supportive treatment is recommended for COVID-19 patients?
+Not all patients with COVID-19 will require medical supportive care. Clinical
+management for hospitalized patients with COVID-19 is focused on supportive care of
+complications, including advanced organ support for respiratory failure, septic shock,
+and multi-organ failure. Empiric testing and treatment for other viral or bacterial
+etiologies may be warranted.
+Corticosteroids are not routinely recommended for viral pneumonia or ARDS and should
+be avoided unless they are indicated for another reason (e.g., COPD exacerbation,
+refractory septic shock following Surviving Sepsis Campaign Guidelines).
+Additional information is available in CDC’s Interim Clinical Guidance for Management of
+Patients with Confirmed Coronavirus Disease 2019 (COVID-19).
+
+Are any antiviral medications used for the treatment of COVID-19?
+There are currently no antiviral drugs licensed by the U.S. Food and Drug Administration
+(FDA) to treat COVID-19. Some in-vitro or in-vivo studies suggest potential therapeutic
+activity of some agents against related coronaviruses, but there are no available data
+from observational studies or randomized controlled trials in humans to support
+recommending any investigational therapeutics for patients with confirmed or suspected
+COVID-19 at this time. Remdesivir and chloroquine are being evaluated as possible
+drug therapies for COVID-19, but it is too early to say whether or not either will improve
+clinical outcomes at this time.
+
+Is it safe to give ibuprofen to patients with COVID-19?
+There is currently no scientific evidence to show that taking ibuprofen while sick with
+COVID-19 will lead to worsening illness. For persons looking for a medication to reduce
+their fever, acetaminophen might be preferable. Both acetaminophen and ibuprofen, like
+any other medication, can have serious side effects and healthcare providers should use
+their clinical judgement to determine the most appropriate treatment for their patient.
+
+What is the expected timeline for field trials of a vaccine that is safe and
+effective against SARS-CoV-2?
+There is currently no vaccine effective against SARS-CoV-2. A vaccine against SARSCoV-2 will likely not be ready for public use for at least one year.
+
+How should standard medical waste (e.g., sputum cup not dripping with bodily fluids) from a patient suspected to be infected with SARS-CoV-2 be handled?
+The SARS-CoV-2 virus is not a Category A infectious substance. Waste contaminated
+with SARS-CoV-2 should be treated routinely as regulated medical waste. If your
+contract waste company is applying stricter criteria, the facility should address the issue directly with the contractor. Management of laundry, food service utensils and medical waste should also be performed in accordance with routine procedures. Use personal protective equipment, such as puncture-resistant gloves and face or eye protection to prevent worker exposure to medical waste, including sharps and other items that can cause injuries or exposures to infectious materials. Regulated medical waste information is available in: CDC’s guidelines for environmental infection control in health care
+facilities, CDC’s interim infection prevention and control recommendations for
+hospitalized patients with MERS and OSHA’s general MERS infection prevention and control
+recommendations.
+
+We use volunteers for a variety of clinical and non-clinical tasks in our
+clinic. How should we protect our volunteers?
+If you have volunteers at higher risk (e.g. over 60 years of age, underlying medical
+conditions such as lung or heart problems, and/or weakened immune systems), consider
+excluding them from your setting until risk of coronavirus infection subsides.
+
+What suggestions do you have to reduce transmission risk in a small
+health care setting?
+CDC & VDH recommend strict infection prevention and control practices in all healthcare
+settings, including outpatient clinics. Early detection (triage) and isolation of any
+suspected/confirmed patients is the key to avoid unnecessary exposure. Ensure your
+personnel are trained on proper infection prevention and control practices like hand
+hygiene, PPE selection, donning/doffing and environmental cleaning and disinfection.
+Implementing respiratory hygiene and cough etiquette (put a facemask over the patient’s
+nose and mouth) and putting clear signs at the entrance/triage of your clinic is strongly
+recommended. When evaluating a suspected or confirmed COVID-19 patient, you need
+to implement standard, contact and airborne isolation precautions in addition to eye
+protection. Patients should be evaluated in airborne infection isolation rooms, and if not
+available, patients should be placed in a private room with the door closed.
+
+Should we cancel walk-in and non-urgent appointments?
+VDH recommends you explore alternatives to face-to-face triage and visits. The
+following options can reduce unnecessary healthcare visits and prevent transmission of
+respiratory viruses in your facility: Instruct patients to use available advice lines, patient portals, on-line selfassessment tools, or call and speak to an office/clinic staff if they become ill with symptoms such as fever, cough, or shortness of breath. Identify staff to conduct telephonic and telehealth interactions with patients. Develop protocols so that staff can triage and assess patients quickly. Determine algorithms to identify which patients can be managed by telephone and advised to stay home, and which patients will need to be sent for emergency care or come to your facility. Instruct patients that if they have respiratory symptoms they should call before they leave home, so staff can be prepared to care for them when they arrive. Provide updates about changes to your policies regarding appointments, providing non-urgent patient care by telephone, and visitors. Consider using your facility’s website or social media pages to share updates.
+
+Our setting has limited resources (masks, eye protection, gowns). What should we do if a patient needs evaluation for COVID-19?
+If the patient cannot be evaluated using CDC’s recommended infection prevention and
+control precautions, the outpatient practice will need to arrange referral and transport of the masked patient to a setting where this can be done. Inform your local health department and the receiving facility about any patients who might have COVID-19
+before the patient is sent to another facility.
+Facilities experiencing PPE shortages should report supply chain issues to their
+Regional Healthcare Coalition. The coalition may be able to leverage existing resources.
+
+What if my small practice has a patient that gets diagnosed with COVID-19?
+How will that impact our ability to operate?
+
+Your local health department will work with your facility to conduct an exposure risk
+assessment of potentially exposed healthcare personnel (HCP), based on CDC
+guidance.
+Exposure risk depends on a variety of factors, including if the patient was wearing a
+mask, duration of contact with the patient, type of interaction, and PPE worn by the
+health care provider (HCP). HCPs not using all recommended PPE, who have only brief
+interactions with a patient, regardless of whether patient was wearing a facemask, are
+considered low-risk.
+
+How do I handle contacts to a contact of a diagnosed COVID-19 case? In
+other words, patient A has COVID-19. Patient B has direct close contact with
+patient A, resulting in patient B being quarantined. Patient C has direct close
+contact with patient B before patient B is quarantined.
+If patient B was asymptomatic during the close contact with patient C, we would not
+recommend monitoring or restrictions on movement and travel on patient C. If patient C
+develops fever or other respiratory signs/symptoms, they should self-isolate, call their
+healthcare provider or healthcare facility before presenting to any facility, and inform
+them of their possible contact with contacts of a COVID-19 case.
+
+We are having trouble getting personal protective equipment (PPE). Who
+can help us get what we need?
+Facilities experiencing PPE shortages should report supply chain issues to their
+Regional Healthcare Coalition (https://vhass.org/regional-info/). The coalition may be
+able to leverage existing resources.
+
+How should we treat an exam room after the person with COVID-19 exits?
+Providers entering a room after a patient exits should use respiratory protection.
+Airborne infections isolation room (AIIR): If the change rate is known, leave the room
+empty for enough air changes per hour (ACH) to occur, to clear the room of infectious
+particles. Regular exam room: In settings where an AIIR is unavailable, providers can examine patients in a closed room while wearing appropriate PPE. It is unknown how long SARSCoV-2 remains infectious in the air. In the interim, it is reasonable to wait two hours,which is commonly used for pathogens spread by the airborne route (e.g., measles,
+tuberculosis). The room should undergo appropriate cleaning and surface disinfection
+before it is returned to routine use.  
+
+Are you offering any particular guidance to home health agencies that may
+have to take care of patients recovering at home? Similarly (though this may not
+be considered outpatient) what guidance are you giving to skilled nursing
+facilities?
+
+CDC has interim guidance for home care for clinically stable individuals who do not require hospitalization. VDH has also created a protocol for PPE for HCPs involved in COVID-19 active monitoring in residential settings.
+
+
+
+

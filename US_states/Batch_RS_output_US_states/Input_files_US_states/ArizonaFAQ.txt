@@ -1,0 +1,197 @@
+What is the difference between 2019 novel coronavirus (2019 nCoV), coronavirus disease (COVID-19), and SARS-CoV-2?
+On February 11, 2020, the World Health Organization (WHO) officially renamed the clinical condition “coronavirus disease 2019 (COVID-19)”. On the same day, the International Committee on Taxonomy of Viruses renamed the virus that causes COVID-19 "severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)”.
+The WHO had originally called this emerging zoonotic infectious illness 2019 novel coronavirus (2019-nCoV).
+
+What is coronavirus disease 2019 (COVID-19)?
+Coronavirus Disease 2019, or COVID-19, is a new respiratory virus first identified in Wuhan, Hubei Province, China. You can learn more about the virus at the CDC website.
+Coronavirus Disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, including coronavirus 229E, NL63, OC43, or HKU1. Patients with COVID-19 will be evaluated and cared for differently than patients with common coronavirus diagnoses.
+
+What is a coronavirus?
+Coronaviruses are a large family of viruses. There are several known coronaviruses that infect people and usually only cause mild respiratory disease, such as the common cold.
+At least two previously identified coronaviruses have caused severe disease:
+Severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV).
+SARS-CoV and MERS-CoV are NOT the cause of the current outbreak.
+Coronaviruses can be found in animals, and some of these viruses have the capability of transmitting between animals and humans or from person-to-person.
+
+What is the source of COVID-19?
+Coronaviruses are a large family of viruses, some causing illness in people and others that circulate amongst animals, including camels, cats and bats. It is suspected that COVID-19 originated from an animal source. More information about the source and spread of COVID-19 is available on the Situation Summary: Source and Spread of the Virus.
+What are the symptoms and complications that COVID-19 can cause?
+Current symptoms reported for patients with COVID-19 have included mild to severe respiratory illness with fever, cough, and difficulty breathing. Complications include secondary bacterial pneumonia, respiratory failure and death.
+
+How does the virus spread?
+The virus is thought to spread person-to-person via respiratory droplets that are produced when someone infected with the virus coughs or sneezes. This can occur from direct contact with the droplets or from fomite transmission.
+
+Learn what is known about the spread of COVID-19.
+
+Can someone spread the virus without being sick?
+People are thought to be most contagious when they are most symptomatic (the sickest). Some spread might be possible before people show symptoms; there have been reports of this occurring with this new coronavirus, but this is not thought to be the main way the virus spreads.
+
+How long can SARS-CoV-2, the virus that causes COVID-19, survive on surfaces?
+A recent study found that SARS-CoV-2 virus can survive on surfaces for variable periods of time, depending on the type of surface. The survival time on surfaces ranged from four hours (copper) to three days (plastic and stainless steel). 
+To kill the virus on surfaces, use a disinfectant that has been shown to be effective against SARS-CoV-2. A list of approved disinfectants against SARS-CoV-2 can be found on the EPA website. Be sure to clean frequently touched surfaces and objects often, such as counters, tabletops, door knobs, bathroom fixtures, phones, and bedside tables.
+
+
+
+When does a person get released from isolation?
+If a patient has been tested for COVID-19 and is awaiting results:
+Remain under home isolation precautions.
+
+If a patient has tested positive for COVID-19: Remain under home isolation precautions for 7 days from specimen collection OR until 72 hours after fever is gone and symptoms of acute infection resolve, whichever is longer.
+
+If a patient has tested negative for COVID-19 and has compatible symptoms (fever, cough, shortness of breath): Stay home until 72 hours after all symptoms of acute infection resolve.
+
+If a patient has not been tested for COVID-19 and has compatible symptoms (fever, cough, shortness of breath): Stay home away from others until 72 hours after fever is gone and symptoms of acute infection resolve.
+
+If a patient has not been tested for COVID-19 and has other non-compatible symptoms: 
+Stay home until 24 hours after all symptoms are gone without the use of medicine.
+
+What is community spread?
+The virus that causes COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in some affected geographic areas. Community spread occurs when people have been infected with a virus of an unknown source, so it is unclear where or who they got the disease from.
+
+Is SARS-CoV-2 the same as the MERS-CoV or SARS-CoV?
+No. Although SARS-CoV-2, MERS-CoV, and SARS-CoV all have been transmitted from animal to human, these are three distinct coronaviruses. There are ongoing investigations to learn more. This is a rapidly evolving situation and information will be updated as it becomes available.
+
+Has anyone in the United States been diagnosed with COVID-19?
+Yes. The first infection of COVID-19 in the United States was reported on January 21, 2020. The first confirmed instance of person-to-person spread with this virus in the U.S. was reported on January 30, 2020. More cases may be identified in the coming days, including more cases in the United States.
+
+Am I at risk for COVID-19 in Arizona?
+This is a rapidly evolving situation and the risk may change daily. There has now been community spread of COVID-19 in Arizona, and we are expecting more cases. If you have any concerns, please contact the Arizona Poison and Drug Information Center: 1-844-542-8201.
+
+Has anyone in Arizona been diagnosed with COVID-19?
+Yes. The first case was diagnosed on January 26, 2020. As the situation rapidly evolves, please see our COVID-19 home page for updated numbers.
+
+Is there a vaccine for COVID-19?
+Currently, there is no vaccine available to protect against COVID-19.
+How can I help protect myself from COVID-19 and other respiratory illnesses?
+Wash your hands often with soap and water for at least 20 seconds. If soap and water are not available, use an alcohol-based hand sanitizer that contains at least 60% alcohol.
+Avoid touching your eyes, nose, and mouth with unwashed hands.
+Avoid close contact with people who are sick.
+Stay home when you are sick.
+Cover your cough or sneeze with a tissue, then throw the tissue in the trash.
+Clean and disinfect frequently touched objects and surfaces.
+
+Who is at higher risk for serious illness?
+Those at higher risk for serious illness include older adults, and people who have serious chronic medical conditions like heart disease, diabetes, and lung disease. It is recommended that these individuals practice enhanced prevention strategies.
+
+What is considered close contact with a positive case?
+Close contact is defined as:
+
+Being within approximately 6 feet (2 meters) of a COVID-19 case for a prolonged period of time (such as caring for, living with, visiting, or sharing a healthcare waiting area or room with a case) ; 
+
+Having direct contact with infectious secretions of a COVID-19 case (e.g., being coughed on).
+
+Does public health recommend the use of a facemask in the community to prevent COVID-19?
+No. Public health does not recommend that the general public who are well wear a facemask to protect themselves from respiratory viruses, including the virus that causes COVID-19. A facemask should be used by people who have COVID-19 and are showing symptoms. This is to protect others from becoming sick.
+Additionally, the use of facemasks is crucial for health workers and other people who are taking care of someone infected with COVID-19 in close settings (at home or in a healthcare facility).
+
+Should I cancel my international travel?
+There are recommendations for international travel, including guidance on when to consider postponing or canceling travel. Most of the time, this guidance is provided through travel health notices and is based on the potential health risks associated with traveling to a certain destination.
+
+Travel health notices are designated as Level 1, 2, or 3, depending on the situation in that destination.
+
+Warning Level 3: CDC recommends travelers avoid all nonessential travel to these destinations.
+
+Alert Level 2: CDC recommends older adults and people of any age with serious chronic medical conditions consider postponing nonessential travel.
+
+Watch Level 1: CDC does not recommend canceling or postponing travel to destinations with, but it is important to take steps to prevent getting and spreading diseases during travel.
+It is also recommended all travelers defer all cruise travel worldwide. This is particularly important for older adults and people of any age with serious chronic medical conditions.
+
+If you do travel, take the following steps to help reduce your chances of getting sick:
+Avoid contact with sick people.
+Avoid touching your eyes, nose, or mouth with unwashed hands.
+Wash your hands often with soap and water for at least 20 seconds or using an alcohol-based hand sanitizer that contains at least 60% alcohol. Soap and water should be used if hands are visibly dirty.
+It is especially important to clean hands after going to the bathroom; before eating; and after coughing, sneezing or blowing your nose.
+Make sure you are up-to-date with your routine vaccinations, including measles-mumps-rubella (MMR) vaccine and the seasonal flu vaccine.
+
+What if I recently traveled to an area affected by COVID-19 and now feel sick?
+If you are experiencing a fever, cough, or shortness of breath and have recently traveled to a COVID-19 affected area within 14 days of symptoms, you should:
+Stay at home away from others until 72 hours after fever is gone and symptoms of acute infection resolve.
+If you need to seek medical care right away, call ahead before you go to a doctor’s office or emergency room and tell them about your recent travel and your symptoms.
+Avoid contact with others while sick.
+Avoid travel while sick.
+Cover your mouth and nose with a tissue or your sleeve (not your hands) when coughing or sneezing.
+Wash hands often with soap and water for at least 20 seconds to avoid spreading the virus to others. Use an alcohol-based hand sanitizer if soap and water are not available.
+CDC does have additional specific guidance for travelers available online.
+
+
+After traveling, can I return to work?
+Individuals returning from travel within or outside of the U.S. who are not sick should be allowed to return to work unless otherwise indicated by public health.
+
+
+What is the treatment for COVID-19?
+There is no specific antiviral treatment recommended for COVID-19. People with COVID-19 should receive treatment guidance from their healthcare providers, including supportive care to help relieve symptoms. For severe cases, treatment should include care to support vital organ functions.
+
+Should I be tested for COVID-19?
+Call your healthcare professional if you feel sick with fever, cough, or difficulty breathing, and have been in close contact with a person known to have COVID-19, or if you live in or have recently traveled from an area with ongoing spread of COVID-19.
+Your healthcare provider will determine if you need to be tested for COVID-19.
+
+How do you test a person for COVID-19?
+At this time, diagnostic testing for COVID-19 can be conducted through commercial laboratories or at the Arizona State Public Health Laboratory (ASPHL). ADHS will work closely with healthcare providers and local health departments to provide testing for individuals who meet criteria for testing at ASPHL. Healthcare providers should contact their local health departments to request testing and coordinate specimen collection. For individuals who do not meet the criteria for testing at ASPHL, healthcare providers can coordinate testing with commercial laboratories.
+
+What should healthcare providers and health departments do to address COVID-19 in the community?
+For recommendations and guidance on persons under investigation, infection control, including personal protective equipment guidance; home care and isolation; and case investigation, see Provider Resources. For information on specimen collection and shipment and information for public health professionals, see Local Health Resources.
+
+Should I be concerned about pets & other animals in the United States and COVID-19?
+At this point in time, there is no evidence to suggest that animals (pets or otherwise) pose a risk for spreading COVID-19 in the United States.
+For more information on the many benefits of pet ownership, as well as staying safe and healthy around animals including pets, livestock, and wildlife, visit CDC’s Healthy Pets, Healthy People website.
+
+Should I be concerned about animal products being imported from COVID-19 affected areas?
+The Centers for Disease Control (CDC), U.S. Department of Agriculture (USDA), and the U.S. Fish and Wildlife Services (FWS) play critical roles in regulating the importation of live animals and animal products into the United States. There is no evidence to suggest that imported animals or animal products from areas with sustained or ongoing community transmission pose a risk for spreading COVID-19 in the United States.
+If an animal that has been recently imported from a COVID-19 affected area becomes ill, the animal should be examined by a veterinarian. Call your local veterinary clinic before bringing the animal into the clinic and let them know that the animal was recently imported. This is a rapidly evolving situation and information will be updated as it becomes available.
+
+Should I avoid contact with pets/service animals or other animals if I am sick with COVID-19?
+Although there have not been reports of animals becoming sick with COVID-19, you should still limit contact with pets and other animals while sick, just like you would around other people. Service animals should remain with their handler.
+If possible, a household member should be designated to care for pets in the home. If you must care for your pet(s) while sick, remember to wash your hands before and after you interact with pets and wear a facemask.
+
+
+Am I at risk for COVID-19 from a package or products shipping from affected areas?
+Due to poor survivability of coronaviruses on surfaces, there is likely a very low risk of spread from products or packaging that are shipped over a period of days or weeks at ambient temperatures. Coronaviruses are generally thought to be spread most often by respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with imported goods and there have not been any cases of COVID-19 in the United States associated with imported goods.
+
+My business requires my employees to travel internationally; what health safety precautions should I take?
+Employees that travel internationally should be aware of their company’s policies, check CDC’s Travel Health Notices, check themselves for symptoms of acute respiratory illness before travel, and notify their supervisor and healthcare provider if they become sick while traveling on assignment.
+Employees returning from travel within or outside of the U.S. who are not sick should be allowed to return to work unless otherwise indicated by public health.
+
+Are children more susceptible to the virus that causes COVID-19 compared with the general population and how can infection be prevented?
+No. There is no evidence that children are more susceptible. Although infections in children have occured, most confirmed cases of COVID-19 reported from China have occurred in adults. From what is known about previous novel coronavirus outbreaks such as the SARS-CoV and MERS-CoV outbreaks, infection among children was relatively uncommon.
+
+Children should engage in usual preventive actions to avoid infection, including washing hands often with soap and water for 20 seconds or using an alcohol-based hand sanitizer when soap and water are unavailable, avoiding sick people, and staying up to date on vaccinations, including influenza vaccine.
+See CDC’s current risk assessment and prevention measures for more information.
+
+Does the clinical presentation of COVID-19 differ in children compared with adults?
+There have been few reports of the clinical outcomes for children with COVID-19. From what is known, children with confirmed COVID-19 may present with mild symptoms, with rare instances of severe complications. As with other respiratory illnesses, certain populations of children may be at increased risk of severe infection, such as children with underlying health conditions.
+
+Are there any treatments available for children with COVID-19?
+Currently, there are no antiviral drugs recommended or licensed by the U.S. Food and Drug Administration for COVID-19.
+See CDC’s prevention and treatment measures for more information. 
+
+If a person tests positive for COVID-19 at my school, is my child and family at risk of getting COVID-19?
+COVID-19 spreads similar to flu where close contact with a person with COVID-19 or contact with a contaminated surface is required.
+From what is known, children with confirmed COVID-19 typically present with mild symptoms and though severe complications have been reported, they appear to be uncommon. Those at most risk for serious illness tend to be older adults and those with chronic medical conditions.
+
+If a person tests positive for COVID-19 at my school, will the whole school be tested for COVID-19?
+No. Similar to flu or other infectious diseases, if an individual is not sick, they do not require testing.
+
+If a child tests positive for COVID-19 at my school, will we be informed if they were in my child’s classroom and who they are?
+No, due to privacy laws, public health departments and schools are unable to share this level of detail. You may be notified by the school if health officials determine your child was at risk of exposure.
+
+Does someone investigate potential exposures at schools?
+Yes, when a COVID-19 exposure occurs at your school, your local health department works to identify, contact and monitor all close contacts of an identified COVID-19 case. Public health officials follow up with individuals that have been identified as a close contact to the case. If you have not been contacted by your local public health, then you have not been identified as a close contact. Close contact is defined by the CDC here.
+
+Is my school safe?
+At this time, public health believes there is a low likelihood that COVID-19 is circulating in schools. Local and state public health agencies work closely with schools to provide both parents and staff with the most up-to-date information. Your school should be taking proactive measures such as: enhancing its cleaning protocols and implementing additional decontamination measures, educating students and staff on respiratory etiquette and hand hygiene, and ensure hygiene products such as soap and tissues are readily available.
+
+
+Should I keep my child out of school to avoid any risk of exposure to COVID-19?
+No. It is not recommended to keep your child out of school if they are not feeling ill. COVID-19 is circulating in our community and the current risk of being exposed at school is no greater than the risk of being exposed in the community. Right now, Public Health recommends going about your daily life while taking proper precautions such as frequently washing your hands and staying home when you are sick.
+
+When can my child return to school after they become sick?
+If students have tested positive for COVID-19, they should remain under home isolation precautions for 7 days from specimen collection OR until 72 hours after fever is gone and symptoms of acute infection resolve, whichever is longer.
+If students have fever with cough or shortness of breath and have not been tested for COVID-19, they should stay home away from others until 72 hours after fever is gone and symptoms of acute infection resolve.
+If students have other symptoms and have not been tested for COVID-19, they should return to school according to facility policy for respiratory illness.
+If students have symptoms and have tested negative for COVID-19, they should return to school according to facility policy for respiratory illness. 
+This does not refer to symptoms of allergies. If the student’s health care provider recommends a longer timeline for returning to school, please follow their guidelines.
+
+I am currently out of town for Spring Break or another school-related trip, is it safe to travel back to AZ?
+At this time, it is safe to fly home to Arizona. Although Arizona has positive cases, this does not mean you or any member of your family was exposed or is at greater risk of getting the virus. If you or any of the people you are traveling with are sick with respiratory symptoms and must fly, it is important that they wear a mask.
+
+Because of how air circulates and is filtered on airplanes, most viruses and other germs do not spread easily on airplanes. Although the risk of infection on an airplane is low, travelers should try to avoid contact with sick passengers and wash their hands often with soap and water for at least 20 seconds or use hand sanitizer that contains at least 60% alcohol.

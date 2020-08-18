@@ -1,0 +1,392 @@
+/* 
+ * Deprecated DNN CSS class names will remain available for some time
+ * before being  permanently removed. Removal will occur according to
+ * the  following process:
+ *
+ * 1. Removal will only occur with a major (x.y) release, never
+ *    with a maintenance (x.y.z) release.
+ * 2. Removal will not occur less than six months after the release
+ *    when it was deprecated.
+ * 3. Removal will not occur until after deprecation has been noted 
+ *    in at least two major releases.
+ *
+ *                                              |        |Planned |
+ *  Name                                        |Release |Removal |
+ *----------------------------------------------+--------+--------+
+ * Mod{NAME}C                                     5.6.2    6.2
+ *   {NAME} = sanitized version of the DesktopModule Name 
+ *   Used on <div> tag surrounding Module Content, inside container
+ *----------------------------------------------+--------+--------+
+ */  
+
+
+
+/* PAGE BACKGROUND */
+/* background color for the header at the top of the page  */
+.HeadBg {
+}
+
+/* background color for the content part of the pages */
+Body
+{
+}
+
+.ControlPanel {
+}
+
+/* background/border colors for the selected tab */
+.TabBg {
+}
+
+.LeftPane  { 
+}
+
+.ContentPane  { 
+}
+
+.RightPane  { 
+}
+
+/* text style for the selected tab */
+.SelectedTab {
+}
+
+/* hyperlink style for the selected tab */
+A.SelectedTab:link {
+}
+
+A.SelectedTab:visited  {
+}
+
+A.SelectedTab:hover    {
+}
+
+A.SelectedTab:active   {
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+}
+    
+/* hyperlink style for the unselected tabs */
+A.OtherTabs:link {
+}
+
+A.OtherTabs:visited  {
+}
+
+A.OtherTabs:hover    {
+}
+
+A.OtherTabs:active   {
+}
+
+/* GENERAL */
+/* style for module titles */
+.Head   {
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead    {
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+}
+
+/* text style used for most text rendered by modules */
+.Normal
+{
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox
+{
+}
+
+.NormalRed
+{
+}
+
+.NormalBold
+{
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton     {
+}
+    
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+}
+
+A.CommandButton:visited  {
+}
+
+A.CommandButton:hover    {
+}
+    
+A.CommandButton:active   {
+}
+
+/* button style for standard HTML buttons */
+.StandardButton     {
+}
+
+/* GENERIC */
+H1  {
+}
+
+H2  {
+}
+
+H3  {
+}
+
+H4  {
+}
+
+H5, DT  {
+}
+
+H6  {
+}
+
+TFOOT, THEAD    {
+}
+
+TH  {
+}
+
+A:link  {
+}
+
+A:visited   {
+}
+
+A:hover {
+}
+
+A:active    {
+}
+
+SMALL   {
+}
+
+BIG {
+}
+
+BLOCKQUOTE, PRE {
+}
+
+
+UL LI   {
+}
+
+UL LI LI    {
+}
+
+UL LI LI LI {
+}
+
+OL LI   {
+}
+
+OL OL LI    {
+}
+
+OL OL OL LI {
+}
+OL UL LI   {
+}
+
+HR {
+}
+
+/* MODULE-SPECIFIC */
+/* text style for reading messages in Discussion */    
+.Message    {
+}   
+
+/* style of item titles by Announcements and events */
+.ItemTitle    {
+}
+
+/* Menu-Styles */
+/* Module Title Menu */
+.ModuleTitle_MenuContainer {
+}
+
+.ModuleTitle_MenuBar {
+}
+
+.ModuleTitle_MenuItem {
+}
+
+.ModuleTitle_MenuIcon {
+}
+
+.ModuleTitle_SubMenu {
+}
+
+.ModuleTitle_MenuBreak {
+}
+
+.ModuleTitle_MenuItemSel {
+}
+
+.ModuleTitle_MenuArrow {
+}
+
+.ModuleTitle_RootMenuArrow {
+}
+
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+}
+
+.MainMenu_MenuBar {
+}
+
+.MainMenu_MenuItem {
+}
+
+.MainMenu_MenuIcon {
+}
+
+.MainMenu_SubMenu {
+}
+
+.MainMenu_MenuBreak {
+}
+
+.MainMenu_MenuItemSel {
+}
+
+.MainMenu_MenuArrow {
+}
+
+.MainMenu_RootMenuArrow {
+}
+
+/* Login Styles */
+.LoginPanel{
+}
+
+.LoginTabGroup{
+}
+
+.LoginTab {
+}
+
+.LoginTabSelected{
+}
+
+.LoginTabHover{
+}
+
+.LoginContainerGroup{
+}
+
+.LoginContainer{
+}
+/******************  IDPH Specific Portal CSS Modifications  ********************/
+/*** Home Page ***/
+.BannerBox {background-image:none;}
+.BannerPaneB {margin-bottom:0px;}
+.TopPane {margin-top:30px;}
+#dnn_ctr2077_ModuleContent h2 {font-size:small;}
+
+/*** All Pages ***/
+.dnn_logo {padding: 5px 0px 10px 0px;}
+.breadcrumbBox {margin-bottom: 10px;}
+.footer-phab-logo {text-align:center;}
+.footer-social-media-icons {text-align:center;}
+.footer-social-media-icons a {color:#777777;}
+/*#ContentBox {padding-top:25px;}*/
+h1 {color:#1d7bb0;}
+h2 {margin:20px 0px 20px 20px;color:#1d7bb0;}
+h3 {margin:20px 0px 10px 40px;color:#1d7bb0;}
+h4 {margin:20px 0px 10px 40px;color:#3d3d3d;}
+h5 {margin:20px 0px 10px 40px;color:#3d3d3d;}
+h6 {margin:20px 0px 10px 40px;color:#3d3d3d;}
+ul {list-style-type:disc;margin-left:60px;}
+ol {margin-left:60px;}
+p {margin-left:40px;}
+td {font-size:small;}
+.TopPane {margin-top:10px;}
+.breadcrumbborder h3 {margin:5px 0px 5px 30px;}
+span.sep {color:rgb(255,255,255);}
+#dnn_dnnLogin_enhancedLoginLink {color:rgb(255,255,255);}
+.footer-icon {font-size: 28px;vertical-align: bottom;margin-right: 10px;}
+#dnn_content {padding-top:0px;}
+.IdphSearchBox {float:right;}
+#search .search, #search a.search:link, #search a.search:active, #search a.search:visited {font-family: 'Open Sans';}
+
+/*** IdphLeftMenu Pages ***/
+.LeftBox {padding-top:0px;}
+.acurrent {font-weight:bold;}
+
+/*** A-Z Index Pages ***/
+.index-level-2 {margin-left:30px;}
+
+/*** Discipline and Public Actions ***/
+.searchsort-top {margin-top:30px;}
+.actions-detail-list {margin-left:30px;}
+.actions-detail-list li {margin:8px 0px 8px 0px;}
+
+/*** Meeting Information Pages ***/
+.panel-title {margin:0px 0px 0px 0px;}
+.panel-meeting-top {margin-top:20px;}
+.meetings-list {margin-left:0px;}
+.meetings-list li {margin:12px 0px 12px 0px;}
+
+/*** Video Gallery Pages ***/
+a.standalone_button.fullscreen {margin-top:30px;}
+
+/*** Easy DNN News ***/
+.article.in_list.span {padding-left:60px;}
+.article.in_list.span h1 a {color:rgb(0,0,190);}
+
+/*** Easy DNN Rotator ***/
+.chameleon_slider.NewsOne {
+  font-family: Verdana, Helvetica, sans-serif;
+  background: #3C56C1;
+  border: 0px solid #3C56C1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*** What We Do ***/
+#tblWWDGoals {margin:20px 0px 30px 0px;}
+#tblWWDGoals td {padding:0px 10px 10px 10px;}
+
+/*** Page Management ***/
+.dnnTreeArea {width:350px;}
+
+/*** Password Reset ***/
+.dnnPasswordResetContent {padding-top:30px;}
+
+/**** Font Awesome Style ***************/
+.fa-rss-square {color:#F8951D;}
+.fa-file-pdf-o {color:#EC1717;}
+
+/**** GovDelivery Style ***************/
+#Current_Issue_Container h2 {margin:20px 0px 10px 0px;}
+#Archive_Issue_Container h2 {margin:20px 0px 10px 0px;}
+.GD-form-content h2 {margin:5px 0px 0px 0px;}
+.GD-form-content p {margin:5px 0px 0px 0px;}
+.GD-form-content label {margin:5px 0px 0px 0px;}
+.long {margin:5px 0px 0px 0px;}
+#gd-submit {margin:10px 0px 0px 0px;}
+
+/**** Responsive Images **************/
+img {max-width:100%;height:auto;}
+
+
+
+
+
+

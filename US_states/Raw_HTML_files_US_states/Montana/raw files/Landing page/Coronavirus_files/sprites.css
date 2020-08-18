@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* MDT Social Media Sprite Styles */
+/* 	Date Created:  8/20/2013
+	Date in Prod:  1/6/2014
+	Date Modified: 
+	Date Archived: 
+		
+	Do not minify - Minify the production version only
+*/
+#socialMedia {float:right;
+	padding-right:.75em;
+	}
+p a.social {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	/**background: url('/portals/74/Skins/DPHHS/Styles/logos/socialSprite.png') no-repeat;**/
+	margin: 0; padding:0;
+	text-decoration:none;
+	border:none;
+}
+.social.fb { 
+	background-position: 0px 0px; }
+a:hover.social.fb {
+	background-position: 0px -30px; }
+.social.flickr {
+	background-position: -30px 0px; }
+a:hover.social.flickr {
+	background-position: -30px -30px; }
+.social.pinterest {
+	background-position: -60px 0px; }
+a:hover.social.pinterest {
+	background-position: -60px -30px; }
+.social.rss {
+	background-position: -90px 0px; }
+a:hover.social.rss {
+	background-position: -90px -30px; }
+.social.twitter {
+	background-position: -122px 0px; }
+a:hover.social.twitter {
+	background-position: -122px -30px; }
+.social.youtube {
+	background-position: -153px 0px; }
+a:hover.social.youtube {
+	background-position: -153px -30px; }
+	
+	
+p a.social50 {
+	display: inline-block;
+	height: 54px;
+	width: 55px;
+	/**background: url('/portals/74/Skins/DPHHS/Styles/logos/socialSprite.png') no-repeat;**/
+	margin: 0; padding:0;
+	text-decoration:none;
+	border:none;
+}
+.social50.fb {
+	background-position: 0px -60px; }
+a:hover.social50.fb {
+	background-position: 0px -116px; }
+.social50.flickr {
+	background-position: -56px -60px; }
+a:hover.social50.flickr {
+	background-position: -56px -116px; }
+.social50.pinterest {
+	background-position: -114px -60px; }
+a:hover.social50.pinterest {
+	background-position: -114px  -116px; }
+.social50.rss {
+	background-position: -172px -60px; }
+a:hover.social50.rss {
+	background-position: -172px -116px; }
+.social50.twitter {
+	background-position: -230px -60px; }
+a:hover.social50.twitter {
+	background-position: -230px -116px; }
+.social50.youtube {
+	background-position: -288px -60px; }
+a:hover.social50.youtube {
+	background-position: -288px -116px; }
+	
+p a.socialHz {
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	/**background: url('/portals/74/Skins/DPHHS/Styles/logos/socialSprite.png') no-repeat;**/
+	margin: 0; padding:0;
+	text-decoration:none;
+	border:none;
+	 }
+.socialHz.fb {
+	width: 105px;
+	background-position: 0px -172px;
+}
+a:hover.socialHz.fb {
+	width: 105px;
+	background-position: 0px -206px;
+}
+.socialHz.flickr {
+	width: 120px;
+	background-position: -105px -172px;
+}
+a:hover.socialHz.flickr {
+	width:120px;
+	background-position: -105px -206px;
+}
+.socialHz.pinterest {
+	width:115px;
+	background-position: -225px -172px;
+}
+a:hover.socialHz.pinterest {
+	width: 115px;
+	background-position: -225px -206px;
+}
+.socialHz.rss {
+	width:85px;
+	background-position: -340px -172px;
+}
+a:hover.socialHz.rss {
+	width:85px;
+	background-position: -340px -206px;
+}
+.socialHz.twitter {
+	width: 132px;
+	background-position: -430px -172px;
+}
+a:hover.socialHz.twitter {
+	width: 132px;
+	background-position: -430px -206px;
+}
+.socialHz.youtube {
+	width:80px;
+	background-position: -568px -172px;
+}
+a:hover.socialHz.youtube {
+	width:80px;
+	background-position: -568px -206px;
+}

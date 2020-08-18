@@ -1,0 +1,1002 @@
+/* Links by Organization */
+.darkpanel ul li a[href^="http://www.211ri.org/"]
+{ padding-left: 20px;
+ background: url(../img/icons/211.gif) top left no-repeat;
+} .darkpanel ul li a[href^="http://www.abc6.com/"]
+{padding-left: 23px;
+background: url(../img/icons/abc6.gif) top left no-repeat;
+} 
+
+.darkpanel ul li a[href^="http://www.riaap.org"]
+{ background: url(../img/icons/americanacademyofpediatricians.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://aaaai.org"], 
+.darkpanel ul li a[href^="http://www.aaaai.org"]
+{ background: url(../img/icons/aaai.gif) top left no-repeat;
+ padding-left: 20px;
+} 
+.darkpanel ul li a[href^="http://www.aarc.org"]
+{ background: url(../img/icons/amerassocforrespiratorycare.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://ada.org"]
+.darkpanel ul li a[href^="http://www.ada.org"]
+{ background: url(../img/icons/americandentalassociation.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://acaai.org"]
+{ background: url(../img/icons/amercollforallergyasthmaandimmunology.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://apha.org"], 
+.darkpanel ul li a[href^="http://www.apha.org"]
+{ background: url(../img/icons/americanpublichealthassociation.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://ais.paho.org"], 
+.darkpanel ul li a[href^="https://ais.paho.org"], 
+.darkpanel ul li a[href^="http://www.paho.org"]
+{ background: url(../img/icons/paho.png) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://chestnet.org"], 
+.darkpanel ul li a[href^="http://www.chestnet.org"]
+{ background: url(../img/icons/amercollofchestphysicians.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://aanma.org"], 
+.darkpanel ul li a[href^="http://www.aanma.org"]
+{ background: url(../img/icons/asthmaandallergynetwork.gif) top left no-repeat;
+ padding-left: 20px; 
+}
+.darkpanel ul li a[href^="http://aafa.org"], 
+.darkpanel ul li a[href^="http://www.aafa.org"]
+{ background: url(../img/icons/asthmaandallergyfoundation.gif) top left no-repeat;
+ padding-left: 20px; 
+}
+ .darkpanel ul li a[href^="http://www.aetna.com/"]{
+ background: url(../img/icons/aetna.jpg) top left no-repeat;
+ padding-left: 36px;
+}
+.darkpanel ul li a[href^="http://aphl.org"], 
+.darkpanel ul li a[href^="http://www.aphl.org"] 
+{ background: url(../img/icons/associationofpublichealthlaboratories.gif) top left no-repeat;
+ padding-left: 24px;
+}
+.darkpanel ul li a[href^="http://astho.org"], 
+.darkpanel ul li a[href^="http://www.astho.org"] 
+{ background: url(../img/icons/associationofstateandterritorialhealthofficials.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://aarp.org"], 
+.darkpanel ul li a[href^="http://www.aarp.org"] 
+{ background: url(../img/icons/associationofretiredperson.gif) top left no-repeat;
+ padding-left: 24px;
+}
+.darkpanel ul li a[href^="http://www.arthritis.org"], 
+.darkpanel ul li a[href^="http://arthritis.org"] {
+ background: url(../img/icons/arthritisfoundation.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.amsa.org"], 
+.darkpanel ul li a[href^="http://amsa.org"] {
+ background: url(../img/icons/americanmedicalstudentsasso.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.americanheart.org"], 
+a[href^="http://americanheart.org"] {
+ background: url(../img/icons/rishield.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.bhddh.ri.gov"]
+ { background: url(../img/icons/rishield.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.legacyforhealth.org"], 
+.darkpanel ul li a[href^="http://legacyforhealth.org"] {
+ background: url(../img/icons/americanlegacyfoundation.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.becomeanex.org/"], 
+.darkpanel ul li a[href^="http://becomeanex.org/"] {
+ background: url(../img/icons/becomeanex.gif) top left no-repeat;
+ padding-left: 30px;
+}
+.darkpanel ul li a[href^="http://www.bihealthservices.com/"], 
+.darkpanel ul li a[href^="http://www.bihealthservices.com/"] {
+ background: url(../img/icons/hcblockisland.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.bradleyhospital.org/"], 
+.darkpanel ul li a[href^="http://bradleyhospital.org/"] {
+ background: url(../img/icons/lifespan.gif) top left no-repeat;
+ padding-left: 30px;
+}
+
+.darkpanel ul li a[href^="http://www.blackstonechc.org/"], 
+.darkpanel ul li a[href^="http://blackstonechc.org/"] 
+{ background: url(../img/icons/hcblackstonevalley.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="https://www.bcbsri.com/"], 
+.darkpanel ul li a[href^="http://www.bcbsri.com/"]
+	{ background: url(../img/icons/bluecross.jpg) top left no-repeat;
+ padding-left: 25px;
+}
+.darkpanel ul li a[href^="http://brown.edu"], 
+.darkpanel ul li a[href^="http://www.brown.edu"],
+.darkpanel ul li a[href^="https://apps.biomed.brown.edu"],
+.darkpanel ul li a[href^="https://www.brown.edu/academics/public-health/"], 
+.darkpanel ul li a[href^="https://brown.edu/academics/public-health/"]
+	{ background: url(../img/icons/brown.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://data.bls.gov"], 
+.darkpanel ul li a[href^="http://bls.gov"], 
+.darkpanel ul li a[href^="http://www.bls.gov"]
+ { background: url(../img/icons/bureauoflaborstatistics.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://butler.org"], 
+.darkpanel ul li a[href^="http://www.butler.org"] {
+ background: url(../img/icons/butlerhospital.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.cancer.org"], 
+.darkpanel ul li a[href^="http://cancer.org"] 
+{ background: url(../img/icons/cancersociety.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://celebratepowerofrural.org/"],
+.darkpanel ul li a[href^="http://www.celebratepowerofrural.org"] 
+{ background: url(../img/icons/celegratethepowerofrural.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.crossroadsri.org"] 
+{ background: url(../img/icons/crossroads.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://2010.cencus.gov"] 
+{ background: url(../img/icons/census2010.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.safeyouth.gov/"],
+.darkpanel ul li a[href^="http://apps.nccd.cdc.gov/"], 
+.darkpanel ul li a[href^="http://www.bt.cdc.gov/"],
+.darkpanel ul li a[href^="http://www.bam.gov"],
+.darkpanel ul li a[href^="http://www.cdc.gov"],
+.darkpanel ul li a[href^="http://cdc.gov"], 
+.darkpanel ul li a[href^="https://cdc.gov"], 
+.darkpanel ul li a[href^="http://www.cdc.gov"], 
+.darkpanel ul li a[href^="https://www.cdc.gov"],
+.darkpanel ul li a[href^="http://www2c.cdc.gov"], 
+.darkpanel ul li a[href^="http://stacks.cdc.gov"],
+.darkpanel ul li a[href^="http://wonder.cdc.gov"],
+.darkpanel ul li a[href^="http://emergency.cdc.gov"],
+.darkpanel ul li a[href^="http://wwwnc.cdc.gov"],
+.darkpanel ul li a[href^="https://nccd.cdc.gov"],
+.darkpanel ul li a[href^="https://gis.cdc.gov"],
+.darkpanel ul li a[href^="ftp://ftp.cdc.gov/"]
+{ background: url(../img/icons/cdc.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://emergency.cdc.gov?HAN/"] 
+{ background: url(../img/icons/healthalertnetwork.gif) top left no-repeat;
+ padding-left: 40px;
+}
+.darkpanel ul li a[href^="http://www.clinicaltrials.gov"] {
+ background: url(../img/icons/clinicaltrials.gif) top left no-repeat;
+ padding-left: 20px;
+ }
+.darkpanel ul li a[href^="http://providence.craigslist.org"], 
+.darkpanel ul li a[href^="http://www.craigslist.org"] {
+ background: url(../img/icons/craigslist.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://chadbrownhealth.org"], 
+.darkpanel ul li a[href^="http://www.chadbrownhealth.org"] {
+ background: url(../img/icons/chadbrown.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://comcap.org"], 
+.darkpanel ul li a[href^="http://www.comcap.org"] {
+ background: url(../img/icons/hcccap.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="https://www.ccri.edu/"], 
+.darkpanel ul li a[href^="http://www.ccri.edu/"] {
+ background: url(../img/icons/ccri.png) top left no-repeat;
+ padding-left: 30px;
+}
+ .darkpanel ul li a[href^="http://www.countyhealthrankings.org"] {
+ background: url(../img/icons/countyhealthrankings.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.currentcareri.com"], 
+.darkpanel ul li a[href^="http://currentcareri.com"] {
+ background: url(../img/icons/currentcare.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.data.gov"], 
+.darkpanel ul li a[href^="http://data.gov"] {
+ background: url(../img/icons/datagov.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://stopdiabetes.com"], 
+.darkpanel ul li a[href^="http://www.diabetes.org"], 
+a[href^="http://diabetes.org"] {
+ background: url(../img/icons/diabetesassociation.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.dem.ri.gov"], 
+.darkpanel ul li a[href^="http://dem.ri.gov"] {
+ background: url(../img/icons/dem.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.dcyf.ri.gov"], 
+.darkpanel ul li a[href^="http://dcyf.ri.gov"] {
+ background: url(../img/icons/dcyf.gif) top left no-repeat;
+ padding-left: 25px;
+}
+
+
+.darkpanel ul li a[href^="http://bhpr.hrsa.gov"], 
+.darkpanel ul li a[href^="http://www.os.dhhs.gov"], 
+.darkpanel ul li a[href^="http://os.dhhs.gov"], 
+.darkpanel ul li a[href^="http://mchb.hrsa.gov"], 
+.darkpanel ul li a[href^="http://www.healthfinder.gov"], 
+.darkpanel ul li a[href^="http://dhhs.gov"]{
+ background: url(../img/icons/hhs.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.dhs.ri.gov"], 
+.darkpanel ul li a[href^="http://dhs.ri.gov"] {
+ background: url(../img/icons/dhs.gif) top left no-repeat;
+ padding-left: 20px;
+}
+ .darkpanel ul li a[href^="http://www.dot.gov"] {
+ background: url(../img/icons/dot.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.dot.state.ri.us"], 
+.darkpanel ul li a[href^="http://www.dot.ri.gov"] 
+ { background: url(../img/icons/ridot.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.graham-center.org/online/graham/home/tools-resources/healthlandscape.html"] 
+ { background: url(../img/icons/healthlandscape.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.dlt.ri.gov"], 
+.darkpanel ul li a[href^="http://www.dlt.state.ri.us"] {
+ background: url(../img/icons/dlt.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.ebcap.org/"] 
+ { background: url(../img/icons/hceastbay.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.ecfmg.org"] 
+ { background: url(../img/icons/foreignmedicalgraduates.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://water.epa.gov"], 
+.darkpanel ul li a[href^="https://water.epa.gov"], 
+.darkpanel ul li a[href^="http://www.epa.gov"],
+.darkpanel ul li a[href^="https://www.epa.gov"], 
+.darkpanel ul li a[href^="http://epa.gov"] {
+ background: url(../img/icons/epa.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+
+
+.darkpanel ul li a[href^="http://www.esri.com"] 
+ { background: url(../img/icons/esri.ico) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.ehealthinitiative.org"], 
+.darkpanel ul li a[href^="http://ehealthinitiative.org"] {
+ background: url(../img/icons/ehealthinitiative.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://library.umassmed.edu/ebpph"] {
+ background: url(../img/icons/evidencedbasedportal.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.farmfreshri.org"], 
+.darkpanel ul li a[href^="http://www.farmfresh.org"], 
+.darkpanel ul li a[href^="http://www.getfreshbuylocal.org"]
+{ background: url(../img/icons/farmfreshri.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="https://www.facebook.com"]{ 
+background: url(../img/icons/facebook.png) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.fsmb.org"]{ 
+background: url(../img/icons/statemedicallicensingboards.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.flu.gov"], 
+.darkpanel ul li a[href^="http://flu.gov"] {
+ background: url(../img/icons/flugov.gif) top left no-repeat;
+ padding-left: 35px;
+}
+.darkpanel ul li a[href^="http://www.foodsafety.gov/"]{ 
+background: url(../img/icons/foodsafety.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.foundationcenter.org/"], 
+a[href^="http://foundationcenter.org/"]{ 
+background: url(../img/icons/foundationcenter.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.gapminder.org"]{ 
+background: url(../img/icons/gapminder.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.hasbrochildrenshospital.org/"], 
+.darkpanel ul li a[href^="http://hasbrochildrenshospital.org/"] {
+ background: url(../img/icons/lifespan.gif) top left no-repeat;
+ padding-left: 30px;
+}
+.darkpanel ul li a[href^="http://www.healthindicators.gov/"] 
+ { background: url(../img/icons/healthindicatorswarehouse.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.graham-center.org/online/graham/home/tools-resources/healthlandscape.html"] 
+ { background: url(../img/icons/healthlandscape.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.hsph.harvard.edu"] {
+ background: url(../img/icons/harvard.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://hcup.ahrq.gov"], 
+.darkpanel ul li a[href^="http://www.hcup.ahrq.gov"] {
+ background: url(../img/icons/healthcarecostutilizationproject.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://hari.org"], 
+.darkpanel ul li a[href^="http://www.hari.org"] {
+ background: url(../img/icons/hospitalassociationofrhodeisland.gif) top left no-repeat;
+ padding-left: 20px;
+ }
+.darkpanel ul li a[href^="http://www.hr.ri.gov"] {
+ background: url(../img/icons/rishield.gif) top left no-repeat;
+ padding-left: 20px;
+ }
+.darkpanel ul li a[href^="http://frwebgate3.access.gpo.gov"], 
+.darkpanel ul li a[href^="http://frwebgate.access.gpo.gov"] 
+{ background: url(../img/icons/gao.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="https://docs.google.com"],
+.darkpanel ul li a[href^="http://www.google.com"], 
+
+.darkpanel ul li a[href^="https://drive.google.com"]
+{
+background: url(../img/icons/google.png) top left no-repeat;
+ padding-left: 20px;
+}
+
+
+.darkpanel ul li a[href^="http://www.governor.ri.gov"]{
+background: url(../img/icons/governor.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="https://go.activecalendar.com"]{
+background: url(../img/icons/calendar.png) top left no-repeat;
+ padding-left: 35px;
+}
+
+.darkpanel ul li a[href^="http://ihi.org"], 
+.darkpanel ul li a[href^="http://www.ihi.org"]{
+background: url(../img/icons/instituteforhealthcarequality.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.jointcommission.org/"]{
+background: url(../img/icons/jointcommission.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.jsi.com"], 
+a[href^="http://jsi.com"]{
+background: url(../img/icons/johnsnowinstitute.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="http://www.jwu.edu"], 
+a[href^="http://jwu.com"]{
+background: url(../img/icons/johnsonandwales.png) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="http://www.statehealthfacts.org/"], 
+.darkpanel ul li a[href^="http://statehealthfacts.org/"] {
+ background: url(../img/icons/kaiserfamilyfoundation.gif) top left no-repeat;
+ padding-left: 20px;
+}	
+.darkpanel ul li a[href^="http://www.kentri.org"] {
+ background: url(../img/icons/kenthospital.gif) top left no-repeat;
+ padding-left: 20px;
+}	
+.darkpanel ul li a[href^="http://www.kidshealth.org"] 
+{ background: url(../img/icons/kidshealth.gif) left no-repeat;
+ padding-left: 30px;
+}
+ .darkpanel ul li a[href^="http://www.rikidscount.org"] 
+{ background: url(../img/icons/kidscount.gif) left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="https://kidsnet.health.ri.gov"] 
+{ padding-left: 18px;
+ background: url(../img/icons/kidsnet.gif) left no-repeat;
+}
+.darkpanel ul li a[href^="https://kidsnet.health.ri.gov/emregistry"]
+{
+padding-left: 20px;
+ background: url(../img/icons/emergencyneedsregistry.gif) left no-repeat;
+}
+.darkpanel ul li a[href^="https://www.landmarkmedical.org"] 
+{ padding-left: 18px;
+ background: url(../img/icons/landmark.gif) left no-repeat;
+}
+.darkpanel ul li a[href^="http://www.lifespan.org"] 
+{ background: url(../img/icons/lifespan.gif) left no-repeat;
+ padding-left: 20px;
+}
+/*.darkpanel ul li a[href^="http://www.livesmokefree.ri.gov/"]
+{ background: url(../img/icons/livesmokefree.gif) left no-repeat;
+ padding-left: 20px;
+}*/
+.darkpanel ul li a[href^="http://www.loc.gov"], 
+.darkpanel ul li a[href^="http://thomas.loc.gov/"] 
+{ background: url(../img/icons/libraryofcongress.gif) left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.lungusa.org"], 
+.darkpanel ul li a[href^="http://lungusa.org"] 
+{ background: url(../img/icons/lungassociation.gif) left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.mayoclinic.com"], 
+.darkpanel ul li a[href^="http://mayoclinic.com"] {
+ background: url(../img/icons/mayoclinic.gif) top left no-repeat;
+ padding-left: 30px;
+}
+.darkpanel ul li a[href^="http://www.miriamhospital.org/"], 
+.darkpanel ul li a[href^="http://miriamhospital.org/"] {
+ background: url(../img/icons/lifespan.gif) top left no-repeat;
+ padding-left: 30px;
+}
+.darkpanel ul li a[href^="http://www.mhri.org"], 
+.darkpanel ul li a[href^="http://mhri.org"] {
+ background: url(../img/icons/memorialhospital.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.medicare.gov"], 
+ .darkpanel ul li a[href^="http://www.cms.hhs.gov"],
+.darkpanel ul li a[href^="https://www.cms.gov"]
+{ background: url(../img/icons/medicare.gif) left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.fema.gov"],
+.darkpanel ul li a[href^="http://fema.gov"] 
+{ background: url(../img/icons/fema.gif) top left no-repeat;
+ padding-left: 25px;
+}
+.darkpanel ul li a[href^="http://www.fda.gov"],
+.darkpanel ul li a[href^="http://www.cfsan.fda.gov"], 
+.darkpanel ul li a[href^="http://fda.gov"] 
+{ background: url(../img/icons/fda.gif) top left no-repeat;
+ padding-left: 25px;
+}
+.darkpanel ul li a[href^="http://www.naccho.org/"]
+{ background: url(../img/icons/nationalassociationofcityandcountyofficials.gif) top left no-repeat;
+ padding-left: 20px;
+ }
+
+.darkpanel ul li a[href^="http://nhcne.med.navy.mil"]
+{background: url(../img/icons/newportnavalhealthclinic.gif) top left no-repeat;
+ padding-left: 20px;
+ }
+  .darkpanel ul li a[href^="https://www1.nationalgridus.com/"], 
+ .darkpanel ul li a[href^="http://www.nationalgridus.com/"]{
+ background: url(../img/icons/nationalgrid.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.narrabay.com"]
+{ background: url(../img/icons/narragansettbaycommission.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.nlm.nih.gov"],
+.darkpanel ul li a[href^="http://nlm.nih.gov"], 
+.darkpanel ul li a[href^="http://toxnet.nih.gov"], 
+.darkpanel ul li a[href^="http://nnlm.gov"], 
+.darkpanel ul li a[href^="http://vsearch.nlm.nih.gov"]
+{ background: url(../img/icons/nationallibraryofmedicine.gif) top left no-repeat;
+ padding-left: 20px;
+ }
+ .darkpanel ul li a[href^="http://www.newporthospital.org/"], 
+.darkpanel ul li a[href^="http://newporthospital.org/"] {
+ background: url(../img/icons/lifespan.gif) top left no-repeat;
+ padding-left: 30px;
+}
+
+.darkpanel ul li a[href^="https://www.neit.edu/"], 
+.darkpanel ul li a[href^="https://neit.edu/"] {
+ background: url(../img/icons/neit.png) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="http://www.nhpri.org/"], 
+.darkpanel ul li a[href^="http://nhpri.org/"] {
+ background: url(../img/icons/neighborhood.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="http://www.nytimes.com/"], 
+.darkpanel ul li a[href^="http://nytimes.com/"] {
+ background: url(../img/icons/newyorktimes.gif) top left no-repeat;
+ padding-left: 30px;
+}
+
+.darkpanel ul li a[href^="http://www.nrc.gov"],
+.darkpanel ul li a[href^="http://nrc.gov"], 
+.darkpanel ul li a[href^="http://nrc-stp.ornl.gov"]
+{ background: url(../img/icons/nuclearregulatorycommission.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="https://www.nursys.com"],
+a[href^="http://www.nursys.com"] 
+{ background: url(../img/icons/nationalcouncilofstateboardsofnursing.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="https://www.ncsbn.org"],
+.darkpanel ul li a[href^="http://ncsbn.org"]{
+ background: url(../img/icons/nurselicensurecompact.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.nsf.org"],
+.darkpanel ul li a[href^="http://www.nsf.org"] 
+{ background: url(../img/icons/nsf.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.marchofdimes.com"],
+.darkpanel ul li a[href^="http://marchofdimes.com"]
+{ background: url(../img/icons/marchofdimes.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.plannedparenthood.org"]
+{ background: url(../img/icons/hcplannedparenthood.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="http://www.phii.org"]{
+ background: url(../img/icons/publichealthinformaticsinstitute.gif) top left no-repeat;
+ padding-left: 15px;
+}
+
+.darkpanel ul li a[href^="https://www.providence.edu/"],
+.darkpanel ul li a[href^="https://providence.edu/"] 
+{ background: url(../img/icons/pc.png) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="http://www.qualityforum.org"],
+.darkpanel ul li a[href^="http://qualityforum.org"]
+{ background: url(../img/icons/nationalqualityforum.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.thenatc.org/"] 
+{ background: url(../img/icons/nationalallianceforsmokingcessation.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.osaicri.org"]
+{ background: url(../img/icons/oceanstateadultimmunizationcoalition.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.nih.gov"], 
+.darkpanel ul li a[href^="http://nih.gov"], 
+.darkpanel ul li a[href^="http://www.nhlbi.nih.gov"], 
+.darkpanel ul li a[href^="http://nhlbi.nih.gov"] 
+{ background: url(../img/icons/nih.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.phpartners.org"],
+a[href^="http://phpartners.org"] 
+{ background: url(../img/icons/phppartners.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.planning.ri.gov/"] 
+{ background: url(../img/icons/statewideplanning.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.pud-ri.org/"] 
+{ background: url(../img/icons/pascoagutility.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.projo.com"],
+.darkpanel ul li a[href^="http://projo.com"] 
+{ background: url(../img/icons/projo.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.provplan.org"],
+.darkpanel ul li a[href^="http://provplan.org"] 
+{ background: url(../img/icons/providenceplan.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.redcross.org"],
+.darkpanel ul li a[href^="http://redcross.org"] 
+{ background: url(../img/icons/redcross.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.rhri.net"]
+{ background: url(../img/icons/rehabilitationhospital.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.riema.ri.gov"],
+.darkpanel ul li a[href^="http://riema.ri.gov"] 
+{ background: url(../img/icons/riema.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.ri.gov"],
+.darkpanel ul li a[href^="http://ri.gov"] 
+{ background: url(../img/icons/rigov.ico) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.ric.edu/"], 
+.darkpanel ul li a[href^="http://rhodeislandhospital.orgric.edu/"] {
+ background: url(../img/icons/rhodeislandcollege.png) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="http://www.rhodeislandhospital.org/"], 
+.darkpanel ul li a[href^="http://rhodeislandhospital.org/"] {
+ background: url(../img/icons/lifespan.gif) top left no-repeat;
+ padding-left: 30px;
+}
+
+
+.darkpanel ul li a[href^="http://www.uri.edu/"] 
+{ background: url(../img/icons/universityofrhodeisland.png) top left no-repeat;
+ padding-left: 20px;
+}
+
+
+.darkpanel ul li a[href^="http://www.edc.uri.edu/rigis"] 
+{ background: url(../img/icons/rigis.gif) top left no-repeat;
+ padding-left: 40px;
+}
+.darkpanel ul li a[href^="http://www.rwmc.org"],
+a[href^="http://rwmc.org"] 
+{background: url(../img/icons/rogerwilliamshospital.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="https://www.rwu.edu/"]
+{background: url(../img/icons/rogerwilliamsuniversity.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+
+a[href^="http://providencechc.org"],
+.darkpanel ul li a[href^="http://www.providencechc.org"] 
+{ background: url(../img/icons/hcprovidence.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.purchasing.ri.gov/"], 
+.darkpanel ul li a[href^="https://www.purchasing.ri.gov/"] 
+{ background: url(../img/icons/ripurchasing.gif) top left no-repeat;
+ padding-left: 20px;
+}
+ .darkpanel ul li a[href^="http://www.ready.gov"]
+{ background: url(../img/icons/readygov.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.rimed.org"],
+.darkpanel ul li a[href^="http://rimed.org"] 
+{background: url(../img/icons/rhodeislandmedicalsociety.gif) top left no-repeat;
+padding-left: 22px; 
+}
+
+.darkpanel ul li a[href^="http://www.riresponds.org"]
+{ background: url(../img/icons/riresponds.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.riqi.org"],
+.darkpanel ul li a[href^="http://riqi.org"] 
+{ background: url(../img/icons/rhodeislandqualityinstitute.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.shapeupri.com"], 
+.darkpanel ul li a[href^="http://shapeupri.com"],
+.darkpanel ul li a[href^="http://www.shapeupri.org"], 
+.darkpanel ul li a[href^="http://shapeupri.org"] 
+{ background: url(../img/icons/shapeupri.bmp) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://hhs.gov"], 
+.darkpanel ul li a[href^="http://www.hhs.gov"], 
+.darkpanel ul li a[href^="http://health.gov"], 
+.darkpanel ul li a[href^="http://www.health.gov"], 
+.darkpanel ul li a[href^="http://ahrq.gov"], 
+.darkpanel ul li a[href^="http://www.ahrq.gov"], 
+.darkpanel ul li a[href^="http://ahcpr.gov"], 
+.darkpanel ul li a[href^="http://www.ahcpr.gov"], 
+.darkpanel ul li a[href^="http://ahcpr.gov"], 
+.darkpanel ul li a[href^="http://www.womenshealth.gov"], 
+ .darkpanel ul li a[href^="http://www.healthypeople.gov"] 
+{ background: url(../img/icons/hhs.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.aicr.org"], 
+.darkpanel ul li a[href^="http://aicr.org"] 
+{ background: url(../img/icons/instituteforcancerresearch.gif) top left no-repeat;
+ padding-left: 20px;
+}
+
+.darkpanel ul li a[href^="http://immunize.org"], 
+.darkpanel ul li a[href^="http://www.immunize.org"], 
+.darkpanel ul li a[href^="http://vaccineinformation.org"], 
+.darkpanel ul li a[href^="http://www.vaccineinformation.org"] {
+ background: url(../img/icons/immunizationactioncoalition.gif) top left no-repeat;
+ padding-left: 22px;
+}
+.darkpanel ul li a[href^="http://www.medlineplus.gov"], 
+ .darkpanel ul li a[href^="http://medlineplus.gov"] 
+{ background: url(../img/icons/medlineplus.gif) top left no-repeat;
+ padding-left: 21px;
+}
+.darkpanel ul li a[href^="http://www.mhriweb.org"],
+.darkpanel ul li a[href^="http://mhriweb.org"] 
+{ background: url(../img/icons/memorialhospital.gif) top left no-repeat;
+ padding-left: 22px;
+}
+a[href^="http://www.ncbi.nlm.nih.gov/pmc"],
+.darkpanel ul li a[href^="http://ncbi.nlm.nih.gov/pmc"]
+{ background: url(../img/icons/pubmedcentral.gif) top left no-repeat;
+ padding-left: 20px;
+ }
+.darkpanel ul li a[href^="http://pubmed.gov"],
+.darkpanel ul li a[href^="http://www.pubmed.gov"],
+.darkpanel ul li a[href^="http://www.ncbi.nlm.nih.gov/pubmed"],
+.darkpanel ul li a[href^="http://ncbi.nlm.nih.gov/pubmed"]
+{ background: url(../img/icons/pubmed.gif) top left no-repeat;
+ padding-left: 20px;
+}
+a[href^="http://www.osha.gov"],
+.darkpanel ul li a[href^="http://osha.gov"]
+{ background: url(../img/icons/osha.gif) top left no-repeat;
+ padding-left: 20px;
+}
+/*.darkpanel ul li a[href^="http://www.quitnowri.com"],
+.darkpanel ul li a[href^="http://www.quitworksri.org"],
+.darkpanel ul li a[href^="http://quitworksri.org"] 
+{ background: url(../img/icons/quitworks.gif) top left no-repeat;
+ padding-left: 20px;
+}*/
+
+.darkpanel ul li a[href^="http://www.poder1110.com/"]
+{ background: url(../img/icons/ride.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.ride.ri.gov"],
+.darkpanel ul li a[href^="http://ride.ri.gov"] 
+{ background: url(../img/icons/ride.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.riqualitypartners.org/"],
+.darkpanel ul li a[href^="http://riqualitypartners.org/"] 
+{ background: url(../img/icons/qualitypartners.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.rihca.org/"],
+.darkpanel ul li a[href^="http://rihca.org/"] 
+{ background: url(../img/icons/rhodeislandhealthcareassociation.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.hrc.ri.gov/"],
+.darkpanel ul li a[href^="http://hrc.ri.gov"] 
+{ background: url(../img/icons/rihousingresourcescommission.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.healthsourceri.com/"],
+.darkpanel ul li a[href^="http://healthsourceri.com/"] 
+{ background: url(../img/icons/healthsource.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.rwmc.org"],
+.darkpanel ul li a[href^="http://rwmc.org"] 
+{ background: url(../img/icons/rogerwilliamshospital.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.saintjosephri.com"],
+.darkpanel ul li a[href^="http://saintjosephri.com"]
+.darkpanel ul li a[href^="http://www.fatimahospital.com"],
+.darkpanel ul li a[href^="http://fatimahospital.com"]
+
+{ background: url(../img/icons/saintjosephhospital.gif)
+
+top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www2.sec.state.ri.us"],
+.darkpanel ul li a[href^="http://www.sec.state.ri.us"],
+.darkpanel ul li a[href^="http://sos.ri.gov"],
+.darkpanel ul li a[href^="http://rss.sos.ri.gov"],
+.darkpanel ul li a[href^="http://www.rilin.state.ri.us"],
+.darkpanel ul li a[href^="http://webserver.rilin.state.ri.us"],
+a[href^="http://rilin.state.ri.us"] 
+{ background: url(../img/icons/RIDoS-seal.png) top left no-repeat;
+ padding-left: 22px;
+}
+ .darkpanel ul li a[href^="http://seer.cancer.gov"] 
+{ background: url(../img/icons/seer.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.surgeongeneral.gov"],
+.darkpanel ul li a[href^="http://surgeongeneral.gov"] 
+{ background: url(../img/icons/surgeongeneral.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.schospital.com"],
+.darkpanel ul li a[href^="http://schospital.com"] 
+{ background: url(../img/icons/southcountyhospital.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://tuftshealthplan.prismisp.com/"],
+.darkpanel ul li a[href^="http://www.tuftshealthplan.prismisp.com/"] 
+{ background: url(../img/icons/tufts.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.tri-town.org/"]
+{ background: url(../img/icons/hctritown.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.tableausoftware.com"],
+.darkpanel ul li a[href^="http://www.tableausoftware.com/public/"] 
+{ background: url(../img/icons/tableausoftware.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.thundermisthealth.org"] 
+{ background: url(../img/icons/thundermist.png) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.tickencounter.org"] 
+{ background: url(../img/icons/tickencounter.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.ride.ri.gov/applications/thrive.aspx"] 
+{ background: url(../img/icons/thrive.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.rihealthcarematters.org/"],
+.darkpanel ul li a[href^="http://rihealthcarematters.org/"]
+{background: url(../img/icons/rihealthcarematters.gif) top left no-repeat;
+padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.usda.gov/"],
+.darkpanel ul li a[href^="https://supertracker.usda.gov/"],
+.darkpanel ul li a[href^="http://www.ascr.usda.gov/"],
+.darkpanel ul li a[href^="http://www.cnpp.usda.gov/"],
+.darkpanel ul li a[href^="http://www.mypyramid.gov/"],
+.darkpanel ul li a[href^="http://agricola.nal.usda.gov/"],
+.darkpanel ul lia[href^="http://www.nal.usda.gov/"],
+.darkpanel ul li a[href^="http://www.fsis.usda.gov/"],
+.darkpanel ul li a[href^="https://lovingsupport.fns.usda.gov/"],
+.darkpanel ul li a[href^="http://www.fns.usda.gov/"] 
+{ background: url(../img/icons/usda.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.usmle.org/"] 
+{ background: url(../img/icons/usmedicallicensing.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.uhccommunityplan.com/"] 
+{ background: url(../img/icons/united.jpg) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.providence.va.gov"] 
+{ background: url(../img/icons/veteranshospital.gif) top left no-repeat;
+ padding-left:20px;
+}
+.darkpanel ul li a[href^="http://www.welloneri.org"] 
+{background: url(../img/icons/hcwellone.gif) top left no-repeat;
+ padding-left: 20px;
+}
+a[href^="https://www.thewellcomp.com"],
+.darkpanel ul li a[href^="http://www.schoolflu.com"],
+.darkpanel ul li a[href^="http://www.thewellcomp.com"] 
+{background: url(../img/icons/wellnesscompany.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.westerlyhospital.org/"] 
+{background: url(../img/icons/landm.png) top left no-repeat;
+ padding-left: 26px;
+}
+.darkpanel ul li a[href^="http://www.whitehouse.gov"] 
+{background: url(../img/icons/whitehouse.png) top left no-repeat;
+ padding-left: 20px;
+}
+
+
+.darkpanel ul li a[href^="http://www.womenandinfants.org/"] 
+{ background: url(../img/icons/womenandinfantshospital.gif) top left no-repeat;
+ padding-left: 20px;
+}
+ .darkpanel ul li a[href^="http://www.woodriverhealthservices.org"] 
+{ background: url(../img/icons/hcwoodriver.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://www.who.int/"],
+.darkpanel ul li a[href^="http://who.int/"],
+.darkpanel ul li a[href^="http://apps.who.int"],
+.darkpanel ul li a[href^="http://apps.who.int"] 
+{background: url(../img/icons/worldhealthorganization.gif) top left no-repeat;
+ padding-left: 20px;
+}
+.darkpanel ul li a[href^="http://wolframalpha.com"],
+.darkpanel ul li a[href^="http://www.wolframalpha.com"] 
+{ background: url(../img/icons/wolframalpha.gif) top left no-repeat;
+ padding-left: 20px;}
+.darkpanel ul li a[href^="http://data.worldbank.org/"],
+.darkpanel ul li a[href^="http://www.worldbank.org/"] 
+{ background: url(../img/icons/worldbank.gif) top left no-repeat;
+ padding-left: 20px;}
+.darkpanel ul li a[href^="http://www.wwcri.org"],
+.darkpanel ul li a[href^="http://wwcri.org"] 
+{ background: url(../img/icons/worksitewellness.gif) top left no-repeat;
+ padding-left: 20px;}
+.darkpanel ul li a[href^="http://www.youtube.com"],
+.darkpanel ul li a[href^="http://youtube.com"],
+.darkpanel ul li a[href^="https://www.youtube.com"],
+.darkpanel ul li a[href^="https://youtube.com"], 
+.darkpanel ul li a[href^="https://youtu.be"]
+{background: url(../img/icons/youtube.png) top left no-repeat;
+ padding-left: 20px;}
+ 
+.darkpanel ul li a[href^="http://ymcagreaterprovidence.org"], 
+.darkpanel ul li a[href^="http://www.ymca.net"],
+.darkpanel ul li a[href^="http://ymca.net"] 
+{ background: url(../img/icons/ymca.gif) top left no-repeat;
+ padding-left: 20px;}
+ 
+.darkpanel ul li a[href^="https://www.cdc.gov/nceh/tracking/"], 
+.darkpanel ul li a[href^="https://ephtracking.cdc.gov"] 
+{
+ background: url(../img/icons/EnvironmentalHealthPublicTracking.png) top left no-repeat;
+ padding-left: 40px;
+}
+
+ 
+/* Shutting off pdf xls and doc in a paragragh*/
+ul.doh  a[href$=".pdf"], ul.doh  a[href$=".doc"], ul.doh  a[href$=".xls"], ul.doh  a[href$=".docx"],
+.panel a[href$=".pdf"],
+table a[href$=".pdf"],
+table a[href$=".doc"], .section-container.accordion section .content ul a[href$=".pdf"] {
+
+
+background-color:none;
+padding-left: 0;
+background-image:none;
+}
+ 
+ 
+/*internal links  and asssociated site
+a[href^=""], 
+a[href^="https://welltesting.health.ri.gov"], 
+a[href^="http://food.ri.digitalhealthdepartment.com/"],
+a[href^="https://healthri.mylicense.com"],
+a[href^="http://health.ri.gov"]
+{padding-left: 0em;}
+.darkpanel ul li a[href^="http://www.ri.gov/press"], 
+.darkpanel ul li a[href^="http://www.ri.gov/rss"],
+.darkpanel ul li a[href^="http://ri.govpress"]
+{padding: 0; background: none;}*/

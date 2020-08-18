@@ -1,0 +1,331 @@
+/**********CONTENTS                                  **********/
+/**********RESET CSS Line 6                          **********/
+/**********MONTANA.GOV TEMPLATE CSS Line 39          **********/
+/**********MONTANA.GOV TEMPLATE IE7 CSS FIX Line 111 **********/
+
+/**********RESET CSS BEGIN**********/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+	
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1;}
+/* ol, ul {list-style:none;} Commented out from original to preserve existing diversity of lists */
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	/*content:'';*/
+	content:none;
+}
+table {border-collapse:collapse;	border-spacing:0;}
+
+/*NOW SOME MT.GOV SPECIFIC RULES BASED ON WEBKIT DEFAULTS  -- remove for next template, should be in mt.gov css */
+html, body {height:100%}
+p, blockquote, dl, ol, ul, fieldset, form, table {margin:1em 0;}
+h1{margin:0.67em 0;}
+h2{margin:0.83em 0;}
+h3{margin:1em 0;}
+h4{margin:1.33em 0;}
+h5{margin:1.67em 0;}
+h6{margin:2.33em 0;}
+
+b, strong {font-weight:bolder;}
+i, em {font-style:italic;}
+blockquote {padding-left:2.5em;}
+ol, ul {list-style-position:outside;padding-left:2.5em;}
+/*MT.GOV SPECIFIC END  -- remove for next template, should be in mt.gov css */
+
+/**********RESET CSS END**********/
+
+
+/**********MONTANA.GOV TEMPLATE CSS BEGIN**********/
+body {    
+	min-height: 100%;
+	background-size: cover !important;
+	background-position: center top;
+	background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+body.bgTop { background-position: center top !important; }
+body.bgBottom { background-position: center bottom !important; }
+body.bgCenter { background-position: center center !important; }
+ /*html, body, #template-header, #template-footer {height:100%;margin:0;padding:0;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}*/
+#template-header, #template-footer {margin:0;padding:0;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px !important; line-height: 1.5 !important;}
+
+/*TEMPLATE HEADER*/
+#template-header {height:4em !important;background-color:#ffffff;position:fixed;top:0;left:0;right:0;z-index:999;border-bottom:1px solid #dbdcde; padding:0 !important;}
+#template-header-logo{width:248px !important; height:48px !important;margin: .5em 0 0 0.4em !important; padding:0 !important;}
+#template-header-nav, #template-header-nav li {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+#template-header-nav {float:right;margin:0 !important;position:relative;top:0px;padding: 0 !important} 
+#template-header-nav li {display:inline-block;list-style-type:none; margin:0 !important; padding:0 !important;}
+#template-header-nav li a {font-size:.8em !important;color:#3E5B5D;text-decoration:none;padding:1.7em 1.5em;display:inline-block;letter-spacing:1px;text-transform:uppercase;line-height: 1.5 !important;}
+*:first-child + html header#template-header ul#template-header-nav li a {text-decoration:none; padding:0.625em;display:inline-block;text-transform:uppercase; /* for IE 6, 7 */}
+#template-header-nav li a:hover{background-color:#eeeeee;text-decoration:underline;}
+#template-search {width:14em;}
+#template-search-button {height:22px;width:23px;z-index:1006;position:absolute;top:8px;right:9px;}
+#template-search-button:hover {cursor:pointer;}
+#template-search-button.advancedsearch {right:18px;}
+#template-search-item { height:100% !important;border:0 !important;background-color:transparent !important;border-color:transparent !important;margin:0 !important;padding: 0 2.5em 0 .2em !important;width:100% !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;box-shadow:none !important; font-size:12.8px !important;}
+#template-search-item.advancedsearch {padding-right:3.5em;}
+#template-search-wrap { padding:.4em !important;font-size:.8em !important;background:none repeat scroll 0 0 #efefef !important;border:medium none !important;-webkit-box-shadow:0 2px 3px rgba(0,0,0,0.15) inset !important;box-shadow:0 2px 3px rgba(0,0,0,0.15) inset !important;color:#555 !important;height:36px !important;margin:0 !important;top:14px !important;width:212px !important;position:absolute !important;z-index:1005;-moz-box-sizing:border-box !important; -webkit-box-sizing:border-box !important; box-sizing:border-box !important; }
+#template-search-advanced{padding-bottom:1em;top:36px;right:0;z-index:1000;height:auto;width:200px;position:absolute;background-color:rgb(239,239,239);border-top:1px solid #897A67;display:none;}
+#template-search-advanced h1{margin:0;font-size:.75em;color: #555555;padding:1em;font-weight:bold;}
+#template-search-advanced span{padding:.5em 1em;display: list-item;color: rgb(46, 119, 124);display:block;padding-left:1.5em;text-transform:uppercase;}
+#template-search-advancedbtn{font-size: 1em;z-index:1006;position:absolute;top:11px;right:4px;}
+#template-search-advancedbtn:hover,#template-search-advanced span{cursor:pointer;}
+
+a[name], .template-header-offset {position:absolute;margin-top:-110px;}
+
+@media only screen and (max-width:50em) {
+	#template-header-nav li a {padding:1.7em 1em !important;}
+}
+
+@media screen and (max-width:48em) {
+    #template-header .tagline{display:none;}
+    #template-header {height:auto !important;-webkit-box-shadow: #333 0 .3125em 1.25em !important;box-shadow: #333 0 .3125em 1.25em !important;position:relative !important;}
+    #template-header-logo{margin:0 !important;padding:.1em !important;border:none !important;width:auto !important;height:auto !important;max-width:75% !important;}
+    #template-header-nav {display:none;}
+    #template-search-wrap {width:100% !important;position:relative !important;margin: 0em auto 0em auto !important;border:.5em solid rgba(51,51,51, .7) !important;padding:0 !important;height: 3em !important;top:0 !important; right:0 !important; left: 0 !important;}
+    #template-search-item {padding:0 2.5em 0 .5em !important;width:100% !important;background: none repeat scroll 0 0 #efefef!important ;border: medium none!important;color: #555!important;}
+    #template-search-item.advancedsearch {margin:0 !important;padding:0!important;}
+	#template-search-button {height:22px!important;width:23px!important;z-index:1006;top:3px!important;right:6px!important;}
+    #template-search-button.advancedsearch {right: 35px;}
+    #template-header-wrapper{height:auto!important;position:relative!important;}
+	#template-search-advancedbtn {height:18px;font-size:1.5em;right:0;top:0;padding:.2em;color:#6E9699;background-color:#DDDDDD;}
+	#template-search-advanced{font-size:100%;top:26px;right:0;}
+	#template-search-advanced span{padding:1em;right:8px;}
+}
+
+@media print {
+    #template-header {position:relative;}
+    #template-search-button {display:none;}
+    #template-search-wrap {display:none;}
+    #template-header-nav {display:none;}
+    }
+
+/*TEMPLATE PAGE WRAPPER*/
+#template-page-wrapper{min-height:100%;}
+img.bg {/* Set rules to fill background */min-height:100%;min-width:1024px;/* Set up proportionate scaling */width:100%;height:auto;/* Set up positioning */position:fixed;top:0;left:0;z-index:-1;}
+
+@media screen and (max-width:1024px) { /* Specific to this particular image */
+	img.bg {left:50%;margin-left:-512px;   /* 50% */}
+}
+
+#template-layout-push {height:128px;}
+
+/*STICKY FOOTER CSS*/
+#template-layout-wrapper {margin: auto 0 -64px auto; min-height:100%;height:auto!important;}
+
+/*TEMPLATE FOOTER*/
+#template-footer {box-sizing:border-box;height:64px;border-top:1px solid #897A67;position:relative;right:0;left:0;bottom:0;background-color:#ffffff;clear:both;}
+#template-footer-logo{float:right;margin-top:.3em;margin-bottom:0em;margin-right:.5em;padding:0;border:none;bottom:0;}
+#template-footer-nav  {text-align:center;list-style:none outside none;padding:0;z-index:10;margin-bottom:0px;bottom:0px;margin:0px auto;width:27.50em;line-height:1.6;}
+#template-footer-nav li {list-style-type:none;float:none;color:#FFF;display:inline;padding:0;margin:0;}
+#template-footer-nav li a {font-size:.8em;color:#3E5B5D;text-decoration:none;padding:1.45em 1.5em;display:inline-block;letter-spacing:1px;margin:0px;float:left;width:auto;text-transform:uppercase;}
+*:first-child + html #template-footer-nav li a {text-decoration:none; padding:1.8em 1em;display:inline-block;text-transform:uppercase; /* for IE 6, 7 */}
+
+@media screen and (max-width:48em) { 
+	#template-footer {height:12em;border-top:1px solid #FFFFFF;clear:both;text-align:center;position:relative;right:0;left:0;margin:0 auto;bottom:0;background-color:#ffffff;}
+    #template-footer-nav {bottom:4em;width:90%;height:10em;}
+	#template-footer-nav li {float:none;margin:0;padding:0;}
+	#template-footer-nav li a {padding: 1em 0 1em;display: block;border-bottom: solid #6E9699 1px;width:100%;margin: 0.5em 0px;float:none;color:#ffffff;background-color:#3E5B5D;}
+    #template-footer-logo{margin:0 auto;padding: 0.1em 0 0.5em 0;border:none;width:auto;height:auto;float:none;position:absolute;bottom:0;left:0;right:0;}
+}
+
+@media print {
+    #template-footer-logo{display:none;}
+    #template-footer>a {display:none;}
+    #template-footer-nav  {width:50em;}
+    #template-footer-nav li {display:none;}
+}
+
+#template-footer-nav li a:hover{background-color:#eeeeee;text-decoration:underline;position:relative;color:#6E9699;}
+
+/**********MONTANA.GOV TEMPLATE CSS END**********/
+
+#template-header #template-header-nav.search, #template-header #template-header-nav.search li, #template-header #template-header-nav.search li a { height:100%; } 
+
+@media print {#bgImg{display:none;}}
+
+/**********MONTANA.GOV TEMPLATE IE7 CSS FIX BEGIN**********/
+html.lt-ie8 #template-header-nav {right: 0px;width: auto;position: absolute;height:100%;}
+html.lt-ie8 #template-header-nav li {display: inline;zoom: 1;vertical-align:middle;height:100%;overflow:hidden;}
+html.lt-ie8 #template-header-nav li a {height:100%;padding-top:1.8em!important;}
+html.lt-ie8 #template-search {padding-right: 1em;}
+html.lt-ie8 #template-search-button {margin-left:175px;}
+html.lt-ie8 #template-search-advancedbtn {margin-top:1.5em;margin-left:205px;}
+html.lt-ie8 #template-search-advanced {right:8px;width:220px;}
+/**********MONTANA.GOV TEMPLATE IE7 CSS FIX END**********/
+
+
+/**********MONTANA.GOV Amber Alert Header Start**********/
+
+#template-AmberAlertHead{
+    z-index:99;
+    top:0;
+    position:fixed;
+    float:left;
+    width:100%;
+    display:block;
+    color:#fff;
+    background:#8b0000 url("//template.mt.gov/resources/template/images/MK_amberAlert.png") center right no-repeat;
+    text-align:center;
+    background-size:auto 70%;
+    font-size: 16px !important;
+	line-height: 16px !important;
+	font-weight: 400 !important;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+#template-AmberAlertHead .template-amberAlertGroup {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+	height: auto;
+	padding: 0;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+#template-AmberAlertHead .template-amberAlertGroup .template-amberAlertItem{ 
+    clear: both;
+    display: block;
+    width: 100%;
+	height: 48px !important;
+	padding: 8px 0 8px 0 !important;
+	overflow: hidden !important;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+#template-AmberAlertHead .template-amberAlertGroup .template-amberAlertItem label{
+    color:#fff;
+    display: inline-block !important;
+	height: 32px !important;
+	padding: 8px 0 !important;
+    border:1px solid #8b0000;
+	text-align: center;
+	margin: 0;
+    font-size: 16px !important;
+	line-height: 16px !important;
+	font-weight: 400 !important;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+#template-AmberAlertHead .template-amberAlertGroup .template-amberAlertItem a{
+    display:inline-block !important;
+    background:#8b0000;
+    color:#fff;
+    border:1px solid #fff;
+    text-decoration:none;
+    width: 49%;
+	height: 32px !important;
+	padding: 8px 8px !important;
+	max-width: 250px;
+    font-size: 16px !important;
+	line-height: 16px !important;
+	font-weight: 400 !important;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+#template-AmberAlertHead .template-amberAlertGroup .template-amberAlertItem a:hover {
+    background:#660000;
+}
+
+/**********MONTANA.GOV Amber Alert Header End**********/
+
+/**********MONTANA.GOV Alert box Header Start**********/
+
+#template-BOXAmberAlertHead{
+    z-index:99;
+    top:0;
+    position:fixed;
+    float:left;
+    width:100%;
+    display:block;
+    color:#fff;
+    text-align:center;
+    background-size:auto 70%;
+    font-size: 16px !important;
+	line-height: 16px !important;
+	font-weight: 400 !important;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+#template-BOXAmberAlertHead .template-amberAlertGroup {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+	height: auto;
+	padding: 0;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+#templateBOX-AmberAlertHead .template-BOXamberAlertGroup .template-BOXamberAlertItem{ 
+    clear: both;
+    display: block;
+    width: 100%;
+	height: 64px;
+	padding: 8px 0 8px 0 !important;
+	overflow: hidden !important;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+#template-BOXAmberAlertHead .template-BOXamberAlertGroup .template-BOXamberAlertItem label{
+    color:#fff;
+    display: inline-block !important;
+	height: 32px !important;
+	padding: 8px 0 !important;
+    border:1px solid #8b0000;
+	text-align: center;
+	margin: 0;
+    font-size: 16px !important;
+	line-height: 16px !important;
+	font-weight: 400 !important;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+#template-BOXAmberAlertHead .template-BOXamberAlertGroup .template-BOXamberAlertItem a{
+    display:inline-block !important;
+    background:#8b0000;
+    color:#fff;
+    border:1px solid #fff;
+    text-decoration:none;
+    width: 49%;
+	height: 32px !important;
+	padding: 8px 8px !important;
+	max-width: 250px;
+    font-size: 16px !important;
+	line-height: 16px !important;
+	font-weight: 400 !important;
+    -webkit-box-sizing: border-box  !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+#template-BOXAmberAlertHead .template-BOXamberAlertGroup .template-BOXamberAlertItem a:hover {
+    background:#660000;
+}
+
+@media screen and (min-width:700px) {
+.template-BOXamberAlertItem {padding-top:10px!important;}
+}
+@media screen and (min-width:1400px) {
+.template-BOXamberAlertItem {padding-top:15px!important;}
+}
+/**********MONTANA.GOV  Alert box Header End**********/

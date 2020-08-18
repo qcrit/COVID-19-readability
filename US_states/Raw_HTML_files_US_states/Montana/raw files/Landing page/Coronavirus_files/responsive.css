@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* Responsive Styles */
+/* 	Date Created:  10/23/2012
+	Date in Prod:  1/6/2014 (release)
+	Date Modified: 7/22/2014
+	Date Archived: 	
+	Do not minify: Minify the production version only
+*/
+/************************************************
+
+	MEDIA QUERIES
+
+************************************************/
+/* SMALL SCREENS */
+@media only screen and (max-width:480px) { 
+
+  figure {margin: 1em 0; float: none;}
+	  figcaption.credits {width: inherit;} 
+  /*#template-search-item { padding:none !important;}*/
+  #agencycontent .imgL, #agencycontent .imgR {float:none; display:block; margin:1.5em 0;}
+  #mainContent p, #mainContent h2, #mainContent h3, #mainContent ul.inlinePipe {margin-left: 0;}
+  #HHSFooter a.long {display:none;} 
+  #socialMedia {float: none; text-align: center;} 
+  
+	#HHSSearchBox {display:none;}
+	  #HHSSmallSearch {position:relative; 
+		  margin:0;
+		  margin-top:10em !important; 
+		  position:absolute; right:-30px !important;
+		  height:100px;
+	  }	  
+	  /*  Search-related */
+		input[type=search] {
+		  width: 160px;
+		  background-color: #fff;
+		  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+		  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+		  box-shadow: 0 0 5px rgba(109,207,246,.5);
+		  outline: 0; /*removes outline on search box*/
+		  padding-left: 50px;
+		  color: #000;
+		  background-color: #fff;
+		  cursor: auto;
+		}
+		.smallSearch {text-align:center;}
+	/* end search-related */
+	
+	.breakWord {word-break:break-all;}
+	.clearImg {overflow:visible;}	
+	.floatieMenuR, .floatieMenuL  {
+		float:none; border:none;
+		font-size:100%;	
+		border: 5px solid #E0E0E0;
+	}
+	.homeFeature aside img {display:none;}
+	
+}
+
+@media only screen and (min-width: 481px) {
+  #HHSFooter section#terms a.short {display:none;}
+  #HHSSearchBox {display:none;}
+}
+@media only screen and (max-width: 900px) {
+  #HHSSearch {display: none;} /* temporary until we find a way to display it on small screens */  
+}
+@media only screen and (max-width:630px) {
+ /* sprite: top right = blue | bottom right = white | right -195px = black */ 	
+ /* #HHSLogo  {
+	background: url(/portals/74/Images/sprite-HHSLogos.png) right -195px no-repeat; 
+	width: 58px; 
+	height: 50px; 	
+  }	*/
+  #aboutHHS {
+	margin:0; 
+	position: absolute; top: 95px; left: 25px; 
+  }
+  #aboutHHS p {position:relative; top:-10px;}
+  header#agencyHead {height:150px;}
+  #HHSSearchBox {display:none;}
+  input[type=search]:focus {width:160px;}
+
+}
+@media only screen and (max-width:675px){
+	.promoContainer .promo {
+		background-position: 0px 0px; 
+		display: block; 
+		float: none; 
+		margin-bottom: 2em; 
+		width: 100%;
+		background:#eee;
+	}
+	.promoContainer ~ .promoContainer {margin-top:-2em;} 
+	#HHSSearchBox {display:none;}
+	
+	.mobile-no-show { visibility: hidden; display: none; } /* Hides content from mobil devices when called. Such elemants as Images. */
+}
+@media only screen and (max-width:752px) {  
+			.homeFeature {background:white;}
+				.homeFeature article {color:black;}
+}
+@media only screen and (max-width:768px) {
+	#pagewrap {margin:0; padding:0;} /* removes 6em top padding */
+	#agencycontent .twoColLeft aside, .twoColLeft article, 
+	#agencycontent .twoColRight aside, .twoColRight article, 
+	#agencycontent .threeCol section, .threeCol section.rightCol {
+		float:none; 
+		width:auto; 
+		background:none;
+	}	
+	#agencycontent .threeCol section.leftCol, 
+	#agencycontent .threeCol section.centerCol {
+		float:none; 
+		width:auto; 
+		margin-right:0;
+	}
+	/* 50-50 Split */
+	.halfA {float:none; width:100%;}	
+	.halfB {float: none; width:100%; padding-left:0; border:0;}	
+	
+	/*One third split*/
+	.thirdA {float:none; width:100%;}	
+	.thirdB {float: none; width:100%; padding-left:0; border:0;}
+	.thirdC {float: none; width:100%; padding-left:0; border:0;}		
+				
+	blockquote {
+		width: auto; 
+		padding: 4em; 
+		margin: 2em auto; 
+	}
+	.pullQuote {float:none; width:60%; margin:2em auto;} 
+	.floatLeft, .floatRight {float:none; display:block; } 		
+	a.top.invisible {visibility: visible;} 
+	.imgL, .imgR  {display: block; float: none; margin:1.5em auto;} /* removed: margin-left: 0;  min-width: 250px; */
+	#hideImage {display:none;}
+	
+	#mainContent {top:-65px;}
+	#HHSFooter {top:-65px;}
+	#socialMedia {position:relative; top:-65px;}
+		/*overrides {top:-65px;} when a notice is displayed */	  
+	   .HHSNotice + #mainContent, .HHSNotice ~ #HHSFooter, .HHSNotice ~ #socialMedia {top:0!important;} 
+	
+	.js .selectnav { display: block; }
+   .js #nav { display: none }
+   #template-search-wrap {overflow:hidden;}
+
+}
+@media only screen and (max-width:975px) {  
+  #HHSSmallSearch {position:relative; 	
+  	margin-top:7em;
+	height:100px;
+  }
+  #agencyHead {height:100px;} 
+  #mainContent {top: -65px;}
+	  
+  #HHSFooter {top: -65px;}
+	#socialMedia {position: relative; top: -65px;}
+     
+  .halfA img.imgL {float:none; display:block;}
+  .halfA div.clearImg, .halfB div.clearImg  {display:block; clear:left;}		
+  .promoContainer .promo {background-position: 0px 0px;}
+  	.promoContainer .promo .content {padding: 60px 30px 0px 0px; }
+  table.HHSTable1 {font-size: 1.2em;}   
+}
+@media only screen and (max-width:1020px) {
+	.quarters ul {float:none; display:block; width:65%; height:auto !important; margin:0 auto; }
+    .quarters ul:last-of-type {margin:0 auto;}
+	.quarters li {background:none; border-bottom:1px solid grey; padding:.2em 0;}
+  		.quarters li:first-child {margin-top:0;}  
+  		.quarters li:last-child {position:relative; margin-top:.5em; border-bottom:none; }
+  	.quarters a {width:100%; padding:.5em 0; text-align:center;}
+  		.quarters a:hover {width:100%; padding:.5em 0; text-decoration:none;}
+		
+	.lquarters ul {float:none; display:block; width:65%; height:auto !important; margin:0 auto; }
+    .lquarters ul:last-of-type {margin:0 auto;}
+	.lquarters li {background:none; border-bottom:1px solid grey; padding:.2em 0;}
+  		.lquarters li:first-child {margin-top:0;}  
+  		.lquarters li:last-child {position:relative; margin-top:.5em; border-bottom:none; }
+  	.lquarters a {width:100%; padding:.5em 0; text-align:center;}
+  		.lquarters a:hover {width:100%; padding:.5em 0; text-decoration:none;}
+		
+}
+@media only screen and (max-width:1024px) { 
+/* A 4-column list */
+  .four ul {float: none; width: 100%; text-align: center;}
+  	.four ul li {margin-left: 0;}
+  	.four li:first-of-type {border: none;}
+  	.four li a {display: block; width: 100%; height: 100%;  padding:.75em 0; background:#eee;}
+  	.four li a:hover {background:#ccc; text-decoration:none;}
+}
+
+/* LARGE SCREENS */ 
+@media only screen and (min-width:769px) { 
+  a.short  {display:none;}  
+  a.top.invisible {display:none;}
+ /* #HHSFooter section:last-of-type {padding-bottom: 3em;} */
+  	#HHSFooter li {
+		display: inline-block; 
+		width: 23%; /*was 30% - changed to make more room for additional content - Brad R.*/
+		border: none;
+  }
+  	#HHSFooter li:first-of-type {border:none;} 
+} 
+
+@media only screen and (min-width:975px) {
+	#HHSSmallSearch {display:none;}
+	#HHSSearchBox {display:inline;}
+	nav#HHSNav li {float:left; width:25%;}  
+}
+
+
+/*Marija'a Responsive Nav Test*/
+
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width
+}@-o-viewport{width:device-width}
+/*@viewport{width:device-width}*/
+
+@media screen and (min-width: 975px) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+	
+  }
+  
+}
+
+/* Temp Fix: add # before nav so it doesn't hide all nav tags, or override with max-height: none; */
+.js nav{ /* clip:rect(0 0 0 0); */ max-height:0; position:relative; display:block; overflow:hidden; zoom:1;}
+
+
+@media screen and (min-width:975px){.js #nav{position:relative !important;max-height:none;}}
+nav.opened{max-height:9999px; }
+.nav-toggle{background:#D7500E; -webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:70px;height:60px;float:right;text-indent:-9999px;overflow:hidden;display:block;position:relative;top:-60px;background:#D7500E url("/Portals/85/Skins/DPHHS/Styles/logos/hamburgerIcon.png")/* no-repeat 50% 33%*/}
+.nav-toggle:after {
+	content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:1.3),screen and (min--moz-device-pixel-ratio:1.3),screen and (-o-min-device-pixel-ratio:2 / 1),screen and (min-device-pixel-ratio:1.3),screen and (min-resolution:192dpi),screen and (min-resolution:2dppx){.nav-toggle{background:#D7500E;background-image:url("/Portals/85/Skins/DPHHS/Styles/logos/hamburgerIcon.png");/*-webkit-background-size:50px 50px !important;-moz-background-size:50px 50px !important;-o-background-size:50px 50px !important;background-size:50px 50px !important*/}}@media screen and (min-width:975px){.nav-toggle{display:none}}
+
+
+/* Mobile Tables */
+@media only screen and (max-width: 1080px) {
+	
+	table.responsive { margin-bottom: 0; }
+	
+	.pinned { position: absolute; left: 0; top: 0; background: #fff; width: 35%; overflow: hidden; overflow-x: scroll; border-right: 1px solid #ccc; border-left: 1px solid #ccc; }
+	.pinned table { border-right: none; border-left: none; width: 100%; }
+	.pinned table th, .pinned table td { white-space: nowrap; }
+	.pinned td:last-child { border-bottom: 0; }
+	
+	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right: 1px solid #ccc; }
+	div.table-wrapper div.scrollable { margin-left: 35%; }
+	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }	
+	
+	table.responsive td, table.responsive th { position: relative; white-space: nowrap; overflow: hidden; }
+	table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td { display: none; }
+	
+	
+}	
+	
+@media only screen and (max-width:767px) {
+	table.menu{float:none; display:block; width:auto; height:auto; margin:0 auto; border-collapse: separate; border-spacing:20px; }
+	table.menu td th {
+border:1px solid; padding:10px; background-color:#dadada; display: table-cell; vertical-align:middle; border-radius:20px;  position: relative; white-space: nowrap; overflow: hidden; }
+	}
+
+/*Responsive I-Frame for Ccubs*/
+.ccubs-container {
+    position: relative;
+    padding-bottom: 95%;
+    height: 0;
+    overflow: auto;
+	-webkit-overflow-scrolling:touch; /**THIS IS THE KEY **/
+
+
+}
+
+.ccubs-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width:1280px) {
+	#HHSNav li {font-size:1em;}
+	#HHSNav a {font-size:1.25em;}
+}
+
+@media only screen and (max-width:1180px) {
+#aboutHHS ul{font-size:1em;}
+
+}
+
+@media only screen and (max-width:980px) {
+#aboutHHS ul{font-size:.75em;}
+	
+}@media only screen and (max-width:820px) {
+	.grayBoxRightCtl{
+		float:none; display:inline-block;  width:97% !important;
+	}
+	
+		.grayBoxLeftCtl{
+		float:none; display:block; width:97% !important; margin-left: 5%
+	}
+	
+	.grayBoxLeft{float:none; display:block; width:97% !important;}
+		
+		.grayBoxRight{float:none; display:inline-block; width:97% !important; } 
+	}
+	
+	
+@media only screen and (max-width:860px) {
+	#HHSFooter  ul li {width:100% !important; font-size:1em;}
+}
+
+@media only screen and (max-width:860px) {
+	#HHSFooter p {width:100% !important; font-size:1em;}
+}
+
+/* For the employee page - COVID-19*/
+@media only screen and (max-width:960px) {
+	.panel {display: flex;
+}
+}

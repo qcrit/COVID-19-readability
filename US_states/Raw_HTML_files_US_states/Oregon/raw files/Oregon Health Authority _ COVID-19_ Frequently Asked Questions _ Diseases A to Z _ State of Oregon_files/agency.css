@@ -1,0 +1,371 @@
+﻿/* ------------------------------------------------- */
+/* BEGIN - TEMP FIX TO BE REMOVED BY NIC ON 02/25/18 */
+
+/* Markup Styles Menu Options */
+h2.ms-rteElement-Heading2 {}
+
+h3.ms-rteElement-Heading3 {}
+
+h4.ms-rteElement-Heading4 {}
+
+h5.ms-rteElement-Heading5 {} 
+
+h6.ms-rteElement-Heading6 {}
+
+blockquote.ms-rteElement-BlockQuote {
+}
+
+
+/* Image Position Menu Options */
+.ms-rtePosition-PullLeft {
+    float: left;
+}
+
+.ms-rtePosition-PullRight {
+    float: right;
+}
+
+
+/* Picture Styles Menu Options */
+.ms-rteImage-Rounded {
+    border-radius: 2px;
+}
+
+.ms-rteImage-Circle {
+    border-radius: 50%;
+}
+
+.ms-rteImage-Thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* END - TEMP FIX TO BE REMOVED BY NIC ON 02/25/18 */
+/* ----------------------------------------------- */
+
+/* header overlay override */
+.or-header .or-header-overlay {
+	background: #005595;
+	opacity: .25;
+}
+.or-navbar {
+	background: #005595;
+}
+.or-navigation-list > li > a {
+	color: #fff;
+}
+/* header background override */
+.or-header {
+	background: url('/OHA/Style%20Library/Images/oha-hdr-bkd-v1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #005595;
+}
+/* header logo override */
+.or-header-logo-wrapper {
+	padding: 40px 45px 40px 0px;
+}
+.or-header-logo {
+	background-image: url('/OHA/Style%20Library/Images/oha-logo-white.svg');
+}
+.or-small-header .or-header-logo {
+	width: 198px;
+	height: 75px;
+}
+
+/* START Temporary header for Stay Home. Stay Safe. COVID-19 PSA */
+
+.or-header-logo {
+	width: 224px;
+	/* height: 85px; */   /* Temporary change for Stay Home. Stay Safe. COVID-19 PSA */
+}
+
+@media(max-width: 768px) {
+	.or-header-logo {
+		width: 150px;
+		background-position: center;
+	}
+	.or-header-logo-wrapper {
+		padding: 20px 20px 20px 0;
+	}
+}
+
+/* END Temporary header for Stay Home. Stay Safe. COVID-19 PSA */
+
+/* header title small override */
+.or-header-title small {
+	font-size: 60%;
+	margin-top: 10px;
+}
+/* search bar override */
+.or-navbar-search-wrapper {
+	background: #005595;
+}
+.or-navbar-search-submit-button {
+	background: #005595;
+}
+.or-navbar-search-submit-button:hover, .or-navbar-search-submit-button:focus {
+	background: #EC8902;
+}
+.or-navbar-search-open.or-navbar-search-wrapper {
+	box-shadow: -10px 0px 10px -5px #004477
+}
+.or-taskbox-title {
+	background: rgba(0, 85, 149, 0.8);
+	color: #ffffff;
+}
+h2.or-taskbox-title {
+	font-size: 25px!important;/*font-size: inherit;*/
+}
+h3.or-taskbox-title {
+	font-size: 25px!important;/*font-size: inherit;*/
+}
+/* alert styles override */
+.alert-info {
+	color: #333;
+	background-color: #f5f5f5;
+}
+/* main link styles override */
+main a, footer a, .alert a {
+	color: #005595;
+}
+main a:focus, footer a:focus, .alert a:focus, main a:hover, footer a:hover, .alert a:hover {
+	color: #EC8902;
+}
+main a:visited, footer a:visited, .alert a:visited {
+	color: #2279BD;
+}
+/* side navigation override */
+.or-side-navigation ul li a {
+	color: #005595;
+}
+.or-side-navigation ul .or-side-navigation-current > a {
+	border-left: solid 3px #EC8902;
+	color: #333333;
+}
+.or-side-navigation > ul > .or-side-navigation-parent > a {
+	text-transform: none;
+	letter-spacing: normal;
+	font-size: 1em;
+}
+.or-side-navigation-parent ul {
+	margin-top: 0;
+}
+/* link styles override */
+.link-item, .link-item a, .link-item a:link {
+	color: #005595;
+}
+.link-item a:hover {
+	color: #EC8902;
+}
+.link-item a:active, .link-item a:visited {
+	color: #2279BD;
+}
+html .link-item, html .link-item a, html .link-item a:link {
+	color: #005595;
+}
+html .ms-rtestate-field a:hover, html .ms-vb a:hover:visited, html .ms-vb-user a:hover:visited, html .ms-vb2 a:hover:visited {
+	color: #EC8902;
+}
+html .ms-rtestate-field a:hover, html .ms-vb a:hover, html .ms-vb-user a:hover, html .ms-vb2 a:hover {
+	color: #EC8902;
+}
+/*a Buttons link color override*/
+a.btn:not(.btn-link):not(.btn-default):hover {
+	color: #FFF
+}
+a.btn:not(.btn-link):not(.btn-default):visited {
+	color: #FFF
+}
+a.btn.btn-default:visited {
+	color: #333
+}
+a.btn.btn-default:hover {
+	color: #fff;
+	background-color: #286090;
+}
+/* CQWP grouping style override*/
+
+.groupheader {
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+/* JJT change H2 to font size of 25px - 10/25/2016 */
+
+.h2, h2 {
+	font-size: 25px;/*font-size: 30px;*/
+}
+.h3, h3 {
+	font-size: 22px;
+	/*font-size: 26px;*/
+	color: #333333;
+}
+html .ms-WPBody h3 {
+	font-size: 22px;
+}
+.h4, h4 {
+	font-size: 20px;
+	/*font-size: 22px;*/
+	color: #333333;
+}
+.h5, h5 {
+	font-size: 18px;
+}
+.h6, h6 {
+	font-size: 16px;
+}
+/*EWS H2 Banners*/
+/*h2.ews-banner-13*/
+h2.ews-h2-blue-stripe-gray-bg {
+	display: block;
+	width: 100%;
+	font-weight: normal;
+	font-size: 25px;
+	height: auto;
+	padding: .41em .4em .275em 16px;
+	color: #333333;
+	border-bottom: #7FAAC9 5px solid;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: rgba(242, 242, 242, 1.0);
+}
+/*h2.ews-banner-14*/
+h2.ews-h2-blue-stripe {
+	display: block;
+	width: 100%;
+	font-weight: normal;
+	font-size: 25px;
+	height: auto;
+	padding: .41em .4em .275em 0px;
+	color: #333333;
+	border-bottom: #7FAAC9 5px solid;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 1.0);
+}
+/*h2.ews-banner-15*/
+h2.ews-h2-orange-stripe {
+	display: block;
+	width: 100%;
+	font-weight: normal;
+	font-size: 25px;
+	height: auto;
+	padding: .41em .4em .275em 0px;
+	color: #333333;
+	border-bottom: #EF8A00 5px solid;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 1.0);
+}
+/*h2.ews-banner-16*/
+h2.ews-h2-gray-stripe {
+	display: block;
+	width: 100%;
+	font-weight: normal;
+	font-size: 25px;
+	height: auto;
+	padding: .41em .4em .275em 0px;
+	color: #333333;
+	border-bottom: #D9D9D9 5px solid;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 1.0);
+}
+.badge {
+	padding: 10px;
+	background-color: #005595;
+	color: #fff;
+}
+.badge h2 {
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+}
+.label-info {
+	background-color: #005595;
+	color: #fff;
+	padding: 10px;
+}
+figcaption {
+	padding-bottom: .5em;
+	font-style: italic;
+}
+/*TABLES*/
+.ews-table {
+	display: table;
+	width: 100%;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+}
+.ews-table th {
+	background-color: #ebebeb;
+	color: #0d0d0d;
+	border-bottom: 1px solid #ccc;
+	padding: 6px;
+}
+.ews-table td {
+	padding: 6px;
+}
+.ews-table thead tr {
+	width: 100%;
+	background-color: #ebebeb;
+}
+.ews-table tr:nth-of-type(odd) {
+	background-color: #f4f4f4;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	padding: 6px;
+}
+/*Image styles*/
+img.ews-img-375 {
+	width: 100%;
+	max-width: 375px;
+	height: auto;
+}
+img.ews-img-750 {
+	width: 100%;
+	max-width: 750px;
+	height: auto;
+}
+/*list header hide*/
+.hide-list-header .ms-viewheadertr.ms-vhltr {
+	display: none
+}
+.hide-list-header tr.ms-viewheadertr {
+	display: none
+}
+/* List Header Filters */
+.ews-list-filters tr.ms-viewheadertr > th.ms-vh2 {
+	border-color: #e2e2e2;
+	background: url(/_layouts/images/ecbarw.png) calc(100% - 5px) center no-repeat #f6f6f6;
+}
+/*Element styling for color*/
+.orange {
+	color: #EC8902;
+}
+.blue {
+	color: #005595;
+}
+.green {
+	color: #eff7f3;
+}
+/*ALERT BANNER MOD*/
+#agencyWideAlert > div > strong {
+	display: none;
+}

@@ -1,0 +1,49 @@
+﻿/* Markup Styles Menu Options */
+h2.ms-rteElement-Heading2 {
+}
+
+h3.ms-rteElement-Heading3 {
+}
+
+h4.ms-rteElement-Heading4 {
+}
+
+h5.ms-rteElement-Heading5 {
+} 
+
+h6.ms-rteElement-Heading6 {
+}
+
+blockquote.ms-rteElement-BlockQuote {
+}
+
+
+/* Image Position Menu Options */
+.ms-rtePosition-PullLeft {
+    float: left;
+}
+
+.ms-rtePosition-PullRight {
+    float: right;
+}
+
+
+/* Picture Styles Menu Options */
+.ms-rteImage-Rounded {
+    border-radius: 2px;
+}
+
+.ms-rteImage-Circle {
+    border-radius: 50%;
+}
+
+.ms-rteImage-Thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

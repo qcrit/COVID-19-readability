@@ -1,0 +1,26 @@
+@media print {
+#aboutHHS {display:none;}
+nav#HHSNav {display:none;}
+.group nav-collapse nav-collapse closed {display:none;}
+header#template-header {display:none;}
+.aspNetHidden {display:none;}
+#aside {display:none;}
+#dnn_leftPane {display:none;}
+.leftPane {display:none;}
+footer#HHSFooter {display:none;}
+.toTop {display:none;}
+section#copyright {display:none;}
+#HHSLogo {display:none;}
+#dnn_dnnBreadcrumb_lblBreadCrumb {display:none;}
+.SkinObject {display:none;}
+.nav-toggle{display:none;}
+.skip{display:none;}
+.hidden {display:none;}
+#dnn_rightPane {display:none;}
+.rightPane {display:none;}
+.bx-viewport {display:none;}
+#template-footer-wrapper { display: none !important; visibility: hidden;}
+#copyright {display:none;}
+#Languages {display:none;}
+#HHSFooter {display:none;}
+}

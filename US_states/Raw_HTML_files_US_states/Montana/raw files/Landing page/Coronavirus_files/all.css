@@ -1,0 +1,8 @@
+#ControlBar { -webkit-box-sizing: content-box!important; -moz-box-sizing: content-box!important; box-sizing: content-box!important;  } 
+#ControlBar_ControlPanel { z-index: 1000; } 
+#ControlNav > li > a, #ControlEditPageMenu > li, #ControlActionMenu > li > a, .controlBar_editPageInEditMode, .dnn_mact > li.actionMenuMove > ul li, #ControlEditPageMenu > li > a { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;  }
+
+.Normal {font-size:16px;}
+
+#template-layout-wrapper {overflow:hidden;margin-bottom:132px;}
+#template-page-wrapper {overflow:hidden;}

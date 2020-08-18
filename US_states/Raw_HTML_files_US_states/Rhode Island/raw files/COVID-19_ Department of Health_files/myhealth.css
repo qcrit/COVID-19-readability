@@ -1,0 +1,1228 @@
+@charset "utf-8";
+/* CSS Document */
+/*Font Chosen by Anne*/
+/*color adjustments*/
+#pageContainer {
+	max-width: 1200px;
+}
+.panel ul.ri, .purplepanel ul.ri, ul.ri {
+ list-style-image: url(/img/icons/anchor.png);
+
+ margin-top:.5em;
+ margin-left:0 !important;
+}
+.purplepanel, orangepanel{padding-bottom:2em; margin-bottom:1em}
+
+
+.purplepanel ul.ri {
+ list-style-image: url(/img/icons/anchor.png);
+  padding-left: 2em;
+   padding-right:2em;}
+
+.orangepanel h2, .orangepanel h3, .purplepanel h2, .purplepanel h3 {color:#fff;
+font-size:1.2em;
+font-weight:lighter;
+padding-left:1.5em;
+padding-top:.9em;}
+.purplepanel p{padding-left:2em; padding-right:2em; 
+ }
+
+.orangepanel ul.ri ul{
+ list-style-image: url(/img/icons/anchor_dkblue.png);
+ padding-left:2em;
+ padding-right:2em;
+ padding-top:.5em;
+ padding-bottom:.5em;
+ margin-top:.5em;
+ margin-left:1em;
+ 
+}
+.orangepanel .chart, .orangepanel #table_Up, .purplepanel .chart, .purplepanel #table_Up {
+	margin-left:2em; margin-right:2em;
+	margin-bottom:1em;}
+	
+	
+/*sidebar used in HealthFactsRI*/
+.sidebar p {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+.sidebar {
+	background-color: #dfe9f1;
+	padding-left: .7em;
+	padding-top: .9em;
+	padding-bottom: 1em;
+}
+.sidebar h3, .sidebar h2 {
+	color: #1A4C81;
+}
+
+/*key findings from HealthfactsRI*/
+.notes {
+	background-color: #dfe9f1;
+	padding-left: .7em;
+	padding-top: .9em;
+	padding-bottom: 1em;
+}
+.notes h3, .notes h2 {
+	color: #1A4C81;
+}
+.panel white{
+	background-color: white;
+}
+
+/*Weeble button color play*/	
+ ul .iwantto {
+ list-style-type:none;
+ list-style-position:inside;
+}
+ .iwantto li a, button.weeble {
+width: 100%;
+min-height: 6em;
+border-radius:.5em;
+display: block;
+padding: 1em .5em .5em .5em;
+background: #0f2d4d url(../img/site/weebles/weeble-btn.png) left bottom repeat-x;
+position: relative;
+ text-shadow: none;
+color: white;
+font-size:1em;
+font-weight: bolder;
+text-align: center;
+}
+ .iwantto li a:hover {
+background-color: rgba(175, 202, 234, .9);
+color: #fff;
+font-weight: bolder;
+text-decoration:none;
+text-shadow: #daf0f7 0 0 .5em;
+}
+ /*new weeble button for audiences*/
+ .infofor li a:hover {
+background-color: rgba(175, 202, 234, .8);
+ font-weight: bolder;
+text-decoration:underline;
+ text-shadow: #fff 0 0 .5em;
+}
+ .infofor li a {
+width: 100%;
+min-height: 5em;
+border-radius: .5em;
+display: block;
+padding: 2em .5em .5em .5em;
+background: #fff url(../img/site/weebles/adultweebs-btn.png) left top repeat-x;
+position: relative;
+margin: 1em auto;
+text-shadow:none;
+color:#003161;
+font-size:1.2em;
+font-weight: bolder;
+text-align: center;
+}
+.purplepanel{background-color:#4b406b; color:white;}
+.orangepanel {background-color:#f26522;
+color:white;}
+.alertpanel {
+	background-color:#ff9100;}
+.darkpanel ul.for, .orangepanel ul.for{
+list-style-image: url(/img/weebles/littleweebles.png);
+ padding-left:.6em;
+ margin-top:.5em;
+}
+/* Search list with a font!   thanks to http://www.sitepoint.com/use-webfont-icons-bullet-points-html5-lists/*/
+.darkpanel ul.find  {
+ list-style:none;
+}
+ 
+.darkpanel ul.find  li:before {
+ font-family: fontello;
+ content: "\e809";
+ color:white;
+ font-size:1.2em;
+ float: left;
+ width: 1.4em;
+}
+/*end of list with font.  Once I figure out how to add more fonts I will do this mor.
+/*Lists with  images not fonts*/
+/*for signifiying Rhode Island*/
+/*For signifying the Department of Health Services */
+.darkpanel ul.doh {
+ list-style-image:url(/img/site/seal_white.png);
+ padding-left:.8em;
+}
+.section-container .auto section .content p{color:aqua}
+
+.panel ul.doh, .section-container .auto section .content ul.doh {
+ list-style-image:url(/img/site/faviconclear.png);
+ padding-left:.8em;
+}
+/*For Signifying databases*/
+.panel ul.data {
+list-style-image: url(/img/icons/database.png);
+ padding-left:.2em;
+ margin-left:0 !important;
+}
+/*end of icon list*/	
+ h1, h2, h3, h4, h5, section.active div.content div.darkpanel h3, div.panel.darkpanel h2, section.active div.content div.darkpanel h4,
+.lightheadline h2, .large-6 columns .lightheadline h2 {
+font-family: 'Open Sans', sans-serif;
+ color:white;
+}
+.darkpanel h4 {font-weight: lighter; }
+
+ h1 {
+ background-color: #23689F;
+ padding:.2em;
+ font-size: 1.6em;
+ font-weight:bolder;
+}
+.darkpanel abbr {
+font-weight:bold;
+ color:#ccc;
+}
+
+
+
+
+
+
+section.active div.content div.darkpanel h3
+
+/*setting the header color right when an accordian is embedded in a darkpanel and the heading colors in panels*/
+
+
+.thinpanel h1, .thinpanel h2, .thinpanel h3,  .panel h1, .panel h2, .panel h3,  .darkpanel .section-container section .content h3, section.active div.content h3,  section.active div.content h2 {
+ color:#23689F;
+ background-color:transparent;
+ padding-left:0em;
+ font-weight:bolder;
+}
+.panel h2.alert a {color:white; font-weight: lighter;}
+.panel .darkpanel h2, div.button.blue a {color:white}
+ h2 {
+ font-size: 1.25em;
+}
+ h3 {
+ font-size: 1.1em;
+}
+ h4, .panel h4 {;
+	 font-size: 0.9375em;
+ color:#23689F;}
+ h5 {
+ font-size: .8em;
+}
+ h6 {
+ font-size: .7em;
+ font-family:Arial, Helvetica, sans-serif;
+}
+ h1.alert, h2.alert, .panel h2.alert, h3.alert, h4.alert, h2.alertwhite{
+ background-color: rgba(255, 153, 0, 1);
+ padding: .3em;
+  color:fff;
+ 
+}
+h2 .alert a{color:green; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"}
+h1.alert:hover, h1.alert:hover, h2.alert:hover, h3.alert:hover, h4.alert:hover
+{
+ background-color: rgba(205, 106, 33, .8);
+	color:white;
+}
+
+
+
+ Smaller Weeble button .iwantto li a {
+width: 100%;
+height: 4em;
+border-radius: .5em;
+display: block;
+padding: .2em;
+background: rgba(35, 104, 159, .9) url(../img/site/weebles/WeebleGroup.png) center .4em repeat;
+position: relative;
+margin: .3em auto;
+}
+.iwantto li a span {
+ position: absolute;
+ bottom: .5em;
+ font-size: .75em;
+ text-align: center;
+ line-height: 1.3em; background-color:  rgba(35, 104, 159, .6);
+ border-radius: .7em;
+ padding: .5em;
+ color: rgba(5, 28, 51, 0.92);
+ left: 10%;
+ right: 10%;
+}
+.iwantto li a:hover span { background-color:  rgba(35, 104, 159, 1);
+}
+/*Modifying Menu to show areas more*/
+.top-bar .top-bar-section ul li a {
+border-left: solid 3px #2B5077;
+border-right: solid 6px #14365A;
+}
+ .top-bar #section ul li a {
+padding: 11px;
+/*<!--font-size: 1.1em;-->*/
+font-weight: normal;
+}
+/*Modifying nav title*/
+.section-container.accordion {
+background-color: rgba(255, 255, 255, 1);
+}
+.maintitle {
+ padding:0.2em .5em;
+ margin: 0;
+ font-size: 1.2em;
+ font-weight: lighter;
+ color: #0f2d4d;
+ font-family: 'Open Sans', sans-serif;
+text-decoration: underline;
+}
+
+
+
+/*overriding font on news feed*/
+.rssheadline a {
+font-weight:lighter;
+ display: block;
+margin-bottom: .1em;
+font-family:Arial, Helvetica, sans-serif;
+}
+ .orbit-container .orbit-slides-container > * .orbit-shaded {
+position: absolute;
+bottom: 0;
+background: -webkit-linear-gradient(transparent, black); /* For Safari */
+background: -o-linear-gradient(transparent, black); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(transparent, black); /* For Firefox 3.6 to 15 */
+background: linear-gradient(transparent, black); /* Standard syntax */
+color:#FFF;
+padding: 10px 14px;
+font-size: 0.875em;
+width: 100%;
+}
+ .orbit-shaded a {
+color: #fff;
+text-decoration: none;
+line-height: inherit;
+}
+
+/* New Styles for the licenses pages*/
+.darkpanel div.noheadline .rsspubdate {display:none;}
+
+.darkpanel div.rssdescription , .darkpanel div.rsspubdate{
+	color: white;
+	padding-top: .1em;
+}
+.darkpanel ul li a[href^="http://www.nursys.com"] {
+	background: none;
+	padding-left: 0px;
+}
+.alertpanel {
+	background-color: rgba(255, 153, 0, 1);
+	padding-left: .5em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-top:1em;
+}
+.darkpanel .alertpanel a[href^="mailto"] {
+	background: url(/assets/img/icons/emaildarkblue.png) .2em center no-repeat;
+	color: #23689F;
+}
+
+
+.darkpanel .div.section-container.single.accordion {
+	
+	background-color:navy;}
+
+
+
+
+/*Correcting for overly bold lists*/
+
+.panel ul li, .panel ol li {
+font-size: .9em;
+margin-left: 1em;
+line-height: 1.3em;
+margin-bottom: .5em;
+}
+	 
+	/*correcting for not enough indent on lists*/
+	 .darkpanel ul, .darkpanel ol, .darkpanel dl {
+/*margin-left: 1em;*/
+list-style: none;
+}
+
+	
+/*adjusting back for grids not to have an indent*/
+.panel ul.small-block-grid-1.medium-block-grid-2.large-block-grid-4.placeholder li, .panel ul.small-block-grid-1.medium-block-grid-2.large-block-grid-3.placeholder li, .panel ul.small-block-grid-1.medium-block-grid-2.large-block-grid-2.placeholder li {
+margin-left: 0;
+}
+
+/*More button   LESLIE HELP!   a little button that does not display on print*/
+.more a, .darkpanel .more a, .moreprint a, a.more{
+text-transform:uppercase;
+background-color:#afcaea !important;
+background-image:none !important;
+color:#FFF !important;
+font-size:.8em;
+border-radius:.3em;
+padding: .2em .3em .2em .3em;
+}
+
+a.alert
+{
+text-transform:uppercase;  background-color: rgba(255, 153, 0, 1);
+color:#FFF !important;
+font-size:.8em;
+border-radius:.3em;
+padding: .2em .3em .2em .3em;
+}
+
+
+/*styles for data peripherals*/
+p.data {
+ text-align:center;
+ background-color: #c5e1f9;
+ margin-top: 0;
+ margin-bottom:0;
+ padding-bottom:.5em;
+}
+p.data a {
+text-transform:uppercase;
+background-color:#ff9900;
+
+background-image:none !important;
+color:#FFF;
+
+font-size:.8em;
+border-radius:.3em;
+padding: .2em .3em .2em .3em;
+margin-left:1em;
+}
+p.datanote {
+ font-size:.8em;
+ background-color: #c5e1f9;
+ color:#186DAE;
+ margin-top:0;
+ margin-bottom:0;
+ padding-bottom:.9em;
+ 
+ 
+}
+
+.orangepanel p.caption{
+	font-size:.8em;
+  margin-top:0;
+ margin-bottom:0;
+ padding-bottom:.9em;
+
+ 
+ padding-top:.3em;
+ margin-left:2.5em;}
+/*Correcting line height in nav  if there is a mailto  Adding this did not work .accordion section p.title  On asthma page */
+a[href^="mailto"] {
+height:inherit;
+}
+ 
+/*Accordian that is more like the old drop downs*/
+
+.section-container.dark.accordion section p.maintitle a, .section-container.dark.accordion .section p.maintitle a {
+ color:#222;
+}
+.section-container.best.accordion section p.title a, .section-container.best.accordion .section p.title a {
+background: rgba(26, 76, 129, 0.7);
+color: #fff;
+padding: .35em .35em .35em .5em;
+}
+.section-container.best.accordion section p.title a:after, .section-container.best.accordion .title a:after {
+content: "  >";
+font-size: 1.2em;
+font-weight: lighter;
+}
+.section-container.best.accordion section.odd p.title a, .section-container.best.accordion .section p.title a {
+background: rgba(99, 148, 186, 0.5);
+color: #fff;
+padding: .35em .35em .35em .5em;
+}
+.section-container.best.accordion section.alert p.title a, .section-container.best.accordion .section p.title a {
+ background-color: rgba(205, 106, 33, .8);
+color: #fff;
+padding: .35em .35em .35em .5em;
+font-weight:bolder;
+}
+
+.section-container.best.accordion section.odd p.title a:after, .section-container.best.accordion .title a:after {
+content: "  >";
+font-size: 1.2em;
+font-weight: lighter;
+
+}
+/*accordian dark*/
+.section-container.dark.accordion section p.maintitle a, .section-container.dark.accordion .section p.maintitle a {
+ color:#222;
+}
+ .section-container.dark.accordion section p.title a, .section-container.dark.accordion .section p.title a {
+background: rgba(0, 48, 97, 0.9);
+color: #fff;
+padding: .35em .35em .35em .5em;
+}
+.section-container.dark.accordion section p.title a:after, .section-container.dark.accordion .title a:after {
+content: "  >";
+font-size: 1.2em;
+font-weight: lighter;
+}
+.section-container.dark.accordion section.odd p.title a, .section-container.dark.accordion .section p.title a {
+background: rgba(0 49, 97, 0.8);
+color: #fff;
+padding: .35em .35em .35em .5em;
+}
+.section-container.dark.accordion section.alert p.title a, .section-container.dark.accordion .section p.title a {
+ background-color: rgba(0, 49, 97, .8);
+color: #fff;
+padding: .35em .35em .35em .5em;
+font-weight:bolder;
+}
+
+.section-container.dark.accordion section.odd p.title a:after, .section-container.dark.accordion .title a:after {
+content: "  >";
+font-size: 1.2em;
+font-weight: lighter;
+
+}
+
+/*Making Widgets from CDC the right size   this is based on the You Tube styles*/
+object, .fullwidth{
+ width: 100%;
+}
+/* line 207, ../scss/_styles.scss */
+.widget object {
+ height: auto;
+ min-height: 23em;
+}
+/* Buttons on forms*/
+
+button, .button {
+ border-radius:30px;
+ padding-top: .5em;
+ padding-left: .7em;
+ padding-bottom:.5em;
+ padding-right: .7em;
+ font-size: 1.2em;
+font-weight: lighter;
+    margin: 0 0 .8em;
+ background-color:#F0730E;
+	border-color: transparent;
+	
+}
+
+ button.pori, .panel .button, .darkpanel .button, a .button .pori{align-self: center;
+	 border-radius:50px;
+     padding: .7em;
+	 width:100%;
+ 	 margin-top: none;
+     border: none;
+	 background-color:#C4690E;}
+
+button.pori a, .darkpanel a.button, .panel a.button {
+    color: white;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+
+ 
+
+button.reportcard, input#submit.button.reportcard {
+	background: url(/img/icons/reportcard.png); 
+	background-size:40px 40px; background-repeat: no-repeat; 
+	background-position: 5% 50%;     
+	align-self: center;
+    border-radius: 50px;
+   padding:.8em .7em .8em 2em;
+    width: 100%;
+    margin-top: none;
+  
+    border: none;
+    background-color: #C4690E;
+   } 
+button.reportcard a, input#submit.button.reportcard {color:white;
+    font-weight: lighter;
+    font-size: 1em;
+	} 
+/*tab button*/
+a .tab, a.tab, .tab{
+ padding:.94em;;
+ font-size: .9em;
+ background-color:#F4D5A6;
+ border-radius:none;
+ display:inline-block;
+ margin-bottom:.1em;
+ color:#333;
+}
+a.tab.active{
+background-color:rgba(255, 255, 255,.9);
+}
+
+ .button.blue, a.survey.button {
+background-color:#1F4975;
+
+}
+
+ .darkpanel a, .footer a {
+ color: #f6b26b;
+}
+ button:hover, button:focus, .button:hover, .button:focus, .panel .button:hover  {
+ background-color: #CD6A21;	 
+}
+
+.button.blue:hover{background-color:rgba(35, 104, 159, 0.7) }
+	
+/*accordian adjustments*/
+
+
+a.orgchart{background-color: #C4690E;
+	background-image:url("../img/icons/OrgChart.png");
+    background-size: 45px 30px;
+	border-radius: 40px;
+    background-repeat: no-repeat;
+	background-position: 90% 50%;	
+padding: .4em 1.9em .4em .5em;
+	float:right;
+	font-size: .6em;
+color:white;
+vertical-align: middle;
+	display:inline-block;
+	
+ }
+
+h2 a.orgchart{
+background-position: 50% 50%;	
+padding:2.5em;}
+
+div.darkpanel .section-container.minimal.accordion{
+	padding-left:none;
+	padding-top:none;
+	margin-bottom:0px;
+	}
+div.darkpanel .section-container.minimal.accordion p.title {
+font-size: 1.1em;
+background-color:transparent;
+
+}
+div.darkpanel .section-container.minimal.accordion p.title a {color:white;
+background-color:transparent;}
+
+.darkpanel .section-container.minimal.accordion section .content
+{background-color:transparent;
+padding-left:0em;}
+
+	.section-container.minimal.accordion .title {
+font-size: 1.1em;
+}
+.top-bar abbr[title], .accordion abbr[title] {
+color:#999;
+}
+
+/*Weebles*/
+.extras {
+display: none !important;
+}
+
+@media screen {
+
+ body {
+ background:rgba(35, 104, 159, 0.7);}
+
+.alignleft{float:left
+}
+.alignright{float:right;}
+ul.socialmedia span.alignleft  li  a {color:#E5A04E;}
+ul.socialmedia  span.alignright li  a {color:white;}
+
+.study {
+ background-image:url(../img/site/weebles/researcher.png);
+ background-repeat:no-repeat;
+
+}
+
+
+
+.doc {
+ font-weight:lighter;
+ background-image:url(../img/site/weebles/providers.png);
+ background-repeat:no-repeat;
+   background-position: .4em 50%;
+ background-color:#ff9900;
+text-align:left;
+ padding: .7em 1em .7em 3em !important;
+ min-height:100px;
+}
+
+.pro {
+ font-weight:lighter;
+ font-size: 1.6em !important;
+ height: 5em;
+ width: 9em;	
+ background-position:left;
+ background-position-x: .3em;
+ background-color:#1F4975 !important;
+ border:none !important;
+ text-align:center;
+ padding: 1.4em 1.3em .7em 2.2em !important;
+}
+.epht {
+ background-image:url(../materialbyothers/img/EnvironmentalHealthPublicTrackingSmall.png);
+ background-repeat:no-repeat;
+	padding: .7em .1em .1em 2.1em !important;
+
+}
+.healthcare {
+ background-image:url(../img/site/pro/healthcare.png);
+  background-repeat:no-repeat;
+}
+	
+
+.food {
+ background-image:url(../img/site/pro/food.png);
+  background-repeat:no-repeat;
+}
+.water {
+ background-image:url(../img/site/pro/water.png);
+  background-repeat:no-repeat;
+}
+.press {
+ background-image:url(../img/site/pro/press-rel.png);
+  background-repeat:no-repeat;
+}
+.pressConf {
+ background-image:url(../img/site/pro/press-conf.png);
+  background-repeat:no-repeat;
+}
+.beauty {
+ background-image:url(../img/site/pro/beauty.png); 
+  background-repeat:no-repeat;
+}
+.environment {
+ background-image:url(../img/site/pro/environment.png); 
+  background-repeat:no-repeat;
+}
+.glow {
+ background-image:url(../img/site/pro/glow.png); 
+  background-repeat:no-repeat;
+}
+
+.map {
+ background-image:url(../img/site/RhodeIslandMap.png); 
+ background-size: 70px;
+ background-repeat:no-repeat;
+}
+
+.pubdate{    letter-spacing: .2em;
+    font-size: .7em;
+    margin-bottom: .8em;
+	    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+
+}
+.healthfacts {background-color:#1A4C81}
+
+ul.socialmedia {
+margin-bottom: 0em;
+margin-top: 15px;
+   
+}
+
+.panel ul.key.small-block-grid-1.medium-block-grid-2.large-block-grid-4.item li, .panel ul.key.small-block-grid-1.medium-block-grid-2.large-block-grid-3.item li, .panel ul.key.small-block-grid-1.medium-block-grid-2.large-block-grid-2.item li, h2.key {
+	background-color: #ff9900;
+	border-radius: .9em;
+	padding: .7em;
+	color: white;
+	margin-left: 0em;
+	border: 5px solid white;
+
+	font-weight: lighter;
+}
+	
+	
+.panel ul.key.small-block-grid-1.medium-block-grid-2.large-block-grid-4.item li a, .panel ul.key.small-block-grid-1.medium-block-grid-2.large-block-grid-3.item li a, .panel ul.key.small-block-grid-1.medium-block-grid-2.large-block-grid-2.item li a {
+	color: white;
+	text-decoration: underline;
+}
+
+
+.healthri {
+	border-bottom: none;
+	height: 100px;
+	background-image:url(/img/site/weebles/researcher.png);
+	background-repeat:no-repeat;
+    background-position:left;
+    background-position-x: 1em;
+}
+.healthri.facts {
+		background-color: #E5A04E;
+}
+
+.healthri.risks {
+		background-color: #4EDFE5;
+}
+
+.healthri h2 {
+	font-weight:lighter;
+    text-align:left;
+	padding-left: 4.5em;
+	padding-top:1em;
+	border-bottom: none;}
+	
+.healthri h2 a {color:white;}
+.panel.white{
+	background-color: white;
+}
+
+.key ul.small-block-grid-1.medium-block-grid-2.large-block-grid-4.item li, .key ul.small-block-grid-1.medium-block-grid-2.large-block-grid-3.item li, .key ul.small-block-grid-1.medium-block-grid-2.large-block-grid-2.item li {
+	background-color: #ff9900;
+	border-radius: .9em;
+	padding: .7em;
+	color: white;
+	margin-left: 0em;
+	border: 5px solid white;
+	font-size: .9em;
+	font-weight: lighter;
+}
+	
+	.key a {color:#2B5077}
+
+/*separate style for printing header*/
+.printlogo {
+ display:none;
+}
+
+
+
+}
+
+
+ @media only screen and (min-width : 1080px) {
+ .extras {
+display: block !important;
+}
+}
+
+/**** Weebles on Index *****/
+.weebles {
+ background: #051c33;
+ background: rgba(5, 28, 51, 0.92);
+ position: relative;
+ margin: 0em 0 .5em 0;
+ text-align: center;
+ overflow: hidden;
+}
+/*.weebles h3 {
+	color: #EE7422;
+	position: absolute;
+	bottom: 0;
+	right: 1.5em;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	z-index: 999;
+}*/
+@media screen and (min-width: 726px) {
+ .weebles h3 {
+ position: absolute;
+ bottom: 0;
+ right: 1.5em;
+ margin: 0;
+ padding: 0;
+ font-size: 1em;
+ z-index: 999;
+}
+}
+.weebles ul {
+ list-style-type: none;
+ height: auto;
+ text-align: center;
+ margin: .5em auto;
+ display: inline-block;
+}
+.weebles ul li {
+ list-style-type: none;
+	/* float: left; */
+	float: none;
+ display: inline-block;
+ margin: .25em;
+}
+.weebles ul li a {
+ min-height: auto;
+ display: inline-block;
+ position: relative;
+ padding: .5em;
+ border-radius: .125em;
+ background-color: #143a60;
+ border-top: solid 1px #2a5a8a;
+ border-bottom: solid 1px #010912;
+}
+.weebles ul li a:hover {
+ background-color: #1e476f;
+ color: #fff;
+}
+.weebles ul li a span.tip {
+display: inline;
+}
+.weebles ul li a .icon-left-dir {
+display: none;
+}
+.weebles ul li a:hover .icon-left-dir, .weebles ul li.weeble2 a.active .icon-left-dir {
+display: none;
+}
+.weeble1 a, .weeble2 a, .weeble3 a, .weeble4 a, .weeble5 a, .weeble6 a, .weeble7 a, .weeble8 a, .weeble9 a, .weeble10 a {
+background: transparent;
+}
+ @media screen and (min-width: 768px) {
+.weebles ul {
+margin: 0 auto;
+line-height: 0;
+text-align: center;
+}
+.weebles ul li {
+ float: left;
+ margin: 0;
+}
+.weebles ul li a {
+ min-height: 85px;
+ padding: 0;
+ border-radius: 0;
+ background-color: transparent;
+ border-top: none;
+ border-bottom: none;
+ margin: 0;
+ line-height: 1.6;
+}
+.weebles ul li a:hover {
+ background-color: transparent;
+}
+.weebles ul li a span.tip, .weebles ul li a .icon-left-dir {
+display: none;
+}
+.weebles ul li a:hover span.tip, .weebles ul li.weeble2 a.active span.tip {
+ display: inline-block;
+ position: absolute;
+ left: 25px;
+ top: 10px;
+ background-color: #EE7422;
+ padding: .5em;
+ color: #fff;
+ border-radius: .8em;
+ z-index: 999;
+ min-width: 100px;
+ font-size: .7em;
+}
+.weebles ul li a:hover .icon-left-dir, .weebles ul li.weeble2 a.active .icon-left-dir {
+ display: inline;
+ position: absolute;
+ left: 9px;
+ top: 8px;
+ color: #EE7422;
+ z-index: 999;
+}
+ .weeble1 a {
+background: transparent url(../img/site/weebles/WeebleGroup.png) left bottom no-repeat;
+width: 67.4px;
+}
+.weeble2 a {
+background: transparent url(../img/site/weebles/weeble2.png) left bottom no-repeat;
+width: 17px;
+}
+.weeble2 a:hover, .weeble2 a.active {
+background: transparent url(../img/site/weebles/weeble2.png) right bottom no-repeat;
+}
+.weeble3 a {
+background: transparent url(../img/site/weebles/WeebleGroup3.png) left bottom no-repeat;
+width: 34px;
+}
+.weeble4 a {
+background: transparent url(../img/site/weebles/weeble4.png) left bottom no-repeat;
+width: 15px;
+}
+.weeble4 a:hover {
+background: transparent url(../img/site/weebles/weeble4.png) right bottom no-repeat;
+}
+.weebles ul li.weeble4 a:hover span.tip {
+left: 25px;
+top: 30px;
+}
+.weebles ul li.weeble4 a:hover .icon-left-dir {
+left: 8px;
+top: 30px;
+}
+.weeble5 a {
+background: transparent url(../img/site/weebles/WeebleGroup5.png) left bottom no-repeat;
+width: 48px;
+}
+.weeble6 a {
+background: transparent url(../img/site/weebles/weeble6.png) left bottom no-repeat;
+width: 21px;
+}
+.weeble6 a:hover {
+background: transparent url(../img/site/weebles/weeble6.png) right bottom no-repeat;
+}
+.weebles ul li.weeble6 a:hover span.tip {
+left: 28px;
+top: 15px;
+}
+.weebles ul li.weeble6 a:hover .icon-left-dir {
+left: 12px;
+top: 15px;
+}
+.weeble7 a {
+background: transparent url(../img/site/weebles/WeebleGroup7.png) left bottom no-repeat;
+width: 81px;
+}
+.weeble8 a {
+background: transparent url(../img/site/weebles/weeble8.png) left bottom no-repeat;
+width: 18px;
+}
+.weeble8 a:hover {
+background: transparent url(../img/site/weebles/weeble8.png) right bottom no-repeat;
+}
+.weebles ul li.weeble8 a:hover span.tip {
+left: 25px;
+top: 30px;
+}
+.weebles ul li.weeble8 a:hover .icon-left-dir {
+left: 8px;
+top: 30px;
+}
+.weeble9 a {
+background: transparent url(../img/site/weebles/WeebleGroup9.png) left bottom no-repeat;
+width: 81px;
+}
+.weeble10 a {
+background: transparent url(../img/site/weebles/weeble10.png) left bottom no-repeat;
+width: 18px;
+}
+.weeble10 a:hover {
+background: transparent url(../img/site/weebles/weeble10.png) right bottom no-repeat;
+}
+.weebles ul li.weeble10 a:hover span.tip {
+left: 27px;
+top: 32px;
+}
+.weebles ul li.weeble10 a:hover .icon-left-dir {
+left: 10px;
+top: 32px;
+}
+}
+
+/*end weebles
+/*Adjustment to font size in listing of publications*/
+.section-container.minimal.accordion section .content ul, .section-container.minimal.accordion .section .content ul {
+font-size: 1em;
+padding-left:0em;
+
+}
+
+
+/*table rows in site color*/
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+ background-color: rgba(244, 213, 166, 0.4);
+}
+table tr th, .google-visualization-table-tr-head{
+background-color: #23689f;
+background-image:none !important;
+color: white !important;
+font-size: .9em;
+}
+table tr th a {
+color:#f6b26b;
+}
+ table tr th a:hover {
+color: white;
+}
+/*Adjustment of the styles from dojo on tables*/
+
+.tundra .dojoxGridHeader .dojoxGridCell {
+color: #CCC !important;
+}
+
+.dojoxGridRowTable {margin-bottom:0;}
+
+/*Adjustment of icon when there is a dark blue background.   Taken from Leslie's setting for the footer.*/
+.darkpanel a[href^="mailto"] {
+background: url(../assets/img/icons/emailorange.png) -.2em center no-repeat;
+}
+ .darkpanel a[href^="mailto"]:hover {
+background: url(../assets/img/icons/emailwhite.png) -.2em center no-repeat;
+}
+
+.darkpanel p span.tel {
+    background: url(../assets/img/icons/phone-orange.png) left center no-repeat;
+    background-size: 22px;
+    padding-left: 26px;
+}
+.darkpanel p span.tel:hover {
+    background: url(../assets/img/icons/phone-white.png) left center no-repeat;
+    background-size: 22px;
+    padding-left: 26px;
+}
+
+
+/*Adjustment to tab colors*/
+.section-container.auto > section > .title, .section-container.auto > .section > .title {
+background-color:#f4d5a6;
+}
+
+
+	
+/*Dr. Fines slide show on neighborhood health stations has a caption*/
+.figcaption {
+color:#3f668c;
+font-size:.8em;
+line-height:normal;
+}
+/* playing to override the ERSI dropdown on find a doc*/
+
+.tundra .dojoxGridHeader .dojoxGridCell {
+color: #CCC !important;
+}
+
+.dijitReset .dijitInputField .dijitArrowButtonInner{
+	
+	cursor: default !important;
+position: absolute !important;
+width: 2.5em !important;
+height: 2.3125em !important;
+display: block !important;
+right: 0 !important;
+top: 0 !important;}
+/*correction to sliders as they get smaller - overriding padding*/
+.orbit-container .orbit-slides-container > * .orbit-caption {
+padding: 2px 10px 2px 10px;
+
+
+}
+/*trying to fix footer this is not the way to go*/
+.footermenu {background-color: rgba(26, 76, 129, 0.7) ;}
+
+.footermenu ul {
+	line-height: inherit;
+	padding-top:.5em;
+	padding-bottom:.2em;
+}
+
+.footermenu ul li {
+	float: left;
+	margin-right: 1.5em;
+	list-style-type: none;
+	display: inline-block;
+	font-size: .8em;
+}
+
+
+.footermenu ul li a {
+	
+	padding: .75em 0;
+	
+	/*background-color: rgba(21, 61, 103, 0.8);*/
+	color: #fff;
+}
+.footermenu ul li a:hover  {color: rgba(246, 178, 107, .8);}
+footer dd {
+	margin: 0;
+}
+
+footer ul li a[href^="http://"], footer ul li a[href^="https://"] {display: inline;}
+
+
+/*PHAB button in the footer*/
+ul.footermargin li{
+   
+  
+    padding-top: 5px;
+    display: inline-block}
+
+ul.footermargin li.phab{
+    background: url(../img/site/PHAB_SEAL30px.png) left center no-repeat;
+    background-size: 30px;
+    padding-left: 40px;
+    height: 30px;
+    }
+
+/*trying to fix forms*/
+
+.copyright, .policies {
+	padding-top: 0.7em;	
+}
+
+.footermargin {
+	margin: 0.5em 0;	
+}
+
+
+fieldset {
+	border: solid 1px #6595bc;
+	padding:.8em;
+}
+
+fieldset legend {background-color: transparent;}
+label {color: #0F2D4D; text-shadow: none;}
+input[type="text"] {
+    background-color: #fff !important;
+	border-top: solid 1px #ccc !important;
+	height: auto !important;
+}
+form.custom .custom.dropdown .current, form .dropdown .current, form .dropdown .selected {background-color: transparent;}
+
+.google-visualization-table{margin-bottom: 1em;}
+
+
+.large-3.columns form fieldset{background-color:#23689F;} 
+.large-3.columns form fieldset legend, 
+.large-3.columns form h4, .large-3.columns form h4, 
+	.large-3.columns form h5 {color: white;}
+	
+	.large-3.columns form ul li, .large-3.columns form p {color:#F4D5A6;}
+
+
+.alert-box a{text-align: center}
+/*columns on big screen*/
+@media (min-width: 1000px) {
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+.newspaper2
+{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+}
+@media (min-width:750px) {
+	.newspaper4 {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
+}
+
+@media only screen and (min-width : 1025px) {
+.lic{
+	display: none !important;
+}
+}
+@media (max-width:768px) {
+   .floatDIV {
+      width: 35%!important;
+   }
+}
+@media (max-width:639px) {
+   .floatDIV {
+      width: 100%!important;
+      margin-right: 2px!important;
+   }
+}
+.tel {
+    background: url(../assets/img/icons/phone-blue.png) left center no-repeat;
+    background-size: 22px;
+    padding-left: 26px;
+}

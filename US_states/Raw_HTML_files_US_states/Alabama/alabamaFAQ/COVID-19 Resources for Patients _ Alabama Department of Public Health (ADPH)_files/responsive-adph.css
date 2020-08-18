@@ -1,0 +1,293 @@
+/* Reset fixed widths */
+body,  
+.columns,
+.push,
+.block1,
+.block2,
+.block3,
+.block1-header,
+.block2-header,
+.block3-header, 
+.block1-content,
+.block2-content,
+.block3-content,
+.centeredmenu { 
+	width: initial; 
+}
+
+.header, 
+.share,
+.searchform,
+.footer {
+	width:100%;
+}
+
+
+/* Override Bootstrap font-size default */
+html { font-size: 16px; }
+
+/* Override Bootstrap container default to match front.css (includes padding)*/
+.container-fluid {
+	max-width: 830px;
+	padding-left:0;
+	padding-right:0;
+}
+
+
+/* Custom Properties to update/override front.css */
+.flex-container {
+	display:flex;
+}
+
+.eyebrow {
+	height:25px;
+	margin-top: 15px;
+	margin-right:0;
+}
+
+.logo {
+	margin-top:-45px; /* Compensating for margin height */
+	padding:0;
+}
+
+.socialmedia {
+    position: relative;
+    top:initial;
+    left:initial;
+    margin:12px -15px  0 0;
+    padding: 0;
+    width: initial;
+    height: initial; 
+
+}
+
+.headerlinks {
+    position: relative;
+    float:right;
+    top:initial;
+    left:initial;
+    margin: 0;
+    padding: 0;
+    width: 450px;
+    height: 30px;
+    text-align: right;
+    z-index: 100;
+}
+
+.share {
+    height:initial;
+}
+.share img {
+	padding:4px;
+}
+
+.promo1,
+.promo2,
+.promo3,
+.promo4 {
+	background-size:100% 69px;
+	height:69px;
+	width:100%;
+}
+
+
+.top10,
+.leftnav,
+.featured,
+.promos {
+	width:100%;
+}
+
+
+.share div,
+#sidebar,
+#mainContent div {
+	padding:0;
+}
+
+#mainContent .hidden-sm.hidden-md.hidden-lg.col-xs-12 {
+    margin-bottom: 155px;
+}
+
+.share p {
+	padding:5px;
+}
+
+.leftnav {
+	height:auto;
+}
+
+/* To allow varying left nav colors on standard pages */
+.columns.standard,
+.columns.standard .leftnav {
+	background-color: #000;
+}
+.standard #mainContent {
+	background-color:#fff;
+}
+
+.standard #mainContent .mainContent {
+	padding: 15px;
+}
+@media (min-width: 768px) {
+    .standard #mainContent .mainContent {
+	    margin-bottom: 125px; /* Leave room for banner footer if main content is taller then side nav */
+    }
+}
+
+.banner img {
+	width: 100%;
+}
+
+/* Put footer banner at bottom of page */
+#footerBanner {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #footerBanner {
+        bottom: 0;
+    }
+}
+
+ul {
+	text-align: left;
+}
+
+/* Navigation Customization */
+.navbar { 
+	border-radius: 0px;
+	margin: 0px; 
+}
+.navbar-default {
+	background-color: #5b8d26; /* fallback/image non-cover color */
+    background-image: -ms-linear-gradient(top, #78a14d 0%, #42671c 100%); /* IE10 */
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#78a14d, endColorstr=#42671c); /* IE8 */ 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#78a14d, endColorstr=#42671c); /* IE6 & IE7 */ 
+	background-image: -khtml-gradient(linear, top, from(#78a14d), to(#42671c)); /* Konqueror */
+	background-image: -moz-linear-gradient(top, #78a14d 0%, #42671c 100%); /* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(top, #78a14d 0%, #42671c 100%); /* Opera */ 
+	background-image: -webkit-gradient(linear, top, color-stop(0, #78a14d), color-stop(1, #42671c)); /* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-linear-gradient(top, #78a14d 0%, #42671c 100%); /* Webkit (Chrome 11+) */ 
+	background-image: linear-gradient(top, #78a14d 0%, #42671c 100%); /* Proposed W3C Markup */ 
+
+	border:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	min-height:36px;
+	margin-top: 5px;
+}
+
+#navbar ul {
+	height: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li { border-bottom: 1px solid #517e22; color: #fff; }
+.navbar-default .navbar-nav>li:last-child { border: none; color: #fff;}
+.navbar-default .navbar-nav>li:after { content: "|"; }
+.navbar-default .navbar-nav>li:last-child:after { content: ""; }
+.navbar-default .navbar-nav>li>a { display: inline-block; padding: 10px; color: #fff; }
+.navbar-default .navbar-nav>li>a:hover { color: #d6fab0; }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color:#517e22; }
+
+.navbar-toggle { background-color:#fff; }
+.navbar-toggle .icon-bar {
+	width: 16px;
+	height: 1px;
+}
+
+/* since 3.1.0 */
+    .navbar-collapse.collapse.in { display: block!important; }
+    .collapsing { overflow: hidden!important; }
+
+.searchform {
+	font-size: 12px;
+	height: 100%;
+}
+
+
+.searchform .searchfield { 
+	height: 22px;
+	margin: 3px 0 0;
+	padding: 3px;
+	width: 150px;
+}
+
+.searchform .searchbutton { 
+	border-radius: 4px;
+	font-size: inherit; /* Override former size to allow proper alignment with sibling */
+	height: 22px;
+	margin: 3px 0 0;
+
+}
+/* Footer Adjustments to Height */
+.push { height: auto; }
+.footer { background-color: #5b8d26; /* fallback/image non-cover color */
+    background-image: -ms-linear-gradient(left, #78a14d 0%, #42671c 100%); /* IE10 */
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#78a14d, endColorstr=#42671c); /* IE8 */ 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#78a14d, endColorstr=#42671c); /* IE6 & IE7 */ 
+	background-image: -khtml-gradient(linear, left, from(#78a14d), to(#42671c)); /* Konqueror */
+	background-image: -moz-linear-gradient(left, #78a14d 0%, #42671c 100%); /* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(left, #78a14d 0%, #42671c 100%); /* Opera */ 
+	background-image: -webkit-gradient(linear, left, color-stop(0, #78a14d), color-stop(1, #42671c)); /* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-linear-gradient(left, #78a14d 0%, #42671c 100%); /* Webkit (Chrome 11+) */ 
+	background-image: linear-gradient(left, #78a14d 0%, #42671c 100%); /* Proposed W3C Markup */ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+@media(min-width: 798px) {
+	.navbar {
+		padding: 0px 20px;
+	}
+}
+
+
+@media(max-width: 798px) {
+	.topnav { margin-bottom:7px; }
+	.navbar-default .navbar-nav>li:after { content: ""; }
+	.searchform .searchfield { width:85%; }
+
+	.block1,
+	.block2,
+	.block3 { margin: 5px 5px 0 5px}
+
+}
+
+@media(max-width: 570px){
+    .container-fluid {
+        max-width: 570px;
+    }
+	.logo img {
+		margin-top: 12px;
+		width: 95%;
+	}
+}
+
+
+.top10 h5, .featured h5, .block1-header h5, .block2-header h5, .centeredmenu ul li a {
+    font-weight: bold;
+}
+
+
+/* Center the Navbar in non-mobile mode */
+@media (min-width: 768px) {
+    .header { height:45px; }
+
+    #navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+    
+    #navbar {
+        text-align: center;
+    }
+}
+
+/* IE fixes */
+.socialmedia {
+   
+}

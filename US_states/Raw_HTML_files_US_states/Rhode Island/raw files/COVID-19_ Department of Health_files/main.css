@@ -1,0 +1,22 @@
+body {
+    border-top: none;
+    background-color: #FFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+.syndicate {
+    width: 100%;
+}
+
+.body-wrapper h1:first-child,
+.content h1:first-child {
+    display: block!important;
+}
+
+#cdcAttribution {
+    width: 100%;
+}
+

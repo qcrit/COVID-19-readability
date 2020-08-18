@@ -1,0 +1,1 @@
+Document	ARI	Coleman-Liau (grade levels)	Coleman-Liau (pred. Cloze scores)	New Dale-Chall	Flesch-Kincaid	Flesch Reading Ease	FORCAST	Fry	Gunning Fog	New Fog Count	Raygor Estimate	SMOG/Users/vishala/Documents/Idaho/Idaho FAQPDFi.txt	11.2	12.5	39	9-10	11.3	45	11.4	15	11.7	8.3	13	13.4/Users/vishala/Documents/Idaho/Manual.txt	10.2	11.9	41	9-10	10.6	47	11.3	14	11	7.4	12	12.8

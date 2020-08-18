@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html class="js touchevents csstransforms supports csstransforms3d csstransitions preserve3d passiveeventlisteners" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.admin-bar #utahGovHeaderWrapper {    top: 32px;}#utahGovHeaderWrapper {    font-family: sans-serif;    display: -webkit-flex;	display: -ms-flexbox;	display: flex;	-webkit-box-pack: justify;	-webkit-justify-content: space-between;	-ms-flex-pack: justify;	justify-content: space-between;    position: absolute;    z-index: 10000;    top: 0;    left: 0;    width: 100%;    height: 32px;    background: #222222;    font-size: 16px;}#utahGovHeaderWrapper > div {    line-height: 32px;}#utahGovHeaderWrapper a, #utahGovHeaderWrapper div {    text-decoration: none;    color: #FFFFFF;    transition: all 400ms;    display: block;}#utahGovSection, #settingsSection {    display: block;    float: left;    height: 100%;    min-width: 150px;}#skipNavLink {    position: absolute;    width: 1px;    height: 1px;    padding: 0;    overflow: hidden;    clip: rect(0,0,0,0);    white-space: nowrap;    clip-path: inset(50%);    border: 0;}#skipNavLink:focus {    position: fixed;    width: auto;    height: auto;    padding: .5rem;    overflow: visible;    clip: auto;    white-space: normal;    clip-path: none;    z-index: 23000;    background: #fff;    color: #000;}#utahGovLink {    width: 100%;    height: 100%;    background: rgba(255,255,255,0.05);    background-size: 39px;    padding: 0 10px 0 60px;    box-sizing: border-box;}#utahGovLink svg, #settingsLink svg {    position: absolute;	top: 50%;	-webkit-transform: translateY(-50%);	transform: translateY(-50%);	left: 0;	height: 80%;    max-height: 32px;    width: 56px;}#utahGovAgencySection {    display: block;    height: 100%;    text-align: center;    overflow: hidden;    padding: 0 20px;}#utahGovAgencySection:hover, #utahGovAgencySection a:focus {    background: rgba(255,255,255,0.05);}#utahGovAgencySection img {    vertical-align: middle;}#settingsSection {    position: relative;}#agencyShortName {    display: none;}#settingsLink svg {    left: auto;    right: 10px;    height: 60%;    max-height: 22px;    width: 22px;}#settingsLink {    width: 100%;    height: 100%;    background: rgba(255,255,255,0.05);    padding: 0 60px 0 10px;    box-sizing: border-box;    text-align: right;}#settingsLink:hover, #settingsLink:focus,#utahGovLink:hover, #utahGovLink:focus {    background-color: rgba(255,255,255,0.15);}#utahGovSection nav ul {    display: none;    list-style-type: none;    margin: 0;    padding: 0;    background: #222222;    position: absolute;    z-index: 2000;    top: 32px;}#utahGovSection nav ul.show {    display: block;}#utahGovSection nav ul li a {    display: block;    padding: 0 35px;    background: rgba(255,255,255,0.05)}#utahGovSection nav ul li a:hover,#utahGovSection nav ul li a:focus {    background: rgba(255,255,255,0.15)}#siteSettingsPanelWrapper, #siteSettingsBackdrop {    display: block;    position: fixed;    width: 100%;    height: 100%;    z-index: 20000;    background: rgba(0,0,0,0.25);    top: 0;    left: 0;}#siteSettings {    display: inline-block;    position: fixed;    left: 50%;    width: 500px;    padding: 50px;    background: #ffffff;    margin: 100px 0 0 -250px;    z-index: 21000;    box-sizing: border-box;    text-align: center;    font-size: 16px;}#siteSettings h2 {    margin: 0 0 .8rem 0;    font-size: 1.5em;    color: #333 !important;}#siteSettings ul {    list-style-type: none;    padding: 0;    margin: 0;}#siteSettings ul li {    margin: 15px 0 0 0;}.utahGovHeader_CloseButton {    display: block;    width: 30px;    height: 30px;    border: none;    border-radius: 15px;    text-indent: -9999px;    overflow: hidden;    background: #444444;    position: absolute;    right: -15px;    top: -15px;    transition: all 400ms;    padding: 0;}.utahGovHeader_CloseButton.red {    background: #ff5400;}.utahGovHeader_CloseButton:hover, .utahGovHeader_CloseButton:focus {    background: #111111;}.utahGovHeader_CloseButton:before, .utahGovHeader_CloseButton:after {    content: "";    display: block;    height: 3px;    width: 22px;    background: #ffffff;    position: absolute;    top: calc(50% - 1px);    left: calc(50% - 11px);}.utahGovHeader_CloseButton:before {    transform: rotate(45deg);}.utahGovHeader_CloseButton:after {    transform: rotate(-45deg);}#siteSettings .button {    background: #444444;    color: #ffffff;    display: inline-block;    padding: 14px 20px;    text-decoration: none;    border: none;    border-radius: 3px;    transition: all 400ms;    font-size: 1em;    font-weight: normal;    line-height: 1rem;}#siteSettings .button:hover, #siteSettings .button:focus {    background: #111111;}#siteSettings .button .button {    background: #eeeeee;    padding: 5px;    color: #444444;}#siteSettings .button.bg-red {    background: #ff5400;    color: #ffffff;}#siteSettings label {    font-weight: normal;}#siteSettings input[type="text"] {    border: 1px solid #444;	border-radius: 3px;	padding: 12px 10px;	width: 65%;	display: inline-block;	line-height: 1rem;}#siteSettings_FontWeightOptions {    margin-bottom: 8px;    width: 170px;}#siteSettings_search-title {    font-size: 1.35rem;    display: block;    margin-bottom: .75rem;}#importantMessageBox {    background: #ff8537;    color: #fff;	position: absolute;	top: 32px;	z-index: 20000;	padding: 0 20px 20px;	width: 80%;	max-width: 600px;	text-align: center;	left: 50%;	-webkit-transform: translateX(-50%);	transform: translateX(-50%);}#importantMessageBox .button {    background: #fff;    color: #ff8537;    display: inline-block;    padding: 10px 20px;    text-decoration: none;    border: none;    border-radius: 3px;    transition: all 400ms;}@media only screen and (max-width: 782px) {    .admin-bar #utahGovHeaderWrapper {        top: 45px;    }}@media only screen and (max-width: 640px) {    #utahGovSection, #settingsSection {        width: auto;        min-width: 0;    }    #utahGovSection span.text,    #settingsSection span.text,    #agencyFullName {        display: none;    }    #agencyShortName {        display: inline;    }    #settingsLink svg {        right: 16px;    }    #utahGovHeaderWrapper #utahGovAgencySection {        display: -webkit-box;        display: -webkit-flex;        display: -ms-flexbox;        display: flex;        -webkit-box-align: center;        -webkit-align-items: center;        -ms-flex-align: center;        align-items: center;        line-height: normal;    }    #siteSettings {	    width: 92%;	    margin: 60px 0 0 -46%;	    padding: 10px;    }}    </style>
+  
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="pingback" href="https://coronavirus.utah.gov/xmlrpc.php">
+<title>What is community spread? | coronavirus</title>
+
+<!-- Google Tag Manager -->
+<script async="" src="./What is community spread_ _ coronavirus_files/gtm.js"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M6VGMSS');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="coronavirus » Feed" href="https://coronavirus.utah.gov/feed/">
+<link rel="alternate" type="application/rss+xml" title="coronavirus » Comments Feed" href="https://coronavirus.utah.gov/comments/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="./What is community spread_ _ coronavirus_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-theme-css" href="./What is community spread_ _ coronavirus_files/theme.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="x-stack-css" href="./What is community spread_ _ coronavirus_files/icon.css" type="text/css" media="all">
+<link rel="stylesheet" id="x-cranium-migration-css" href="./What is community spread_ _ coronavirus_files/icon(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="x-child-css" href="./What is community spread_ _ coronavirus_files/style.css" type="text/css" media="all">
+<script type="text/javascript" src="./What is community spread_ _ coronavirus_files/utah_gov_header.js"></script>
+<script type="text/javascript" src="./What is community spread_ _ coronavirus_files/jquery.js"></script>
+<script type="text/javascript" src="./What is community spread_ _ coronavirus_files/jquery-migrate.min.js"></script>
+<link rel="https://api.w.org/" href="https://coronavirus.utah.gov/wp-json/">
+<link rel="canonical" href="https://coronavirus.utah.gov/what-is-community-spread/">
+<link rel="shortlink" href="https://coronavirus.utah.gov/?p=505">
+<link rel="alternate" type="application/json+oembed" href="https://coronavirus.utah.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoronavirus.utah.gov%2Fwhat-is-community-spread%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://coronavirus.utah.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoronavirus.utah.gov%2Fwhat-is-community-spread%2F&amp;format=xml">
+<link rel="icon" href="https://coronavirus.utah.gov/wp-content/uploads/cropped-favicon-8-32x32.png" sizes="32x32">
+<link rel="icon" href="https://coronavirus.utah.gov/wp-content/uploads/cropped-favicon-8-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://coronavirus.utah.gov/wp-content/uploads/cropped-favicon-8-180x180.png">
+<meta name="msapplication-TileImage" content="https://coronavirus.utah.gov/wp-content/uploads/cropped-favicon-8-270x270.png">
+<style id="x-generated-css">a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,#respond .required,.x-pagination a:hover,.x-pagination span.current,.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,.x-scroll-top:hover,.x-comment-author a:hover,.mejs-button button:hover{color:rgb(253,117,99);}a:hover{color:rgb(253,117,99);}a.x-img-thumbnail:hover,textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="date"]:focus,input[type="month"]:focus,input[type="time"]:focus,input[type="week"]:focus,input[type="number"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="color"]:focus,.uneditable-input:focus,.x-pagination a:hover,.x-pagination span.current,.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,.x-scroll-top:hover{border-color:rgb(253,117,99);}.flex-direction-nav a,.flex-control-nav a:hover,.flex-control-nav a.flex-active,.x-dropcap,.x-skill-bar .bar,.x-pricing-column.featured h2,.x-portfolio-filters,.x-entry-share .x-share:hover,.widget_price_filter .ui-slider .ui-slider-range,.mejs-time-current{background-color:rgb(253,117,99);}.x-portfolio-filters:hover{background-color:rgb(253,117,99);}.x-comment-author,.x-comment-time,.comment-form-author label,.comment-form-email label,.comment-form-url label,.comment-form-rating label,.comment-form-comment label{font-family:"Open Sans",sans-serif;}.x-comment-time,.entry-thumb:before,.p-meta{color:rgb(60,60,60);}.entry-title a:hover,.x-comment-author,.x-comment-author a,.comment-form-author label,.comment-form-email label,.comment-form-url label,.comment-form-rating label,.comment-form-comment label,.x-accordion-heading .x-accordion-toggle,.x-nav-tabs > li > a:hover,.x-nav-tabs > .active > a,.x-nav-tabs > .active > a:hover,.mejs-button button{color:rgb(0,0,0);}.h-comments-title small,.h-feature-headline span i,.x-portfolio-filters-menu,.mejs-time-loaded{background-color:rgb(0,0,0) !important;}@media (min-width:1200px){.x-sidebar{width:250px;}body.x-sidebar-content-active,body[class*="page-template-template-blank"].x-sidebar-content-active.x-blank-template-sidebar-active{padding-left:250px;}body.x-content-sidebar-active,body[class*="page-template-template-blank"].x-content-sidebar-active.x-blank-template-sidebar-active{padding-right:250px;}}html{font-size:16px;}@media (min-width:480px){html{font-size:16px;}}@media (min-width:767px){html{font-size:16px;}}@media (min-width:979px){html{font-size:16px;}}@media (min-width:1200px){html{font-size:16px;}}body{font-style:normal;font-weight:400;color:rgb(60,60,60);background-color:rgb(255,255,255);}.w-b{font-weight:400 !important;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Open Sans",sans-serif;font-style:normal;font-weight:400;}h1,.h1{letter-spacing:-0.015em;}h2,.h2{letter-spacing:-0.015em;}h3,.h3{letter-spacing:-0.015em;}h4,.h4{letter-spacing:-0.015em;}h5,.h5{letter-spacing:-0.015em;}h6,.h6{letter-spacing:-0.015em;}.w-h{font-weight:400 !important;}.x-container.width{width:86%;}.x-container.max{max-width:1100px;}.x-main.full{float:none;display:block;width:auto;}@media (max-width:979px){.x-main.full,.x-main.left,.x-main.right,.x-sidebar.left,.x-sidebar.right{float:none;display:block;width:auto !important;}}.entry-header,.entry-content{font-size:1rem;}body,input,button,select,textarea{font-family:"Open Sans",sans-serif;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a,blockquote{color:rgb(0,0,0);}.cfc-h-tx{color:rgb(0,0,0) !important;}.cfc-h-bd{border-color:rgb(0,0,0) !important;}.cfc-h-bg{background-color:rgb(0,0,0) !important;}.cfc-b-tx{color:rgb(60,60,60) !important;}.cfc-b-bd{border-color:rgb(60,60,60) !important;}.cfc-b-bg{background-color:rgb(60,60,60) !important;}.x-btn,.button,[type="submit"]{color:#ffffff;border-color:rgb(78,162,130);background-color:rgb(78,162,130);text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);border-radius:100em;padding:0.579em 1.105em 0.842em;font-size:19px;}.x-btn:hover,.button:hover,[type="submit"]:hover{color:rgb(255,255,255);border-color:rgb(0,165,128);background-color:rgba(0,165,128,0.75);text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);}.x-btn.x-btn-real,.x-btn.x-btn-real:hover{margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);}.x-btn.x-btn-real{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real:hover{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-flat,.x-btn.x-btn-flat:hover{margin-bottom:0;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);box-shadow:none;}.x-btn.x-btn-transparent,.x-btn.x-btn-transparent:hover{margin-bottom:0;border-width:3px;text-shadow:none;text-transform:uppercase;background-color:transparent;box-shadow:none;}.x-navbar .desktop .x-nav > li > a,.x-navbar .desktop .sub-menu a,.x-navbar .mobile .x-nav li a{color:rgb(42,42,42);}.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a,.x-navbar .desktop .sub-menu a:hover,.x-navbar .desktop .sub-menu .x-active > a,.x-navbar .desktop .sub-menu .current-menu-item > a,.x-navbar .desktop .x-nav .x-megamenu > .sub-menu > li > a,.x-navbar .mobile .x-nav li > a:hover,.x-navbar .mobile .x-nav .x-active > a,.x-navbar .mobile .x-nav .current-menu-item > a{color:rgb(0,0,0);}.x-navbar .desktop .x-nav > li > a{height:80px;padding-top:34px;}.x-navbar .desktop .x-nav > li ul{top:80px;}@media (min-width:1200px){body.x-sidebar-content-active .x-widgetbar,body.x-sidebar-content-active .x-navbar-fixed-top,body[class*="page-template-template-blank"].x-sidebar-content-active.x-blank-template-sidebar-active .x-widgetbar,body[class*="page-template-template-blank"].x-sidebar-content-active.x-blank-template-sidebar-active .x-navbar-fixed-top{left:250px;}body.x-content-sidebar-active .x-widgetbar,body.x-content-sidebar-active .x-navbar-fixed-top,body[class*="page-template-template-blank"].x-content-sidebar-active.x-blank-template-sidebar-active .x-widgetbar,body[class*="page-template-template-blank"].x-content-sidebar-active.x-blank-template-sidebar-active .x-navbar-fixed-top{right:250px;}}@media (max-width:979px){}.x-navbar-inner{min-height:80px;}.x-brand{margin-top:20px;font-family:"Open Sans",sans-serif;font-size:30px;font-style:normal;font-weight:400;letter-spacing:-0.015em;color:#272727;}.x-brand:hover,.x-brand:focus{color:#272727;}.x-brand img{width:250px;}.x-navbar .x-nav-wrap .x-nav > li > a{font-family:"Open Sans",sans-serif;font-style:normal;font-weight:400;letter-spacing:0.085em;text-transform:uppercase;}.x-navbar .desktop .x-nav > li > a{font-size:12px;}.x-navbar .desktop .x-nav > li > a:not(.x-btn-navbar-woocommerce){padding-left:5px;padding-right:5px;}.x-navbar .desktop .x-nav > li > a > span{padding-right:calc(1.25em - 0.085em);}.x-btn-navbar{margin-top:24px;}.x-btn-navbar,.x-btn-navbar.collapsed{font-size:32px;}@media (max-width:979px){.x-widgetbar{left:0;right:0;}}@font-face{font-family:'FontAwesomePro';font-style:normal;font-weight:900;font-display:block;src:url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-solid-900.woff2') format('woff2'),url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-solid-900.woff') format('woff'),url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-solid-900.ttf') format('truetype');}[data-x-fa-pro-icon]{font-family:"FontAwesomePro" !important;}[data-x-fa-pro-icon]:before{content:attr(data-x-fa-pro-icon);}[data-x-icon],[data-x-icon-o],[data-x-icon-l],[data-x-icon-s],[data-x-icon-b],[data-x-fa-pro-icon],[class*="cs-fa-"]{display:inline-block;font-style:normal;font-weight:400;text-decoration:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}[data-x-icon].left,[data-x-icon-o].left,[data-x-icon-l].left,[data-x-icon-s].left,[data-x-icon-b].left,[data-x-fa-pro-icon].left,[class*="cs-fa-"].left{margin-right:0.5em;}[data-x-icon].right,[data-x-icon-o].right,[data-x-icon-l].right,[data-x-icon-s].right,[data-x-icon-b].right,[data-x-fa-pro-icon].right,[class*="cs-fa-"].right{margin-left:0.5em;}[data-x-icon]:before,[data-x-icon-o]:before,[data-x-icon-l]:before,[data-x-icon-s]:before,[data-x-icon-b]:before,[data-x-fa-pro-icon]:before,[class*="cs-fa-"]:before{line-height:1;}@font-face{font-family:'FontAwesome';font-style:normal;font-weight:900;font-display:block;src:url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-solid-900.woff2') format('woff2'),url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-solid-900.woff') format('woff'),url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-solid-900.ttf') format('truetype');}[data-x-icon],[data-x-icon-s],[data-x-icon][class*="cs-fa-"]{font-family:"FontAwesome" !important;font-weight:900;}[data-x-icon]:before,[data-x-icon][class*="cs-fa-"]:before{content:attr(data-x-icon);}[data-x-icon-s]:before{content:attr(data-x-icon-s);}@font-face{font-family:'FontAwesomeBrands';font-style:normal;font-weight:normal;font-display:block;src:url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-brands-400.woff2') format('woff2'),url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-brands-400.woff') format('woff'),url('https://coronavirus.utah.gov/wp-content/plugins/cornerstone/assets/dist/fonts/fa-brands-400.ttf') format('truetype');}[data-x-icon-b]{font-family:"FontAwesomeBrands" !important;}[data-x-icon-b]:before{content:attr(data-x-icon-b);}.x-boxed-layout-active .site{border:0;box-shadow:0 0.15em 4em rgba(0,0,0,0.1);}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{line-height:1.2 !important;}h1,.h1,.entry-title{font-size:2rem;}.entry-title{padding:0;}h2,.h2{font-size:1.8rem;}h3,.h3{font-size:1.6rem;}h4,.h4{font-size:1.4rem;}h5,.h5{font-size:1.2rem;}h6,.h6{font-size:1.1rem;}.h-resp-main{max-width:15em;margin:0;}.h-resp-main.cs-ta-center{margin-left:auto;margin-right:auto;}.h-sup{display:block;margin-right:-0.15em;margin-bottom:1em;font-family:"Open Sans",sans-serif;font-size:0.375em;font-weight:400;letter-spacing:0.15em;line-height:1 !important;text-transform:uppercase;color:inherit;}.h-custom-headline hr{width:50%;height:2px;max-width:180px;margin:1em 0 0;font-size:0.375em;background-color:#fd7563;}.h-custom-headline.cs-ta-center hr{margin-left:auto;margin-right:auto;}.h-custom-headline hr.accent-1{background-color:#fd7563;}.h-custom-headline hr.accent-2{background-color:#f5a623;}.h-custom-headline hr.accent-3{background-color:#f8e71c;}.h-custom-headline hr.accent-4{background-color:#b3d430;}.h-custom-headline hr.accent-5{background-color:#00a380;}.h-custom-headline p,.h-custom-headline br{display:none;}.styled-quote{border:0;padding:2.5em;font-size:1.25em;color:#ffffff;background-color:#fd7563;}.styled-quote cite{color:inherit;opacity:0.5;}.x-btn{padding:10px 30px !important;text-shadow:none !important;}.x-slider-container.above,.x-slider-container.below{border:0;}.x-navbar{border-color:transparent;background-color:#00a580;}.x-navbar .desktop .x-nav > li > a:hover > span,.x-navbar .desktop .x-nav > .x-active > a > span,.x-navbar .desktop .x-nav > .current-menu-item > a > span{border-color:rgba(255,255,255,0.25);}.x-navbar .desktop .x-nav > li.menu-item-fill > a > span{color:#00a580;border-color:transparent;background-color:#ffffff;}.x-btn-navbar{text-shadow:none;}.x-navbar .mobile .x-nav li > a{border-color:rgba(255,255,255,0.25);}.x-colophon.top,.x-colophon.bottom{background:#000000;}.wpcf7-form-control{border:0;}.wpcf7-submit{border:0;padding:0.75em 2em;text-shadow:none;color:#000000;background-color:#ffffff;}.about-first-col-border{border-right:3px solid #cccccc !important;}@media (max-width:767px){.about-first-col-border{border-right:0 !important;border-bottom:3px solid #cccccc !important;}}.vat{vertical-align:top !important;}.vam{vertical-align:middle !important;}.vab{vertical-align:bottom !important;}[class*="section-bg-overlay"]{position:relative;z-index:1;}[class*="section-bg-overlay"]:before{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;background-color:#000000;opacity:0.5;z-index:-1;}.x-navbar{margin-top:30px;}.admin-bar #utahGovHeaderWrapper{top:32px;}.admin-bar .x-navbar-fixed-top,.admin-bar .x-navbar-fixed-left,.admin-bar .x-navbar-fixed-right{top:0px!important;}ul.stateLinks{list-style-type:none;display:flex;justify-content:space-between;flex-wrap:wrap;}ul.stateLinks a{padding:5px 15px;display:inline-block}ul.stateLinks a:hover{text-decoration:underline;}.no-break{white-space:nowrap;}.x-recent-posts a{padding:0;border:none;}a[href^="tel"]{color:inherit;text-decoration:underline;font-weight:bold;}a:hover{text-decoration:underline;}a.white-link{color:white;text-decoration:underline;font-weight:bold;}</style><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./What is community spread_ _ coronavirus_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15590520-8');
+</script><link rel="stylesheet" href="./What is community spread_ _ coronavirus_files/css" type="text/css" media="all" data-x-google-fonts=""></head>
+
+<body class="post-template-default single single-post postid-505 single-format-standard x-stack-icon x-full-width-layout-active x-full-width-active x-child-theme-active x-navbar-static-active x-v7_2_3 cornerstone-v4_2_3"><header id="utahGovHeaderWrapper"><div id="utahGovSection"><a href="http://www.utah.gov/" id="utahGovLink"><svg viewBox="0 0 56 56" x="0px" y="0px" width="56px" height="56px" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M0 35.5c0-4.8 3.9-8.7 8.7-8.7 4.8 0 8.7 3.9 8.7 8.7 0 4.8-3.9 8.7-8.7 8.7S0 40.3 0 35.5z" fill="#E6B42A"></path><path d="M3 12v10.9c0 2.6 1.1 3.9 3.4 3.9 1 0 1.9-0.3 2.7-0.9 0.8-0.6 1.4-1.2 1.6-2v-12h3v17h-3v-2.4c-0.3 0.7-1 1.3-2 1.8 -1 0.6-2 0.8-3 0.8 -1.9 0-3.3-0.5-4.3-1.6S0 24.9 0 22.9V11.7H3L3 12 3 12zM17.2 14.4h-2V12h2V8.4l3-1.2v4.7h4.7v2.4h-4.7v8.5c0 1.4 0.2 2.4 0.7 3.1 0.5 0.6 1.3 0.9 2.3 0.9 0.8 0 1.6-0.2 2.4-0.6l0.4 2.7c-1.3 0.3-2.6 0.5-4.1 0.5 -1.3 0-2.5-0.5-3.4-1.5 -0.9-1-1.4-2.3-1.4-3.8L17.2 14.4 17.2 14.4zM36.8 27.1c-1.2 1.5-3.1 2.3-5.6 2.3 -1.3 0-2.5-0.5-3.5-1.5 -1-1-1.5-2.2-1.5-3.6 0-1.7 0.8-3.2 2.3-4.4 1.5-1.2 3.4-1.8 5.8-1.8 0.6 0 1.4 0.1 2.2 0.4 0-2.8-1.2-4.1-3.7-4.1 -1.9 0-3.3 0.5-4.4 1.5l-1.3-2.5c0.6-0.5 1.4-0.9 2.4-1.2 1-0.3 2-0.5 2.9-0.5 2.5 0 4.3 0.6 5.4 1.7 1.1 1.1 1.7 2.9 1.7 5.4v6.1c0 1.5 0.4 2.5 1.3 3v1.5c-1.2 0-2.2-0.2-2.8-0.5C37.5 28.5 37.1 27.9 36.8 27.1zM36.5 20.7c-1-0.2-1.6-0.3-2-0.3 -1.5 0-2.8 0.4-3.7 1.2 -1 0.8-1.4 1.7-1.4 2.8 0 1.8 1 2.7 3.1 2.7 1.5 0 2.9-0.7 4.1-2.2L36.5 20.7 36.5 20.7zM53 29.1V18.4c0-1.3-0.3-2.3-0.9-3 -0.6-0.7-1.5-1.1-2.6-1.1 -0.7 0-1.5 0.2-2.2 0.6 -0.7 0.4-1.3 0.9-1.7 1.5v12.7h-3v-23l3-1V14c0.4-0.6 1.1-1.1 1.9-1.6 0.9-0.4 1.8-0.6 2.8-0.6 1.8 0 3.2 0.6 4.2 1.8 1 1.2 1.5 2.8 1.5 4.9v10.7L53 29.1 53 29.1z" fill="#ffffff"></path><path d="M16.9 49l1.4-2.1c1.5 1 3 1.5 4.3 1.5 1.2 0 2.1-0.2 2.8-0.6s1-0.9 1-1.5c0-1.2-0.9-1.8-2.6-1.8 -0.3 0-0.8 0.1-1.6 0.2 -0.8 0.1-1.4 0.2-1.8 0.2 -2.1 0-3.2-0.8-3.2-2.4 0-0.5 0.2-0.9 0.7-1.3 0.5-0.4 1.1-0.7 1.8-0.9 -2.1-1-3.1-2.7-3.1-5.1 0-1.6 0.5-2.9 1.6-3.9 1.1-1 2.4-1.6 4-1.6 1.5 0 2.6 0.3 3.4 0.9l1.3-1.6 1.7 1.6L27 31.8c0.7 0.9 1 2 1 3.5 0 1.5-0.5 2.8-1.4 3.8 -0.9 1-2.2 1.6-3.7 1.8l-2.2 0.2c-0.3 0-0.6 0.1-1 0.3 -0.4 0.2-0.7 0.4-0.7 0.7 0 0.4 0.5 0.6 1.4 0.6 0.4 0 1-0.1 1.9-0.2 0.8-0.1 1.5-0.2 1.9-0.2 1.5 0 2.6 0.4 3.4 1.1 0.8 0.7 1.2 1.7 1.2 2.9 0 1.4-0.6 2.5-1.8 3.3 -1.2 0.8-2.8 1.3-4.7 1.3 -1 0-2-0.2-3-0.5C18.4 49.9 17.6 49.5 16.9 49zM22.5 31.8c-0.9 0-1.7 0.3-2.2 1 -0.6 0.6-0.9 1.4-0.9 2.4 0 1 0.3 1.9 0.8 2.6 0.6 0.7 1.3 1 2.3 1 0.9 0 1.7-0.3 2.2-1 0.5-0.7 0.8-1.5 0.8-2.6 0-0.9-0.3-1.7-0.9-2.4C24.1 32.2 23.4 31.8 22.5 31.8zM28.8 37.4c0-2.3 0.6-4.2 1.9-5.6 1.2-1.4 2.9-2.1 4.9-2.1 2.1 0 3.8 0.7 5 2 1.2 1.4 1.8 3.2 1.8 5.7 0 2.4-0.6 4.3-1.8 5.7 -1.2 1.4-2.8 2.1-4.9 2.1 -2.1 0-3.8-0.7-5-2.1C29.4 41.7 28.8 39.8 28.8 37.4zM31.5 37.4c0 3.7 1.3 5.6 4 5.6 1.2 0 2.2-0.5 2.9-1.5s1.1-2.4 1.1-4.1c0-3.7-1.3-5.5-4-5.5 -1.2 0-2.2 0.5-2.9 1.5C31.9 34.3 31.5 35.7 31.5 37.4zM49.5 45.2h-0.7L42.4 30h2.9l3.9 10.4 4-10.4H56L49.5 45.2z" fill="#ffffff"></path></svg> <span class="text">Utah.gov</span></a><nav><ul><li><a href="http://www.utah.gov/">Visit Utah.gov</a></li><li><a href="http://www.utah.gov/services/">Services</a></li><li><a href="http://www.utah.gov/government/agencylist.html">Agencies</a></li><li><a href="http://www.utah.gov/">Search Utah.gov</a></li></ul></nav></div><div id="utahGovAgencySection"></div><div id="settingsSection"><a href="https://coronavirus.utah.gov/what-is-community-spread/#settings" id="settingsLink"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><title>Settings</title><path d="M27.24,11.81l-2.07-.52a1,1,0,0,1-.71-.66A10.89,10.89,0,0,0,23.78,9a1,1,0,0,1,0-1l1.1-1.83A1,1,0,0,0,24.76,5L23,3.24a1,1,0,0,0-1.22-.15L20,4.18a1,1,0,0,1-1,0,10.85,10.85,0,0,0-1.64-.68,1,1,0,0,1-.66-.71L16.19.76a1,1,0,0,0-1-.76H12.78a1,1,0,0,0-1,.76l-.52,2.07a1,1,0,0,1-.67.71A10.92,10.92,0,0,0,9,4.22a1,1,0,0,1-1,0L6.18,3.09A1,1,0,0,0,5,3.24L3.24,5a1,1,0,0,0-.15,1.22L4.19,8a1,1,0,0,1,0,1,10.89,10.89,0,0,0-.68,1.64,1,1,0,0,1-.71.66l-2.07.52a1,1,0,0,0-.76,1v2.44a1,1,0,0,0,.76,1l2.07.52a1,1,0,0,1,.71.66A10.92,10.92,0,0,0,4.22,19a1,1,0,0,1,0,1l-1.1,1.83A1,1,0,0,0,3.24,23L5,24.76a1,1,0,0,0,1.22.15L8,23.81a1,1,0,0,1,1,0,11,11,0,0,0,1.64.68,1,1,0,0,1,.66.71l.52,2.07a1,1,0,0,0,1,.76h2.44a1,1,0,0,0,1-.76l.52-2.07a1,1,0,0,1,.67-.71A10.92,10.92,0,0,0,19,23.78a1,1,0,0,1,1,0l1.83,1.1A1,1,0,0,0,23,24.76L24.76,23a1,1,0,0,0,.15-1.22L23.81,20a1,1,0,0,1,0-1,10.94,10.94,0,0,0,.68-1.64,1,1,0,0,1,.71-.67l2.07-.52a1,1,0,0,0,.76-1V12.78A1,1,0,0,0,27.24,11.81ZM14,19a5,5,0,1,1,5-5A5,5,0,0,1,14,19Z" style="fill:#fff"></path></svg><span class="text">Settings</span></a></div></header>
+
+  
+  
+  <div id="x-root" class="x-root">
+
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6VGMSS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    <div id="top" class="site">
+
+    
+  
+  <header class="masthead masthead-inline" role="banner">
+    
+    
+
+  <div class="x-navbar-wrap">
+    <div class="x-navbar">
+      <div class="x-navbar-inner">
+        <div class="x-container max width">
+          
+<a href="https://coronavirus.utah.gov/" class="x-brand img">
+  <img src="./What is community spread_ _ coronavirus_files/corona-virus-utah-gov.svg" alt="Coronavirus.utah.gov"></a>
+          
+<a href="https://coronavirus.utah.gov/what-is-community-spread/#" id="x-btn-navbar" class="x-btn-navbar collapsed" data-x-toggle="collapse-b" data-x-toggleable="x-nav-wrap-mobile" aria-expanded="false" aria-controls="x-nav-wrap-mobile" role="button">
+  <i class="x-icon-bars" data-x-icon-s=""></i>
+  <span class="visually-hidden">Navigation</span>
+</a>
+
+<nav class="x-nav-wrap desktop" role="navigation">
+  <ul id="menu-main-menu" class="x-nav"><li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-57"><a href="https://coronavirus.utah.gov/"><span>Home</span></a></li>
+<li id="menu-item-1028" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1028"><a href="https://coronavirus.utah.gov/what-is-community-spread/#"><span>Updates</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-59"><a href="https://coronavirus.utah.gov/blog/"><span>Utah Updates</span></a></li>
+	<li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549"><a href="https://coronavirus.utah.gov/cdc-updates/"><span>CDC Updates</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1029" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1029"><a href="https://coronavirus.utah.gov/what-is-community-spread/#"><span>Resources</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1032" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1032"><a href="https://coronavirus.utah.gov/protect-yourself/"><span>Protect Yourself</span></a></li>
+	<li id="menu-item-1033" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a href="https://coronavirus.utah.gov/help/"><span>Ways to Help: Donate</span></a></li>
+	<li id="menu-item-1030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1030"><a href="https://coronavirus.utah.gov/business/"><span>Business</span></a></li>
+	<li id="menu-item-1031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1031"><a href="https://coronavirus.utah.gov/education/"><span>Education</span></a></li>
+	<li id="menu-item-1120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1120"><a href="https://coronavirus.utah.gov/arts-humanities-resources/"><span>Arts &amp; Humanities Resources</span></a></li>
+	<li id="menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1034"><a href="https://coronavirus.utah.gov/recommendations-for-providers/"><span>For Health Care Providers</span></a></li>
+</ul>
+</li>
+<li id="menu-item-745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-745"><a href="http://health.utah.gov/disparities/coronavirus-spanish.html"><span>En español</span></a></li>
+<li class="menu-item x-menu-item x-menu-item-search"><a href="https://coronavirus.utah.gov/what-is-community-spread/#" class="x-btn-navbar-search"><span><i class="x-icon-search" data-x-icon-s="" aria-hidden="true"></i><span class="x-hidden-desktop"> Search</span></span></a></li></ul></nav>
+
+<div id="x-nav-wrap-mobile" class="x-nav-wrap mobile x-collapsed" data-x-toggleable="x-nav-wrap-mobile" data-x-toggle-collapse="1" aria-hidden="true" aria-labelledby="x-btn-navbar">
+  <ul id="menu-main-menu-1" class="x-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-57"><a href="https://coronavirus.utah.gov/"><span>Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1028"><a href="https://coronavirus.utah.gov/what-is-community-spread/#"><span>Updates</span><div class="x-sub-toggle collapsed" data-x-toggle="collapse-b" data-x-toggleable="x-nav-wrap-mobile-sm-0" aria-expanded="false" aria-haspopup="true" aria-controls="x-nav-wrap-mobile-sm-0" data-x-skip-scroll="true"><span data-x-skip-scroll="true"><i class="x-icon-angle-double-down" data-x-icon-s="" data-x-skip-scroll="true"></i></span></div></a>
+<ul class="x-collapsed" id="x-nav-wrap-mobile-sm-0" data-x-toggleable="x-nav-wrap-mobile-sm-0" data-x-toggle-collapse="1" aria-hidden="true">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-59"><a href="https://coronavirus.utah.gov/blog/"><span>Utah Updates</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549"><a href="https://coronavirus.utah.gov/cdc-updates/"><span>CDC Updates</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1029"><a href="https://coronavirus.utah.gov/what-is-community-spread/#"><span>Resources</span><div class="x-sub-toggle collapsed" data-x-toggle="collapse-b" data-x-toggleable="x-nav-wrap-mobile-sm-1" aria-expanded="false" aria-haspopup="true" aria-controls="x-nav-wrap-mobile-sm-1" data-x-skip-scroll="true"><span data-x-skip-scroll="true"><i class="x-icon-angle-double-down" data-x-icon-s="" data-x-skip-scroll="true"></i></span></div></a>
+<ul class="x-collapsed" id="x-nav-wrap-mobile-sm-1" data-x-toggleable="x-nav-wrap-mobile-sm-1" data-x-toggle-collapse="1" aria-hidden="true">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1032"><a href="https://coronavirus.utah.gov/protect-yourself/"><span>Protect Yourself</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a href="https://coronavirus.utah.gov/help/"><span>Ways to Help: Donate</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1030"><a href="https://coronavirus.utah.gov/business/"><span>Business</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1031"><a href="https://coronavirus.utah.gov/education/"><span>Education</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1120"><a href="https://coronavirus.utah.gov/arts-humanities-resources/"><span>Arts &amp; Humanities Resources</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1034"><a href="https://coronavirus.utah.gov/recommendations-for-providers/"><span>For Health Care Providers</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-745"><a href="http://health.utah.gov/disparities/coronavirus-spanish.html"><span>En español</span></a></li>
+<li class="menu-item x-menu-item x-menu-item-search"><a href="https://coronavirus.utah.gov/what-is-community-spread/#" class="x-btn-navbar-search"><span><i class="x-icon-search" data-x-icon-s="" aria-hidden="true"></i><span class="x-hidden-desktop"> Search</span></span></a></li></ul></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+    </header>
+
+  
+  <div class="x-main full" role="main">
+
+          
+<article id="post-505" class="post-505 post type-post status-publish format-standard has-post-thumbnail hentry category-advice">
+  <div class="entry-wrap">
+        <div class="x-container max width">
+      
+<header class="entry-header">
+      <h1 class="entry-title">What is community spread?</h1>
+    <p class="p-meta"><span><time class="entry-date" datetime="2020-03-14T07:07:24-06:00">March 14, 2020</time></span></p>  </header>            <div class="entry-featured">
+        <div class="entry-thumb"><img width="1024" height="576" src="./What is community spread_ _ coronavirus_files/pic-handshake-web1024xx1200-675-0-63.jpg" class="attachment-entry-fullwidth size-entry-fullwidth wp-post-image" alt="No handshakes" srcset="https://coronavirus.utah.gov/wp-content/uploads/pic-handshake-web1024xx1200-675-0-63.jpg 1024w, https://coronavirus.utah.gov/wp-content/uploads/pic-handshake-web1024xx1200-675-0-63-300x169.jpg 300w, https://coronavirus.utah.gov/wp-content/uploads/pic-handshake-web1024xx1200-675-0-63-768x432.jpg 768w, https://coronavirus.utah.gov/wp-content/uploads/pic-handshake-web1024xx1200-675-0-63-100x56.jpg 100w" sizes="(max-width: 1024px) 100vw, 1024px"></div>      </div>
+            
+
+
+<div class="entry-content content">
+
+
+  
+<p>In Utah, the first confirmed cases of COVID-19 were all in patients who had recently traveled to areas with widespread transmission of novel coronavirus or who had close contact with a confirmed case of COVID-19. That all changed Saturday.</p>
+
+
+
+<p>A resident of Summit County has a confirmed case of COVID-19 but no history of travel or known contact with a person confirmed to have COVID-19. This is known as&nbsp;<a href="https://coronavirus.utah.gov/new-case-of-covid-19-in-summit-county-signals-community-spread/" target="_blank" rel="noreferrer noopener">community spread</a>. This is the first case of community transmission in Utah.</p>
+
+
+
+<p>Generally, limiting community spread depends on everybody taking precautionary measures. That includes&nbsp;<a href="https://coronavirus.utah.gov/avoiding-close-contact-to-reduce-spread-of-covid-19/" target="_blank" rel="noreferrer noopener">social distancing</a>&nbsp;which means staying home when you are sick, practicing good hygiene to avoid sharing germs with others, limiting mass gatherings, etc.&nbsp;</p>
+
+
+
+<p>Public health officials are still asking the public to avoid going to hospitals and clinics for COVID-19 testing if symptoms aren’t present. Instead, use telehealth or call your healthcare provider to find out if testing is necessary so that hospitals, clinics, and ERs and not overloaded. Healthcare facilities report the high volume of visits from healthy people is affecting their ability to provide care for those truly in need.</p>
+
+
+
+<p>The symptoms of COVID-19 are similar to what someone may be experiencing as the result of seasonal influenza – fever, cough, or shortness of breath. These symptoms on their own are not worrisome and should not cause alarm. But if someone exhibits these symptoms who has recently traveled to areas with ongoing transmission of COVID-19 or has been in close contact with a known positive case, you should&nbsp;<a href="https://coronavirus.utah.gov/what-does-home-isolation-mean/" target="_blank" rel="noreferrer noopener">self-isolate</a>&nbsp;and call your&nbsp;healthcare provider by telephone or use telehealth to find out what to do next.</p>
+
+
+
+<p>Utah officials have taken proactive steps to limit the spread of COVID-19 in the community over the past few days. In particular, public schools have been&nbsp;<a href="https://coronavirus.utah.gov/utahs-public-schools-dismissed-for-two-weeks/" target="_blank" rel="noreferrer noopener">dismissed</a>&nbsp;for two weeks and any&nbsp;<a href="https://coronavirus.utah.gov/gov-herbert-announces-recommendations-to-help-slow-the-spread-of-novel-coronavirus/" target="_blank" rel="noreferrer noopener">gathering</a>&nbsp;that will have more than 100 healthy people.</p>
+
+
+
+<p>In Summit County, health officials said the patient worked at the Spur Bar &amp; Grill in Park City.&nbsp;Health officials have interviewed the patient and believe the biggest potential risk is to his co-workers.&nbsp;Anybody who visited the Spur since March 6 should monitor themselves for symptoms and call their medical provider or use telehealth if they feel sick.</p>
+  
+
+</div>
+
+    </div>
+  </div>
+</article>      
+    
+  </div>
+
+      
+  
+
+  
+
+  
+    <footer class="x-colophon bottom" role="contentinfo">
+      <div class="x-container max width">
+
+                  <div class="x-colophon-content">
+            <ul class="stateLinks">
+<li><a href="https://www.utah.gov/index.html">Utah.gov</a></li>
+<li><a href="https://www.utah.gov/disclaimer.html">Utah.gov Terms of Use</a></li>
+<li><a href="https://www.utah.gov/privacypolicy.html">Utah.gov Privacy Policy</a></li>
+<li><a href="https://www.utah.gov/accessibility.html">Utah.gov Accessibility Policy</a></li>
+<li><a href="https://www.utah.gov/translate.html">Translate Utah.gov</a></li>
+</ul>          </div>
+        
+                  <div class="x-social-global"><a href="https://twitter.com/UtahCoronavirus" class="twitter" title="Twitter" target="blank" rel=""><i class="x-icon-twitter-square" data-x-icon-b="" aria-hidden="true"></i></a></div>        
+        
+      </div>
+    </footer>
+
+  
+
+    
+      <div class="x-searchform-overlay">
+        <div class="x-searchform-overlay-inner">
+          <div class="x-container max width">
+            <form method="get" id="searchform" class="form-search center-text" action="https://coronavirus.utah.gov/">
+              <label for="s" class="cfc-h-tx tt-upper">Type and Press “enter” to Search</label>
+              <input type="text" id="s" class="search-query cfc-h-tx center-text tt-upper" name="s">
+                           </form>
+          </div>
+        </div>
+      </div>
+
+      
+    </div> <!-- END .x-site -->
+
+    
+      <a class="x-scroll-top right fade" title="Back to Top">
+                
+        <i class="x-icon-angle-up" data-x-icon-s=""></i>
+      </a>
+
+      <script>
+
+      jQuery(document).ready(function($) {
+
+        var $window            = $(window);
+        var body                 = $('body');
+        var bodyOffsetBottom     = $window.scrollBottom();             // 1
+        var bodyHeightAdjustment = body.height() - bodyOffsetBottom;     // 2
+        var bodyHeightAdjusted   = body.height() - bodyHeightAdjustment; // 3
+        var $scrollTopAnchor      = $('.x-scroll-top');
+
+        function sizingUpdate(){
+          var bodyOffsetTop = $window.scrollTop();
+          if ( bodyOffsetTop > ( bodyHeightAdjusted * 0.75 ) ) {
+            $scrollTopAnchor.addClass('in');
+          } else {
+            $scrollTopAnchor.removeClass('in');
+          }
+        }
+
+        $window.on('scroll', sizingUpdate).resize(sizingUpdate);
+        sizingUpdate();
+
+        $scrollTopAnchor.on( 'click', function(){
+          $('html, body').animate({ scrollTop: 0 }, 850, 'xEaseInOutExpo');
+          return false;
+        });
+
+      });
+
+      </script>
+
+    
+  </div> <!-- END .x-root -->
+
+<div style="display: none; visibility: hidden" data-canary="CANARY_TEST_OK"></div>	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			loadUtahHeader({
+	backgroundColor: '#222222',
+	foregroundColor: '#FFFFFF',
+	darkColorScheme: true,
+	height: '32px',
+	agencyName: '',
+	agencyShortName: '',
+	agencyLogoUrl: '',
+	agencyLink: '',
+	fontWeights: [400],
+	defaultFontWeight: 400,
+	defaultFontSize: 16,
+	defaultRootEl: 'body',
+	skipNav: false,
+	mainContentId: 'maincontent'
+});
+		});
+	</script>
+	<!-- Start Podium Webchat Code -->
+<script defer="" src="./What is community spread_ _ coronavirus_files/widget.js" id="podium-widget" data-api-token="d9d3651a-1775-4923-9d42-93f4cdd850ef"></script><!-- end: Podium Webchat Code. -->
+<script type="text/javascript" src="./What is community spread_ _ coronavirus_files/cs.0ce70e6.js"></script>
+<script type="text/javascript" src="./What is community spread_ _ coronavirus_files/x.js"></script>
+<script type="text/javascript" src="./What is community spread_ _ coronavirus_files/comment-reply.min.js"></script>
+<script type="text/javascript" src="./What is community spread_ _ coronavirus_files/wp-embed.min.js"></script>
+
+
+<script type="text/javascript" src="./What is community spread_ _ coronavirus_files/main.37cd6182.js"></script><div id="podium-website-widget"><style>
+              .podium-mobile-widget-active {
+                overflow: hidden;
+                height: 100%;
+                width: 100%;
+                position: fixed;
+              }
+            </style><style>#podium-prompt {
+          background-color: transparent !important;
+          background-image: none !important;
+          display: block !important;
+          max-width: 340px !important;
+          max-height: 147px !important;
+        }</style><iframe id="podium-prompt" title="podium webchat widget prompt" aria-label="podium webchat widget prompt" scrolling="no" style="position: fixed; right: 3px; left: unset; bottom: 75px; top: unset; width: 100%; height: 100%; z-index: 2147482998; margin: 0px; padding: 0px; border: 0px;" src="./What is community spread_ _ coronavirus_files/saved_resource.html"></iframe><style>#podium-modal {
+          background-color: transparent !important;
+          background-image: none !important;
+          display: block !important;
+          max-width: 0 !important;
+          max-height: 0 !important;
+        }</style><iframe id="podium-modal" title="podium webchat widget modal" aria-label="podium webchat widget modal" scrolling="no" style="position: fixed; right: 0px; left: unset; bottom: 0px; top: unset; width: 100%; height: 100%; z-index: 2147482998; margin: 0px; padding: 0px; border: 0px;" src="./What is community spread_ _ coronavirus_files/saved_resource(1).html"></iframe><style>#podium-bubble {
+          background-color: transparent !important;
+          background-image: none !important;
+          display: block !important;
+          max-width: 100px !important;
+          max-height: 100px !important;
+        }</style><iframe id="podium-bubble" title="podium webchat widget bubble" aria-label="podium webchat widget bubble" scrolling="no" style="position: fixed; right: 0px; left: unset; bottom: 0px; top: unset; width: 100%; height: 100%; z-index: 2147482998; margin: 0px; padding: 0px; border: 0px;" src="./What is community spread_ _ coronavirus_files/saved_resource(2).html"></iframe></div></body></html>

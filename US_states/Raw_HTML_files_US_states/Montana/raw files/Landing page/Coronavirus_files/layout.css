@@ -1,0 +1,1391 @@
+@charset "utf-8";
+/* HHS Layout Styles */
+/* 	Date Created:  10/23/2012
+	Date in Prod:  1/6/2014 (first release)
+	Date Modified: 12/29/2015 B Ricker
+	Date Archived: 	
+	Do not minify: Minify the production version only
+*/
+/*************************************************************************************************
+	
+	COLOR GUIDE						Test at https://webaim.org/resources/contrastchecker/)
+									
+	Blue menu bar under the director’s name - #016893
+	The green navigation bar below the menu bar - #007b4b
+	
+	Left and right menu's - background: radial-gradient(ellipse at center, rgba(247,247,247,1) 0%,rgba(230,230,230,1) 100%)
+						
+		
+
+*************************************************************************************************/
+
+a {color:#00459c; text-decoration:underline;}
+a:hover {color:#000; text-decoration:none; font-weight:bold;}
+a[name] {margin-top: 0px; position: relative;}
+a:focus {font-weight:bolder !important; font-style:italic !important; color:#ffffff;} /*Added for ADA 508 link accessibility*/
+/* removed 7/11/2019 sat
+ol, ul, p {line-height: 1.2em !important;  color:#000;}
+ul ul, ol ol, ol ul, ul ol {margin:-.2%; margin-bottom:.2em !important; margin-top:.2em; font-size: 100% !important;} */
+
+
+h1,h2,h3,h4,h5,h6,h7,p,u,ul {font-family:Georgia, "Times New Roman", Times, serif !important;}
+p {color:#000; font-size:1.2em;}
+h1 {color:#000; font-size:200% !important; font-weight:bold; margin: 0em 0em 1.1em !important; line-height: 1em;}
+h2 {color:#016893 !important;; font-size:180% !important; font-weight:bold; /*margin: .75em 0em!important;*/ margin-top: .75em !important; margin-bottom: .75em !important;  line-height: 1em;}
+h3 {color:#000; font-size:170% !important; font-weight:bold; margin: .75em 0em!important; line-height: 1em;}
+h4 {color:#016893 !important;; font-size:150% !important; font-weight:bold; margin: .75em 0em!important; line-height: 1em;}
+h5 {color:#000; font-size:130% !important; font-weight:bold;  margin:.75em 0em!important; line-height: 1em;}
+h6 {color:#016893 !important;; font-size:120% !important; font-style: italic; margin: .75em 0em!important; line-height: 1em;}
+
+/*Template (Skin) large headings to seperate content*/
+.skinLT {color:blue; font-size:200% !important; font-weight:bold; margin: 1.1em 0em !important; line-height: 1em;}
+
+
+/******Styles for CKE Editor*/
+/*.greenText {color: #008852 !important;}
+.blueText {color: #00459c;}
+.whiteText {color:#FFFFFF;}
+.redText {color: #F00;}
+.smallText {font-size:small;}
+.tableCenter {color:#000000 !important;;}*/
+/*******/
+
+/************ left and right pane styles  - Brad R. *************/
+div.leftPane ul  li{list-style:none; line-height:1em;}
+div.leftPane ul  li ul li{list-style:none; line-height:1em; font-size:100% !important; 	margin-top: .5em !important;}
+div.rightPane ul  li{list-style:none; line-height:1em;}
+
+/*************************************************************************************************
+
+	AGENCY CONTENT 
+
+*************************************************************************************************/
+  #pagewrap {padding-top:6em;}
+  #agencycontent {
+	background: rgba(255,255,255,.5);
+	border: none;
+	position: relative;
+	width:90%; min-width:320px; max-width:1920px; /*Max width changed by Brad R.*/
+	margin:0px auto;
+ 
+  }	
+
+/*************************************************************************************************
+
+	TYPOGRAPHY - See text.css   Available fonts saved in /common/styles/fonts/. 
+
+*************************************************************************************************/
+
+	
+/*************************************************************************************************
+
+	HHS HEADER
+
+*************************************************************************************************/ 
+  #agencyHead { 
+	background: rgba(255,255,255,.5) !important; /* IE fallback in responsive.css */
+	/*border-top-left-radius: 1em; 
+	border-top-right-radius: 1em;*/	
+	height: 125px; /*increased to 60 from 125 for DNN 9.2*/
+	position: relative;
+	margin: 0; padding: 2em;
+	overflow: hidden;
+				background:url(/portals/85/Skins/DPHHS/Styles/images/whitebackground.png);
+		 /* IE 8 */
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 7 */
+  filter: alpha(opacity=50);  	
+  }
+  #HHSLogo  {
+	/* Hint: sprite available: top left = blue | bottom left = white | left -195px = black */ 	
+	background:url(/portals/85/Images/dphhslogo.png);
+	position: absolute; top: 10px; left: 25px;
+	margin: 0 0 1em; padding: 0; 		
+	width: 110px; height: 87px;
+  }	
+  
+    #SearchBox  {
+	/* Hint: sprite available: top left = blue | bottom left = white | left -195px = black */ 		
+	position: absolute; top: 10px; right: 25px;
+	margin: 0 0 1em; padding: 0; 		
+	width: 25%; /*height: 87px;*/
+  }	
+  
+  #aboutHHS {
+	margin:0; 
+	position: absolute; top: 22px; left: 236px; 	
+  }
+  #aboutHHS ul {
+	font-size: 1.3em; 
+	/*text-transform: lowercase;*/ 
+	margin:0; padding:0;
+	/*background-color: rgba(15,59,91,0.65);*/
+	background-color: rgba(1,104,147,.9); /* This is the menu at the top of the webpage. Brad R.*/
+	height:30px; /*increased to 30 from 25 for DNN 9.2*/
+	vertical-align:middle;
+	padding: .25em .5em;
+	margin-top: -.75em;
+  }
+  
+  #aboutHHS a{color:#ffffff; text-decoration:none;}
+  
+    .director {color:#016893; font-size:180%; font-weight:bold; margin: .75em 0em!important; line-height: 1em; margin-bottom:0;}
+  
+/*************************************************************************************************
+
+	HHS MAIN NAV
+
+*************************************************************************************************/ 
+  a.skip {position:absolute; left:-999em;} /* so screen readers can skip */
+  #HHSNav {background: #007b4b;  min-height:42px;}   /*DPHHS Green at 80% - Brad R.*/
+	#HHSNav h3 {position: absolute; left: -999em;} /* hidden but accessible */
+	#HHSNav ul {margin:0; padding:0;}
+	  #HHSNav li {
+		font-size: 1.6em; 
+		text-align: center;
+		width:16.666% !important;
+	
+		
+	  } 
+	  #HHSNav a {
+		border:none;
+		color: #FFFFFF;  
+		display:block;
+		height: 42px; line-height: 48px;
+		padding: .2em .8em;
+		text-decoration: none;  
+	  }
+		#HHSNav a:hover, #HHSNav a:focus {
+		  background-color: #333; 
+		  color: #FFFFFF;
+		  height: 42px; line-height: 48px;
+		  padding: .2em .8em;
+		}  
+		a.short {display:none;} /* Display on small screens. Hide a.long. See responsive.css */  
+/*Responsive Nav*/
+  .nav-collapse ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	list-style: none;
+  }
+	.nav-collapse li {
+	  width: 100%;
+	  display: block;
+	}
+  .js .nav-collapse {
+	clip: rect(0, 0, 0, 0);
+	max-height: 0;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+  }
+  .nav-collapse.opened {max-height: 9999px;}
+  .nav-toggle {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+  }
+/* "About" Nav in Header */
+  .selectnav { display: none}
+  header select { 
+  background-color:#999999;
+  color:white; font-size:1.3em;
+  /*-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;*/
+  border:none;
+  margin-bottom:1em; padding:.75em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width:200px;
+ /* background: rgba(15,59,91,0.65) url("/common/images/br_down.png") no-repeat 175px center; */
+  padding-right:15px;
+  }
+  header select > option {font-size:1.3em;}
+  #nav {
+	  background: #2f2f2f;
+	  background: rgba(255,255,255,.1);
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+	  /* -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.8); -moz-box-shadow: 0 1px 2px rgba(0,0,0,.8); box-shadow: 0 1px 2px rgba(0,0,0,.8);*/
+  }  
+/*************************************************************************************************
+
+	MAINCONTENT LAYOUTS  - See also, "Containers (below)"
+	
+*************************************************************************************************/
+   #mainContent {
+	   background-color:#FFFFFF !important;
+	  position: relative;
+	  margin:0; padding: 1em;
+	  clear:both;
+		/* If IE 7 or 8 this sets the background to solid white Brad R */
+		/* filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#ffffff');*/ 
+		/*background:url(/portals/85/Skins/DPHHS/Styles/images/whitebackground.png);*/
+		 /* IE 8 */
+/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";*/
+  /* IE 7 */
+  /*filter: alpha(opacity=70);*/		
+  }
+  	 #mainContent li p {font-size:inherit;}
+  	 #mainContent ul ol li {font-size:inherit !important;} /* Was 1.2em 12-29-2015*/
+		#mainContent li h1 {font-size:160%}
+		#mainContent li h2 {font-size:140%}
+		#mainContent li h3 {font-size:130%}
+		#mainContent li h4 {font-size:120%}
+		#mainContent li h5 {font-size:110%}
+		#mainContent li h6 {font-size:100%}
+		
+   #mainContent a:link{color:#00459c; text-decoration:underline;}
+   #mainContent a:visited{color:#740019; text-decoration:underline;}
+   #mainContent a:hover{color:#006600; text-decoration:underline;}
+   #mainContent a:active{color:#333; text-decoration:underline;}
+   
+   #mainContent aside a:link{color:#00459c; text-decoration:none;}
+   #mainContent aside a:visited{color:#740019; text-decoration:none;}
+   #mainContent aside a:hover{color:#006600; text-decoration:underline;}
+   #mainContent aside a:active{color:#333; text-decoration:underline;}
+   #mainContent aside h1 {font-size:200%  !important;}
+	#mainContent aside h2 {font-size:180%  !important;}
+	#mainContent aside h3 {font-size:170%  !important;}
+	#mainContent aside h4 {font-size:150%  !important;}
+	#mainContent aside h5 {font-size:130%  !important;}
+	#mainContent aside h6 {font-size:120% !important;}
+  
+	#mainContent.noPadding  {padding:0;} /* If it's something you want to take up the full page width */ 
+	#mainContent section, #mainContent article {border-bottom:1px dashed DarkGray;} /* Use .noBorder to remove */
+	#mainContent section > article {border-bottom:none; padding-top:5em;}
+	#mainContent section > section {border-bottom:none;} 
+	#mainContent article > section {border-bottom:none;}
+	#mainContent section:last-of-type, #mainContent article:last-of-type {border-bottom:none;}
+  
+  aside {border-top-left-radius: 2em;}
+  	aside figure, .twoColLeft figure, .twoColRight figure,  .threeCol figure {margin: 1em 0;}
+  .fullPage {padding: 2em;}
+  .twoColLeft, .twoColRight {overflow:hidden;}
+  /*.twoColLeft, .twoColRight a:link{color:#00459c; text-decoration:none !important;}
+  .twoColLeft, .twoColRight a:visited{color:#740019 !important; text-decoration:none !important;}*/
+/*.twoColLeft, .twoColRight ul{list-style:none !important;}
+.twoColLeft, .twoColRight li{list-style:none !important;}*/
+  
+	.twoColLeft aside {float:left; width:30%; padding:2%; padding-bottom:1000em; margin-bottom:-1000em; margin-top:1em;}
+	  .twoColLeft article {float:right; width:70%; padding: 2%; padding-bottom:100em; margin-bottom:-100em; margin-top:-4em;}
+	.twoColRight aside {float:right; width:30%; padding:2%; padding-bottom:1000em; margin-bottom:-1000em; margin-top:.5em; }
+		.twoColLeft article a[name] {margin-top: 5em; position: relative;}
+		.twoColRight aside ul{ font-size:1em; list-style:none; margin-top:-.2em;}
+	  .twoColRight article {float:left; width:70%; padding:2%; padding-bottom:1000em; margin-bottom:-1000em; }	
+  .threeCol {padding:0; overflow:hidden; clear:both;}
+	.threeCol section.leftCol {float:left; width:25%; padding:1%; margin-right:1%; margin-top: 2em; padding-bottom:1000em; margin-bottom:-1000em; border-top-left-radius: 2em;}
+	.threeCol section.centerCol {float:left; width:46%; padding:1%; margin-right:3%; padding-bottom:1000em; margin-bottom:-1000em; margin-top:0;}
+	.threeCol section.rightCol {float:right; width:25%; padding:1%; padding-bottom:1000em; margin-bottom:-1000em; margin-top: 2em; border-top-right-radius: 2em; }
+ /* 50/50 Split */
+	.halfA	{float: left; width: 46%; padding-bottom:1000em; margin-bottom:-1000em;}
+	.halfB	{float: right; width: 46%; padding-left: 4%; border-left: 1px solid LightGray; /* padding-bottom:1000em; margin-bottom:-1000em;*/}
+	
+	/*One third columns*/
+	.thirdA	{float: left; width: 29%; padding-bottom:1000em; margin-bottom:-1000em; padding-right: 3%;}
+	.thirdB	{float: left; width: 29%; padding-left: 2%; padding-right: 3%;  border-left: 1px solid LightGray; border-right: 1px solid LightGray;  padding-bottom:1000em; margin-bottom:-1000em;/* padding-bottom:1000em; margin-bottom:-1000em;*/}
+	.thirdC	{float: right; width: 29%; padding-left: 3%;/* border-left: 1px solid LightGray; /* padding-bottom:1000em; margin-bottom:-1000em;*/}
+
+
+/*************************************************************************************************
+
+	CONTAINERS
+	
+*************************************************************************************************/
+/* HHS Notice - appears below mainNav on every page. See: HHSHeader.inc for text output */
+	.HHSNotice  {
+			display:none;  /* Use display:block; to enable, display:none; to hide */
+			height:300px;
+			width:auto; height:100%;
+			background:#333; background:rgba(0,0,0,.5); 
+      }
+        .HHSNotice h3, .HHSNotice p   {color:white; margin:1.5em 2em;}
+			.HHSNotice h3 + p {margin-top:-1em;}
+		/*override #mainContent {top:-65px;} This is also done in responsive.css*/
+		.HHSNotice + #mainContent {top:0!important;} 
+		
+/* Announce - a colored box for announcements */
+  .announce {
+			background: #FAF5D4;
+			margin:1.5em 0; padding:3%;
+			font-size: 90%;
+			/* border-top: 2px solid #ACACAC; border-bottom: 2px solid #ACACAC; font-size: 90%;  */			 
+  }
+	.announce *:first-child {margin-top:0; margin-bottom: -.25em;}
+	 /* alt colors - apply to class stack to override default color */
+	
+	  
+	 
+	.contact h3 {margin-top:.75em;}
+	.contact p {margin-top: -.75em; } /* due to template.css styling */
+	.contact img {
+		/* Use 75x75-pixel image or no image, or use without an image */
+		width:75px;
+		border-radius: 1em;
+		margin: 0 2em 2em 0;
+	}	
+/* Floating "Quick Links" Menu */
+  .floatieMenuR {
+	  float:right; width:200px;
+	  margin-left:20px; margin-bottom:20px;
+	  padding: 10px;
+	  border-left: 5px solid #E0E0E0;
+	  font-size:85%;
+  }
+  .floatieMenuL {
+	  float:left; max-width:200px;
+	  margin-right:20px; margin-bottom:20px;
+	  padding: 10px;
+	  border-right: 5px solid #E0E0E0;
+	  font-size:85%;
+  }
+ 
+		
+/*************************************************************************************************
+
+	HHS FOOTER
+	
+*************************************************************************************************/
+  #HHSFooter {
+	  position:relative; /* trigger hasLayout */
+	  background: #007b4b;   /*dark blue Changed to DPHHS Green - BradR. */
+	  /*background-color:rgba(0,123,75,1);*/ 
+	 /* border-bottom-right-radius: 1.5em;
+	  border-bottom-left-radius: 1.5em; */
+	  clear: both;
+
+  }
+  
+  
+  
+	#HHSFooter section {
+		border: none; 
+		color: white; 
+		margin:0; padding:0; 
+		text-align: center;
+		text-decoration: none;
+	}
+	#HHSFooter section a {
+		/*color: #F39A32;  Plan2Live orange */ 
+		color: #fff; /* Link color changed to white Brad R*/
+		border: none;
+		font-weight:bold; /*font weight added Brad R. */
+		font-size:105%;
+	}
+	#HHSFooter section a:hover {text-shadow: 0 0 12px #fff, 0 0 24px #fff;} /* glow */
+	#HHSFooter section ul {margin:0; padding:0;}
+	#HHSFooter li {	
+		border-bottom: 2px solid rgba(255,255,255,.1);
+		display: block;	
+		font-size:1.25em; line-height:1.2em;
+	  width:24.8% !important;
+		vertical-align: text-top; 
+	
+	  }
+	  #HHSFooter li:first-of-type {border-top:2px solid rgba(255,255,255,.1);}
+	  #HHSFooter li:last-of-type {border:none;}
+	  #HHSFooter li a {display:block; width:100%; height: 100%; padding:.5em 0;}
+	  #HHSFooter section a:hover {color:white; text-decoration: none;}
+	  /*#HHSFooter #toTop {position:absolute; top:1em; right:0; bottom:1em; border:none;}
+	  #HHSFooter #plan2Live p {position:absolute; left:-999em;} /* hidden but still accessible */
+	  /*#HHSFooter #plan2Live img {margin:2em auto 0;}
+	  #HHSFooter #socialMedia {align:center;}*/
+
+/*************************************************************************************************
+	
+	LINKS 
+
+*************************************************************************************************/
+  /* Top-of-page  */
+  a.top { 
+	display:block; 
+	margin: 2em auto 0;
+	font-size:1.3em; color:#999; 
+	text-align:center; text-decoration:none; 
+	clear:both; 
+  }
+	a.top:before, a.top:after {content: "\2014";} /* an em dash */
+	a:hover.top {color: #D75003; text-decoration: none; }	
+  		.top:hover {text-decoration:none;}
+	  @media only screen and (max-width:746px) {  
+		  .top {
+			  width:50px; height:50px; 
+			  background: #eee; 
+			  border-radius:5em;	
+			  line-height:400%; 
+		  
+		  }
+		  	a.top:before, a.top:after {content:none;}
+			.top:hover {background:#ccc;}			  
+	  } 
+  /* Call-to-action */
+  a.cta {
+	  color: #BB3800;
+	 /* text-transform: uppercase; Turned off - Brad R*/
+	  font-size: .9em;
+	  font-weight:bold;
+	  text-decoration:none;
+	  border:none;
+	  margin:.5em 0 0 0;
+  }
+	a.cta:after {
+		display:inline-block;
+		content: "\00BB";  /* a double arrow pointing right */
+		margin-left:.5em;
+		font-size: 1.25em;
+	}
+	a.cta:hover {text-decoration:none;}
+	
+	a.scrollTop {
+		padding-right:.75em;
+		padding-top: .5em;
+	}
+  	
+/*************************************************************************************************
+
+	LISTS
+	
+*************************************************************************************************/
+#mainContent ul, #mainContent ol, #mainContent dl {
+	  font-size: 100%;
+	  line-height: 1.2; /* changed to 1.2 7/11/2019 sat */
+	  margin-bottom: 2em;	
+	  list-style-position: outside;
+	  font-family:Georgia, "Times New Roman", Times, serif !important;	
+ }
+  
+#mainContent ul li {  
+	  font-size: 1.2em;
+    list-style-position: outside;
+}
+#mainContent ul li ul li {  
+	  font-size: 100%;
+    list-style-position: outside;
+}
+
+#mainContent ul li ul li ul li {  
+	  font-size: 100%;
+   list-style-position: outside;
+}
+	  
+#mainContent ol li  {  
+	  font-size: 1.2em;
+ 	  line-height: 1.2;
+    list-style-position: outside;
+}
+  
+#mainContent ol li ol li {  
+	  font-size: 100%;
+    list-style-position: outside;
+}
+  
+ /* #agencycontent ul ul, #mainContent ul ol, #mainContent ul dl,
+  #mainContent ol ul, #mainContent ol ol, #mainContent ol dl,
+  #mainContent dl ul, #mainContent dl ol, #mainContent dl dl,
+  #mainContent li ul, #mainContent li ol, #mainContent li dd,
+  #mainContent dl  {inherit !important;}  maintains font size in nested lists - we may need to add to this */
+  
+  #mainContent ol ol ol li {list-style-type: lower-roman;}
+ /* #mainContent aside ul, #mainContent aside ol, #mainContent aside dl, #mainContent aside ol.alpha {font-size:1em;} */
+  aside .noBullets, .threeCol .noBullets, 
+  aside .inlinePipe, .threeCol .inlinePipe {margin: .75em; padding: 0;} /* reduce gap on the left of unbulleted lists */
+  #mainContent aside ul ul li {font-size:.75em;}
+	  #mainContent ul {list-style:disc;}
+	  #mainContent ol {list-style: decimal;}
+		#mainContent ol.alpha {list-style: lower-alpha;}
+		#mainContent ol ol li {list-style: lower-alpha;}
+	  #mainContent li {margin-bottom:0.5em;} 
+	/* No Bullets */
+ 		.noBullets li {list-style: none; list-style-image: none;} 
+  /* Definition List */
+  #mainContent dl {margin-left: 2.5em;}
+  	#mainContent dt {font-family: 'DejaVuSansBold', Arial, sans-serif;}
+	  #mainContent dd {
+		font-size: inherit;
+		line-height: 150%; 
+		margin: .5em 0 1.5em 0;
+	  }
+	/* List Subheadings */
+		.listSubhead {font-weight:bold; color:#BB3800; letter-spacing:1px;}  /* used on pages like /publications/forms.shtml */
+	/* Inline list - Is this in use?  */
+		  ul.inline { 
+			  margin-left:0 !important; padding: 0 !important;
+			  line-height: 160%;
+		  }
+			ul.inline li {
+				display: inline; 
+				margin-left: .5em; 
+				font-size: 1.2em;
+			}
+	/* Quick Links - Ex. see Publications > Forms */
+	 /* .quickLinks {padding-left:0;}
+		  @media only screen and (max-width:746px) { .quickLinks {text-align:center;} }
+	  .quickLinks li {
+			display:inline-block;	
+			
+			background: rgb(249,249,249); /* Old browsers */
+				/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+				/*background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlY2VjZWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+				background: -moz-linear-gradient(top,  rgba(249,249,249,1) 0%, rgba(236,236,236,1) 100%); /* FF3.6+ */
+				/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(236,236,236,1))); /* Chrome,Safari4+ */
+				/*background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(236,236,236,1) 100%); /* Chrome10+,Safari5.1+ */
+				/*background: -o-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(236,236,236,1) 100%); /* Opera 11.10+ */
+				/*background: -ms-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(236,236,236,1) 100%); /* IE10+ */
+				/*background: linear-gradient(to bottom,  rgba(249,249,249,1) 0%,rgba(236,236,236,1) 100%); /* W3C */
+				/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ececec',GradientType=0 ); /* IE6-8 */
+						
+		/*	border:1px solid grey;		
+			box-shadow: 2px 0px 6px rgba(0,0,0,.5);	
+			padding:.5em; margin:0 .25em .5em 0;
+		}
+		.quickLinks li:nth-child (even) {
+			-ms-transform: rotate(5deg); /* IE 9 */
+		/*	-webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+			/*transform: rotate(5deg);		
+		}
+		.quickLinks li:hover {
+			background:none; 
+			-ms-transform: rotate(-1deg); /* IE 9 */
+		/*	-webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+			/*transform: rotate(-1deg);		
+		}
+		.quickLinks a {color:black; width:100%; padding:.5em 1em; }
+		.quickLinks a:hover {color:black; text-decoration:none;}		
+	/* Inline Pipe Lists */
+	  .inlinePipe li{
+			display: inline;
+			margin-left: auto; /* needed to override .noBullets when this class is applied to mainContent */
+		}
+		.inlinePipe li:after {content:" | ";}
+		.inlinePipe li:last-child:after {content:"";}		
+	/* Four - A 4-column list. See: /publications/datastats/wetlands.shtml */ 
+	  .four ul {float:left; width: 22%; margin-right: 4%; margin-left:0; padding:0;}
+	  	.four ul:nth-child(4n) {margin-right:0;} 
+	  	.four ul:nth-child(4n+1) {clear:both;}
+	  .four li {list-style:none;} 
+	  	.four li:first-of-type {font-weight:bold; border-bottom: 3px solid #ccc; margin:1.5em 0;}
+	  	.four li ul   {background:#ccc; margin-right:auto !important;}
+	  		.four li ul li:first-of-type {font-weight:normal; border:none;}
+			
+		
+
+	/* Quarters - Four lists floated left with default color */
+	  .quarters {display:block; position:relative; float:left; width:110%; height:auto; margin:1.5em 0; padding:0; } 
+	  .quarters a:link {text-decoration:none !important;}
+		.quarters ul {
+			position:relative; 
+			float:left;
+			width: 30%;
+			/*width:auto; */
+			height:425px !important; /* override with instance class, .customheight */
+			margin:0 1% 0 0; padding:0;
+			/* background-color:#fff;  override with an instance class */
+			 background: -webkit-linear-gradient(#fff, #d5e6ed); /* For Safari 5.1 to 6.0 */
+ 				 background: -o-linear-gradient(#fff, #d5e6ed); /* For Opera 11.1 to 12.0 */
+  				 background: -moz-linear-gradient(#fff, #d5e6ed); /* For Firefox 3.6 to 15 */
+  				 background: linear-gradient(#fff, #d5e6ed); /* Standard syntax */
+				 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d5e6ed');/*For IE7-8-9*/ 
+					height: 9%;/*For IE7*/ 
+			border:2px solid #007b4b;
+			border-top-right-radius:20px;
+			overflow:hidden;
+			background-position:bottom; background-size:contain;	 	  
+		 }
+		.quarters ul:last-of-type {margin-right:0;}
+		.quarters li {list-style:none; margin-left:1em; /*border-top-right-radius:18px;*/ font-size:.8em; line-height: 1.0em !important;}
+			.quarters li:first-child { 
+				margin-left:0; padding:.4em; 
+				color:white; font-size:1.2em; 
+				background-color: #007b4b;
+
+					 
+			}
+			
+		 .quarters li:first-child a:link{color:#ffffff !important;}
+			
+		.quarters li:first-child a:focus {color:#0404B4 !important;} /*Added for ADA 508 link accessibility*/
+		
+		
+			.quarters li:nth-child(2) {margin-top:1em;}
+			.quarters li:last-child {position:absolute; bottom:.5em; right:1em; text-align:right;} 
+			@media only screen and (max-width:960px) { .customheight ul {height: auto!important;} /* removes customheight */ }	
+		/* Quarters Announcement - implemented on /business/contracting/ */
+			.quartersAnnounce {overflow-y: scroll; background: #FEF7BD!important;}
+				.quartersAnnounce * {margin-left:0 !important;}
+				.quartersAnnounce dl {padding:0 1em;}
+			/* image pistion in the quaters panel - Brad R*/
+			.quarters img {position:absolute; top:.2em; right:1em;}
+			.quarters li:last-child img {position:relative;  right:2em;}
+			
+			
+			/***** Quarters Menu used with a left menu****************/
+			
+				/* Quarters - Four lists floated left with default color */
+	  .lquarters {display:block; position:relative; float:left; width:100%; height:auto; margin:1.5em 0; padding:0; margin-left:2%; } 
+	  .lquarters a:link {text-decoration:none !important;}
+		.lquarters ul {
+			position:relative; 
+			float:left;
+			width: 31%;
+			/*width:auto; */
+			height:525px !important; /* override with instance class, .customheight */
+			margin:0 1% 0 0; padding:0;
+			/* background-color:#fff;  override with an instance class */
+			 background: -webkit-linear-gradient(#fff, #d5e6ed); /* For Safari 5.1 to 6.0 */
+ 				 background: -o-linear-gradient(#fff, #d5e6ed); /* For Opera 11.1 to 12.0 */
+  				 background: -moz-linear-gradient(#fff, #d5e6ed); /* For Firefox 3.6 to 15 */
+  				 background: linear-gradient(#fff, #d5e6ed); /* Standard syntax */
+				 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d5e6ed');/*For IE7-8-9*/ 
+					height: 9%;/*For IE7*/ 
+			border:2px solid #007b4b;
+			border-top-right-radius:20px;
+			overflow:hidden;
+			background-position:bottom; background-size:contain;	 	  
+		 }
+		.lquarters ul:last-of-type {margin-right:0;}
+		.lquarters li {list-style:none; margin-left:1em; /*border-top-right-radius:18px;*/ font-size:.8em; line-height: 1.0em !important;}
+			.lquarters li:first-child { 
+				margin-left:0; padding:.4em; 
+				color:white; font-size:1.2em; 
+				background-color: #007b4b;
+
+					 
+			}
+			.lquarters li:nth-child(2) {margin-top:1em;}
+			.lquarters li:last-child {position:absolute; bottom:.5em; right:1em; text-align:right;} 
+			@media only screen and (max-width:960px) { .customheight ul {height: auto!important;} /* removes customheight */ }	
+		/* Quarters Announcement - implemented on /business/contracting/ */
+			.lquartersAnnounce {overflow-y: scroll; background: #FEF7BD!important;}
+				.lquartersAnnounce * {margin-left:0 !important;}
+				.lquartersAnnounce dl {padding:0 1em;}
+			/* image pistion in the quaters panel - Brad R*/
+			.lquarters img {position:absolute; top:.2em; right:1em;}
+			.lquarters li:last-child img {position:relative;  right:2em;}
+					
+		
+	
+	/* Unordered (<ul>) Lists with very long list items, especially if the list items are links and wrap down onto another line */
+		.longListItems {
+			padding: 0em;
+			padding-left: 2em;
+			margin: 0em 0;
+		}
+		.longListItems li {
+			margin: 1em 0 0 3em;
+			text-indent: -3em;
+		}
+	/* Miscellaneous */
+		.textIndent, .textIndent li, .textIndent dd {text-indent: 2.5em;}  /* indented first line */
+		 ul.noGap {margin-top: -1.5em;} /* removes gap between ul and next ul. For example between stacked ul class=inlinePipe and next ul not an inlinePipe. */
+		
+		/*.vGap {display:block; height: 1.5em;} */ /* apply to empty li */	
+			/*@media only screen and (max-width:960px) {.vGap {display:none;  align:left;} }*/
+			
+	/*Buttons for the left and right containers*/
+	
+	.menuButtons{display:block; position:relative; width:100%; height:auto; margin:1.5em 0; padding:0; }
+	 	.menuButtons ul li{position:relative; width:66%; height:auto; margin:0 1% 0 0; padding:.4em;
+				 background: -webkit-linear-gradient(#fff, #d5e6ed); /* For Safari 5.1 to 6.0 */
+ 				 background: -o-linear-gradient(#fff, #d5e6ed); /* For Opera 11.1 to 12.0 */
+  				 background: -moz-linear-gradient(#fff, #d5e6ed); /* For Firefox 3.6 to 15 */
+  				 background: linear-gradient(#fff, #d5e6ed); /* Standard syntax */
+				 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d5e6ed');/*For IE7-8-9*/ 
+					height: 9%;/*For IE7*/ 
+			border:2px solid #00459c;
+			border-radius:20px;
+			overflow:hidden;
+			background-position:bottom; background-size:contain;		
+		}	
+		
+  	/* For lists inside tables, see below TABLES (Flexible) */
+  
+
+  		
+/*************************************************************************************************
+
+	IMAGES  
+	
+*************************************************************************************************/
+
+
+
+#agencycontent img, #agencycontent td img	{max-width:100%; margin:0;} /* it's going to be 100% if it's big enough */
+#agencycontent .imgL {float:left; padding:0; margin:.5em 2em 2em 0;}
+#agencycontent .imgR {float:right; padding:0; margin:.5em 0 2em 2em;}
+.clearImg {overflow:hidden;} /* apply to neighboring <p>s or <div>s to keep text from wrapping around a floated image */
+.flex  {display:block; width:100%; margin: 2em 0;} /* it's going to be 100% no matter what */
+  .flex ~ span.caption {margin-top: -2.5em;} /* Do you still need this now that you have figure/figcaption style? */
+  .flexNoMargin {display:block; width: 100%; margin: 0;}
+.scaleImg {width:40%;}  /* images should be 300px/600px(for retina) */
+.icons img	{
+	background: #fff;
+	border: 1px solid #C0C0C0;
+	border-radius: 8px;
+	box-shadow: 0 0 16px #9C9C9C;
+	margin: 0 1em 1em 0;
+	padding: 1em; 		
+}
+  .icons img:hover {
+	  border: 1px solid #888;
+	  box-shadow: 0 0 10px #62707A;
+	  margin: 0 1em 1em 0;
+	  cursor: pointer;
+  }	
+  p.icons a {border:none;}	
+  
+ 
+#agencycontent .imgC {                       /*Used to center an image*/
+    display: block;
+    margin: auto;
+  }
+	
+
+
+/*************************************************************************************************
+
+	FORMS - Basic form styles and instructions:
+	  Use fieldsets to group related inputs.
+	  Use <label for="something"><input id="something"> to associate labels w/ inputs, and to "activate" labels.
+	  Use .required to mark required fields.
+	  Set field widths in ems (not pixels) so they scale with the font size.
+	  See also: Capitalization and Punctuation Guide: https://msdn.microsoft.com/en-us/library/bb158706.aspx 
+	  Normalize form elements across browsers - Was this done in resets?
+*************************************************************************************************/	  
+
+  #agencycontent form {
+	  box-sizing: border-box;
+	  border:1px solid LightGrey; border-radius:2em;
+	  background:#F9F9F9; 
+	  margin: auto;  padding:1em 2em; 
+	  font-size: 95%;
+	  
+  }  	
+ 
+
+	
+	
+/************************************************************************************************
+
+	TABLES (Flexible)	
+	Hint: <table><thead><thead><tfoot><tfoot><tbody><tbody></table>  Yes, <tfoot> comes "before" <tbody> 
+	
+************************************************************************************************/
+/*Custom table in tables.css*/
+   table h1,h2,h3,h4,h5,h6,h7 {
+	  width:auto;
+	  /*background: white;*/
+	  border-collapse: collapse;		
+	  margin: 1.5em 0;
+	  font-size: 1.2em;
+		line-height:1.2em
+   }
+   
+  /*This is used to correct formatting when a table is added inside a table*/      
+		 table table {
+	  width:auto;
+	  background: white;
+	  border-collapse: collapse;		
+	  /*margin: 1.5em 0;*/
+	  font-size: 1.0em;
+		line-height:1.2em
+   }
+   
+	table.center td, table.center th, table.center caption {text-align:center;} /* centers all text in the table */
+	   td.right, th.right {text-align:right;}
+	  td.center, th.center {text-align:center;}
+	  td.left, th.left {text-align:left;}
+	  td.justify, th.justify {text-align:justify;}
+	  .vTop {vertical-align:top;}
+	  .vBottom {vertical-align:bottom;}
+	  .vMiddle {vertical-align:middle;}	
+	table ul, table ol, table dl  {font-size:inherit !important;} /* prevents oversizing of list fonts */
+	/* caption {padding-bottom:.5em; font:italic 1.3em Georgia, "Times New Roman", Times, serif;} */  /*turned off on 06/15/2017 By Brad R. */
+	 tfoot {font-size:90%;}
+ 
+	         	
+	
+	.fixed {table-layout: fixed;} /* algorithm is: "table width" divided by # of columns = column width */	
+	.noWrap {white-space: nowrap;}
+	.noHover {cursor:none; background:none;}  /* removes cursor effect on tables  */	
+	.activeRow, .simple .activeRow { 
+		background: rgb(235,241,246); /* Old browsers */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViZjFmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2FiZDNlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzg5YzNlYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNWViZmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+		background: -moz-linear-gradient(top, rgba(235,241,246,1) 0%, rgba(171,211,238,1) 50%, rgba(137,195,235,1) 51%, rgba(213,235,251,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(235,241,246,1)), color-stop(50%,rgba(171,211,238,1)), color-stop(51%,rgba(137,195,235,1)), color-stop(100%,rgba(213,235,251,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-8 */
+			}
+	
+
+/*************************************************************************************************
+
+	BACKGROUNDS, GRADIENTS, GLOWS & BOX SHADOWS
+	
+*************************************************************************************************/
+  .gradientGrey {
+	/* https://www.colorzilla.com/gradient-editor/  Neutral Density, Lightness = 75% radial, reverse */
+	background: rgb(247,247,247); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmN2Y3ZjciIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTZlNmU2IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(247,247,247,1) 0%, rgba(230,230,230,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(230,230,230,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(247,247,247,1) 0%,rgba(230,230,230,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(247,247,247,1) 0%,rgba(230,230,230,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(247,247,247,1) 0%,rgba(230,230,230,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(247,247,247,1) 0%,rgba(230,230,230,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e6e6e6',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+  }
+  .gradientBlack {
+	background: #45484d; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ1NDg0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-8 */		
+  }
+  .noBackground {background: none;}
+  .hilite {background: #FFFFAA;}
+
+/*************************************************************************************************
+
+	BORDERS & SEPARATORS
+	
+*************************************************************************************************/
+  hr { 	
+	display: block;
+	/*margin-before: 0.5em;
+	margin-after: 0.5em;
+	margin-start: auto;
+	margin-end: auto; */
+	border-width: 1px;
+  }
+  
+   /* hr 2{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+} */
+
+/*************************************************************************************************
+
+	BORDER RADIUS & SHADOWS  
+	
+**************************************************************************************************/
+  /* 
+  Note: border-radius clips images. 
+  Hint: border-top-left-radius, border-top-right-radius, border-bottom-right-radius, border-bottom-left-radius 
+  */
+  .borderRadius {border-radius: 3%;}
+  .borderRadiusCircle {border-radius: 50%;} 
+  .borderRadiusLeaf {border-radius: 35% 0; border: 1px solid white;} /* all of a sudden, I have to add a 1px border for this to work. Why? */
+  .boxShadow {box-shadow: 4px 4px 8px #B7B7B7}
+  .glow {box-shadow: 0 0 16px #fff;}
+ 	
+/*************************************************************************************************
+
+	CLEARING FLOATS 
+	
+*************************************************************************************************/
+  /* Apply class="group" to sections and articles */
+	.group:before,.group:after {
+		content:"";
+		display:table;
+	}
+	  .group:after {clear:both;}
+	  .group {zoom:1;}  /* For IE 6/7 (trigger hasLayout) */
+	  
+  /* Simple inline clearing for other html elements */
+  .clear	{clear:both;} 
+
+/*************************************************************************************************
+
+	GLOBAL STYLES
+	
+*************************************************************************************************/
+  .hidden		{display:none;} /* hide it, and clear the space - use for headings h1-h3, etc. */
+  .hideOverflow {overflow:hidden;} /* hides overflow when you use the rollershade effect  */
+  .invisible 	{visibility:hidden;} /* Used for top of page links. Invisible on large screens */
+  .floatLeft 	{float:left; margin: 0 2em 1em 0;}
+  .floatRight {float:right; margin: 0 0 1em 2em;}
+		
+  #agencycontent .noBorder {border: none;} /* remove dashed border on or only instance section or article */
+  #agencycontent .noPadding {padding: 0;}
+  #agencycontent .noIndent { margin-left: 0; padding-left: 0; }
+  #agencycontent .blockCenter { display: block; margin-left: auto; margin-right: auto; width:100%; } /* remember to set width */
+  
+  .indent1  {margin-left:1em;}
+  .indent2 {margin-left:2em;}
+  .indent3 {margin-left:3em;}
+  
+  /* Experimental - I'm includingthese but they're hack-ish There may be a better way to achieve margin and padding changes */
+  .addMarginLeft {margin-left: 1em;}
+  .addTopMargin {margin-top:1em;}
+  .addBottomMargin {margin-bottom:1em;}
+  .noMargin{margin:0 !important;}
+  .noPadding {padding:0 !important;}
+  .noTopMargin {margin-top:0 !important;}
+  .noBottomMargin {margin-bottom:0 !important;}
+  .noLeftPadding {padding-left:0;}
+  .noHPadding {padding-left:0 !important; padding-right:0 !important;} 
+  .noHMargin {margin-left:0 !important; margin-right:0 !important;}
+  .noTopMargin {margin-top:0 !important;} /* remove the top margin */
+  .noTopPad {padding-top:0 !important;}
+
+/*************************************************************************************************
+
+	CAROUSELS & SLIDE SHOWS
+	
+*************************************************************************************************/
+/* Slideshow CSS */
+ /* Prevent the slideshow from flashing on load */
+    #slides, #slides2, #slides3, #slides4 {display: none;}
+    /* Center the slideshow */
+    .container {margin: 0 auto;}	
+	/*Sizing of slides - Without picking one of these, the slides will fill the div width that they are in. */
+	.smallSlides {max-width:300px;}
+	.mediumSlides {max-width:600px;}	
+    /* Show active item in the pagination */
+    .slidesjs-pagination .active {color:#D7500E;}
+    #slides, #slides2, #slides3, #slides4 {display: none;}
+    #slides .slidesjs-previous, #slides2 .slidesjs-previous, #slides3 .slidesjs-previous, #slides4 .slidesjs-previous {
+      margin-right: 10px;
+      float: left;
+	 /* background-image: url(https://www.mdt.mt.gov/common/images/previous.png);*/
+	  background-position: 0 0;
+	  margin-top:5px;
+      margin-left:15px;
+	  background-repeat: no-repeat;
+      display:block;
+      width:25px;
+      height:25px;
+      overflow: hidden;
+      text-indent: -9999px;
+    }
+    #slides .slidesjs-next, #slides2 .slidesjs-next, #slides3 .slidesjs-next, #slides4 .slidesjs-next {
+      margin-right: 15px;
+      float: left;
+	 /* background-image: url(https://www.mdt.mt.gov/common/images/forward.png); */
+	  background-position: 0 0;
+	  margin-top:5px;
+      margin-left:15px;
+	  background-repeat: no-repeat;
+      display:block;
+      width:25px;
+      height:25px;
+      overflow: hidden;
+      text-indent: -9999px;
+    }
+	#slides .slidesjs-play, #slides3 .slidesjs-play {
+	 /* background-image: url(https://www.mdt.mt.gov/common/images/play.png);*/
+	  background-position: 0 0;
+	  margin-top:5px;
+      margin-left:15px;
+	  background-repeat: no-repeat;
+      display:block;
+      width:25px;
+      height:25px;
+      overflow: hidden;
+      text-indent: -9999px;
+    }
+	#slides .slidesjs-stop, #slides3 .slidesjs-stop {
+		margin-top:5px;
+	  margin-left:15px;
+	 /* background-image: url(https://www.mdt.mt.gov/common/images/stop.png); */
+	  background-position: 0 0;
+	  background-repeat: no-repeat;
+      display:block;
+      width:25px;
+      height:25px;
+      overflow: hidden;
+      text-indent: -9999px;
+    }
+    .slidesjs-pagination {
+      margin: 10px 0 0;
+      float: right;
+      list-style: none;
+    }
+	#slides .slidesjs-pagination {
+		margin: 0px 0 0;
+	}
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+	  list-style:none;
+    }
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+     /* background-image: url(https://www.mdt.mt.gov/common/images/pagination.png); */
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px;
+    }
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px;
+    }
+    #slides a:link,
+    #slides a:visited {
+      color: #D7500E;
+    }
+    #slides a:hover,
+    #slides a:active {
+      color: #D7500E;
+    }
+    .navbar {overflow: hidden;}
+/* End of Slide Show CSS */
+
+/*************************************************************************************************
+
+	VIDEOS
+	Courtesy https://www.developerdrive.com/2012/07/adding-responsive-videos-to-your-design/ 
+	Videos must look good at width="1048" height="786" and be iframe-formattted in YouTube
+	HHS videos are saved here https://www.youtube.com/montanadot 
+	
+*************************************************************************************************/
+  .videoContainer {
+	  position: relative;
+	  padding-bottom: 56.25%; padding-top: 30px; /* room for video controls */
+	  height: 0;
+	  overflow: hidden;
+  }
+  .videoContainer iframe, .videoContainer object, .videoContainer embed {
+	  position: absolute; top: 0; left: 0; /* Retain to ensure controls are visible */
+	  width: 100%; height: 100%;  
+  }
+  /* Optionally, you can restrict the video width to some preset value e.g. 320px
+  Wrap the video with another <div class="videoWrapper"> tag which specifies a fixed width value as shown below: */
+  .videoWrapper {width:320px; max-width: 100%;}
+
+
+
+
+/*****************************************************************************************
+
+DNN  Module Module customizations
+
+******************************************************************************************/
+
+/*****Set the distance between dropdown boxes***********/
+.ui-accordion .ui-accordion-header
+	{
+		padding-top:.5em; 
+		padding-bottom:0em;
+		margin-top:0em!important;
+		margin-bottom:0em!important;
+	}
+	
+/***********Sets the height of the display box*************/
+ .ui-widget {
+	font-family: inherit !important;
+font-size:1.0em !important;
+	line-height:1em;
+
+}
+
+/******Left menu font size correction**************/
+
+.liveaccblitzer .ui-accordion .ui-accordion-header a {
+    display: block;
+    font-size: .5em !important;
+    padding: .5em .5em .5em 2.2em;
+}
+
+/******Left menu font size correction**************/
+
+.twoColLeft .liveaccdefault .ui-accordion .ui-accordion-header a {
+    display: block;
+    font-size: 1.2em !important;
+    padding: .5em .5em .5em 2.2em;
+	}
+	
+.twoColLeft	.liveaccdefault .ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+   /* margin-top: -25px !important;*/
+    position: static;
+    top: 1px;
+    margin-bottom: 2px;
+    overflow: auto;
+    display: none;
+	}
+	
+	.twoColLeft.liveaccdefault .ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: .8em !important;
+    list-style: none;
+}
+
+/******** This sets the h3 title size in the panel *********/
+ .ui-widget h3 {
+	 	/*font-family: inherit !important;*/
+font-size:1.3em !important;
+	line-height:1.2em;
+ }
+ 
+ /* Background color for the search boost input box. */
+ .sbinp-default .search-box
+ {background-color:#CCFFFF !important;}
+ 
+ /* For collapsabe pannel used with SQL Pro */
+ 
+  .squarebox {
+        width: 100%;
+        border-style: solid  !important;
+		border-width: 4px !important;
+		border-color: #336699 !important;
+        text-align: left;
+        overflow: hidden; }
+    .squareboxgradientcaption {
+        /*color: #ffffff;*/
+        padding: 5px;
+        /*background-image: url(http://test.dphhs.mt.gov/Portals/74/Images/cancercontrol.jpg?ver=2014-10-13-100026-613);*/
+		background-color:#e2efd9;
+        /*background-repeat: repeat-x;*/
+			 overflow: hidden;
+		font-weight: bold;	 
+		}
+    .squareboxcontent {
+        background-color:#fcfcfc;
+        padding: 10px;
+        overflow: hidden;
+        border-top: solid 1px  #336699;
+		
+		 }
+		
+	.faqspacing {
+		height:5px;
+	}
+	
+	/* Fix for the Rotator Module, This fixes one of the themes font size in the thumb nail images boxes*/
+	.edstr__TabTheme2 .ms-tabs-template .ms-thumb-list .ms-thumb-frame .ms-thumb > h3 {
+    font-family: "Roboto Condensed", serif;
+    font-size: 17px !important;
+	}
+	
+	/**********Code to hide the alt tag on the DNN Easy Rotator***********/
+
+.edsSizeShifter.NewsOne .rs-caption .rs-caption-wrapper > h4 a {
+  color: white;
+  font-weight: bold;
+  font: 0px Verdana, Helvetica, sans-serif !important; /**It was at 18pt***/
+  line-height: 21px;
+}	
+
+.edsSizeShifter.NewsOne .rs-caption {
+   background: none !important;
+}
+
+ /*************Used to fix the size of the date picker display box in the Events module**********************/
+ 
+.RadPicker_Default .riTextBox
+{
+	height: 25px !important;
+}
+ 
+
+.gsc-control-cse, .gsc-control-cse .gsc-table-result {
+    margin-top: -.5em !important;
+}
+	
+	/*******************************************************************************
+	
+	Bootstrap Column adjustments
+	
+	*******************************************************************************/
+	
+	.col-md-4
+{width:33% !important;}
+
+.col-md-6
+{width:48% !important;}
+
+/******Drop Shadow text for special headings******/
+
+.textShadow{
+	text-shadow: 4px 3px 10px  #00bce4;
+	color:#008752;
+	font-style:italic;
+	font-size:450% !important;
+	font-family:Georgia;
+	
+	}
+	
+	
+	/******************************************************************************************
+	
+	Other Custom settings
+	
+	*******************************************************************************************/
+	
+	.programPagesBackground{
+		 background: -webkit-linear-gradient(#fff, #d5e6ed); /* For Safari 5.1 to 6.0 */
+ 				 background: -o-linear-gradient(#fff, #d5e6ed); /* For Opera 11.1 to 12.0 */
+  				 background: -moz-linear-gradient(#fff, #d5e6ed) !important; /* For Firefox 3.6 to 15 */
+  				 background: linear-gradient(#fff, #d5e6ed); /* Standard syntax */
+				 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d5e6ed');/*For IE7-8-9*/ 
+					height: 9%;/*For IE7*/ 
+	}
+	
+	.programPages hr {
+		margin-top:3px;
+		margin-bottom:3px;
+		}
+		
+	.programPages a{text-decoration:none !important;}
+	
+	.textShadow2 { text-shadow: 2px 0px 3px  #00bce4;
+		color:#008752 !important;
+	font-style:italic;
+	font-size:450% !important;
+	font-family:Georgia;
+	 }
+	 
+	 .callOutBox {
+		 border: thin;
+		 border-style: solid;
+		 padding-left: 20px;
+		 padding-right: 20px;
+		 margin-top: -1em;
+		 }
+	 
+ /**********Google Custom Search Box Formatting**********/
+ 
+ .gsc-input-box {
+	height:Auto;
+ }
+ 
+ .gsc-search-box table{
+	margin:0 !important;
+}
+
+	.floatingBox {
+background-color:#eee;
+border-radius: 15px;
+margin-bottom: 1em;
+border: solid 3px;
+vertical-align:top;
+width: 45%;
+margin-left: 2.5%;
+border: 1px solid #ccc;
+padding:5px 10px;
+float:left;
+}	
+
+.centerFloatingBox {     
+display: block;
+margin: auto;
+background-color:#eee;
+border-radius: 15px;
+margin-bottom: 1em;
+border: solid 3px;
+vertical-align:top;
+width: 45%;
+border: 1px solid #ccc;
+padding:5px 10px;
+  }
+
+	
+	/*************CKE Editor Style Settings********************************/
+	
+ .grayBoxLeft {display:inline-block;
+vertical-align:top;
+width: 99%;
+margin-left: 1%;
+background-color: #eee;
+border: 1px solid #ccc;
+padding:5px 10px;
+border-radius: 15px;
+margin-bottom:1%;
+}
+.grayBoxRight{
+display: inline-block; width: 99%; background:#eee;border:1px solid #ccc;padding:5px 10px;border-radius: 15px; margin-bottom:1%; margin-left: 3%;
+}
+
+.grayBoxRightCtl{
+display: inline-block; vertical-align: top; margin-left: 3%; width: 46%;
+}
+ 
+.grayBoxLeftCtl{
+display: inline-block; vertical-align: top; margin-left: 1%; width: 46%;
+}
+
+/*This is the class for the language infromaton in the footer*/
+.footerLang { display: inline-block;
+    width: 95%;  line-height: 1.5em;
+	font-size:1.1em !important;}
+
+.footerLang p{ color:white;}
+
+/************ left and right pane styles  - Brad R. *************/
+div.leftPane ul  li{list-style:none; line-height:1em;}
+div.leftPane .ui-helper-reset {font-size:.65em !important;} /*Sets the accordian header font size in the left pane*/
+div.leftPane .ui-accordion-content {font-size: 1.5em !important;} /*Sets the accordian Content font size in the left pane*/
+div.rightPane ul  li{list-style:none; line-height:1em;}
+
+/*********Live Accordian Themes **************/
+
+ 
+ /**********Google Custom Search Box Formatting**********/
+ 
+ .gsc-input-box {
+    margin-bottom: 28px !important;
+ }
+ 
+.gsc-control-cse, .gsc-control-cse .gsc-table-result {
+    margin-top: -.5em !important;
+}
+
+.center{
+	   width: 100%;
+    margin: auto;
+}
+
+/*************************Callout Box ************************/
+
+.callout {
+  background-color: #fff5ee;
+  width: 100%;
+  border: 2px solid #008852;
+  padding: .5em;
+  margin: .5em 0;
+  border-radius: 10px; 	
+}
+
+.imgC {
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

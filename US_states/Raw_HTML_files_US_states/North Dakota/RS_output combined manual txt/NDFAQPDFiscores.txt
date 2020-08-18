@@ -1,0 +1,1 @@
+Test	Grade Level	Reader Age	Scale Value	Predicted Cloze ScoreAutomated Readability Index	12.1	17-18		Coleman-Liau	12	17-18		40Flesch-Kincaid	12.8	17-18		Flesch Reading Ease			42	FORCAST	11	16-17		Fry	16	21-22		Gunning Fog	14	19-20		New Dale-Chall	9-10	14-16		New Fog Count (Kincaid)	10.5	15-16		Raygor Estimate	13	18-19		SMOG	15.2	20-21		Average (Mean)	12.6	18	N/A	40

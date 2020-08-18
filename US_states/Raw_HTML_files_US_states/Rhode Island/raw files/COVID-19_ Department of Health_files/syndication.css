@@ -1,0 +1,21 @@
+@media all and (min-width: 768px) {
+    .col-md-12 {
+        flex: none!important;
+        max-width: 100%;
+    }
+}
+
+body {
+    width: 1px;
+    min-width: 100%;
+    *width: 100%;
+}
+
+body.striptitle .syndicate:nth-child(1){
+    display: none;
+}
+
+html.cdc-content-403326 .match-height .col-md-4 img.img-fluid {
+	width: 250px!important;
+}
+

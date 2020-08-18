@@ -1,0 +1,218 @@
+﻿/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+/*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+
+b,
+strong {
+/*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+/*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+/*
+  For IE6 + IE7:
+
+  "display: list-item" keeps bullets from
+  disappearing if hasLayout is triggered.
+*/
+  display: list-item;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+/*
+  For IE9. Without, occasionally draws shapes
+  outside the boundaries of <svg> rectangle.
+*/
+  overflow: hidden;
+}
+
+/*
+SharePoint 2010 CSS Reset v0.1
+by Kyle Schaeffer
+http://kyleschaeffer.com/sharepoint/css-reset/
+*/
+.s4-title h1 a,.s4-title h2 a,.s4-tn li.static > .menu-item,.ms-WPBody a:link,.link-item a,.link-item a:link,.s4-ql ul.root > li > .menu-item,.s4-qlheader,.s4-ql a.selected,.s4-ql ul.root ul > li > a,.ms-menutoolbar td a,a.ms-addnew,.ms-ltviewselectormenuheader .ms-viewselector a,.ms-ltviewselectormenuheader .ms-viewselectorhover a,.ms-vb a:link,.ms-vb2 a:link,.ms-vb-user a:link,.ms-linksection-level1 ul li a,.ms-WPTitle a{color:#339;text-decoration:none;}.ms-WPBody a:visited,.link-item a:visited,.s4-qlheader:visited,a.ms-addnew:visited,.ms-ltviewselectormenuheader .ms-viewselector a:visited,.ms-ltviewselectormenuheader .ms-viewselectorhover a:visited,.ms-vb a:visited,.ms-vb2 a:visited,.ms-vb-user a:visited,.ms-linksection-level1 ul li a:visited{color:#339;text-decoration:none;}.s4-title h1 a:hover,.s4-title h2 a:hover,.s4-tn li.static > a:hover,.s4-toplinks .s4-tn a.selected:hover,.ms-WPBody a:hover,.link-item a:hover,.s4-ql ul > li > a:hover,.s4-ql ul.root > li > a:hover,.s4-qlheader:hover,.ms-rtestate-field a:hover,.s4-ql ul.root ul > li > a:hover,.ms-menutoolbar td a:hover,.ms-vh a:hover,.ms-vh2 a:hover,a.ms-addnew:hover,.ms-ltviewselectormenuheader .ms-viewselector a:hover,.ms-ltviewselectormenuheader .ms-viewselectorhover a:hover,a.ms-toolbar:hover,.ms-vh2-nofilter a:hover,.ms-vh2-nofilter-notextalign a:hover,.ms-vb a:hover,.ms-vb2 a:hover,.ms-vb-user a:hover,.ms-linksection-level1 ul li a:hover,.ms-propertysheet a:hover,.ms-sectionheader a:hover,.ms-disc a:hover{color:#06c;text-decoration:underline;}.link-item a:active,a.ms-addnew:active,.ms-ltviewselectormenuheader .ms-viewselector a:active,.ms-ltviewselectormenuheader .ms-viewselectorhover a:active,.ms-vb a:active,.ms-vb2 a:active,.ms-vb-user a:active,.ms-linksection-level1 ul li a:active{color:#006;text-decoration:none;}.s4-ql a.selected,.ms-viewlsts .ms-vb2 > a,.ms-addnew a,.ms-selectorlink a,.ms-selectorlink a:visited,.ms-navitem a:link{color:#339!important;text-decoration:none!important;}.s4-ql a.selected:visited,.ms-viewlsts .ms-vb2 > a:visited,.ms-addnew a:visited,.ms-navitem a:visited{color:#339!important;text-decoration:none!important;}.s4-ql a.selected:hover,.ms-viewlsts .ms-vb2 > a:hover,.ms-addnew a:hover,tr.s4-itm-hover a:hover,tr.ms-itmhover a:hover,.ms-selectorlink a:hover,.ms-navitem a:hover,.ms-WPTitle a:hover{color:#06c!important;text-decoration:underline!important;}.s4-ql a.selected:active,.ms-viewlsts .ms-vb2 > a:active,.ms-addnew a:active,.ms-navitem a:active{color:#006!important;text-decoration:none!important;}.ms-cui-ribbon,.ms-cui-menu,.ms-siteactionsmenuinner,.ms-siteactionsmenuhover,.ms-welcomeMenu,div.ms-MenuUIPopupBody.ms-MenuUIPopupScreen,div.ms-MenuUIPopupBody.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner,div.ms-MenuUIPopupBody.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div,.ms-cui-toolbar-toolbar,.s4-titletable,.ms-socialNotif-Container,.ms-sbplain,.ms-sbtable,body #pageStatusBar,.link-item,.link-item a,.link-item a:link,.ms-WPBody,.ms-menutoolbar td a,.ms-toolbar,.ms-listheaderlabel,.ms-viewselector,.ms-viewselectortext,.ms-viewselectorhover,.ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-vh,.ms-vh2,.ms-vh-icon,.ms-vh-icon-empty,.ms-vhImage,.ms-gb,.ms-gb2,.ms-gbload,.ms-vb,.ms-vb2,.ms-vb-tall,.ms-vb-user,.ms-vh2-nograd,.ms-vh3-nograd,.ms-vh2-nograd-icon,.ms-vh2-nofilter-icon,.ms-pb,.ms-pb-selected,.ms-ph,td.ms-vb,a.ms-addnew,.ms-ltviewselectormenuheader .ms-viewselector a,.ms-ltviewselectormenuheader .ms-viewselectorhover a,th.ms-vh,td.ms-vb,.ms-dlgTitleText,.ms-formlabel,.ms-descriptiontext,.ms-formtoolbar,select,.ms-input,.ms-long,.ms-inputuserfield,.ms-toolbarContainer,div.ms-formfieldlabelcontainer span.ms-formfieldlabel,.ms-formfieldlabelcontainer,.description,.ms-sectionheader,.ms-linksection-level1,.ms-pageinformation h3.ms-standardheader,table.ms-pageinformation,table.ms-createpageinformation,.ms-pageinformation table td,.ms-createpageinformation table td,.ms-linksectionheader,th .ms-vb,.ms-vh2-nofilter-icon,th.ms-vh2-nograd,th.ms-vh2-nograd-icon,.ms-propertysheet,.ms-formdescription,.ms-paging,.ms-listedit .ms-standardheader,.ms-listedit .ms-linksectionheader,.ms-listedit .ms-linksectionheader .ms-standardheader,.ms-listedit table.ms-pageinformation,.ms-listedit .ms-pageinformation table td,.ms-listedit .ms-propertysheet,.ms-listedit .ms-descriptiontext,.ms-SPZoneLabel,.ms-SPButton,.ms-wpadder-sectionhead,.ms-wpadder-wpname,.ms-wpadder-categoryColumn,.ms-wpadder-categoryColumn td,.ms-wpadder-items,.ms-wpadder-upload input,.ms-wpadder-upload button,.ms-wpadder-tabTable th,.ms-wpadder-description,.ms-wpadder-zoneArea button,.ms-WPTitle,.link-item-large,.link-item-large a,.link-item-large a:link,div.title-With-Background a,div.title-With-Background a:link,div.title-With-Background a:hover,div.title-With-Background a:visited,div.title-With-Background a:active,.headertitle,.headertitle a,.headertitle a:link,.level-item,.level-item a,.level-item a:link,.headertitle-band,.headertitle-band a,.headertitle-band a:link,.headertitle-large,.headertitle-large a,.headertitle-large a:link,.headertitle-small,.headertitle-small a,.headertitle-small a:link,.level-description,.ms-WPBody td,.medium,groupheader,.ms-rtelong,.ms-longer,.ms-rtelonger,.ms-radiotext,.ms-rtedropdown,.ms-lookuptypeintextbox,.ms-rtefield,table.ms-disc td,table tr td.ms-disc-bordered-noleft,.ms-formbodysurvey,.ms-gridCol,.ms-gridT1,.ms-surveyVBarT,.ms-surveyVBarTC,.ms-surveyTotal{font-family:inherit;}.ms-selectorlink a,.ms-selectorlink a:visited{font-family:inherit!important;}.ms-cui-ribbon,.ms-cui-menu,.ms-siteactionsmenu,.s4-breadcrumb-menu,.ms-cui-TabRowLeft,.ms-cui-toolbar-toolbar,.ms-MenuUILabel,.ms-MenuUILabelRtL,.ms-menuuilabelcompact,.ms-menuuilabelcompactRtl,div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div.ms-MenuUILarge ul.ms-MenuUIUL div.ms-MenuUIULItem a.ms-MenuUIULLink,div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div.ms-MenuUILargeRtL ul.ms-MenuUIUL div.ms-MenuUIULItem a.ms-MenuUIULLink,.s4-search input.ms-sbplain,.ms-sbplain,.s4-search input,.link-item,.link-item a,.link-item a:link,.ms-WPBody,.s4-ql ul.root > li > .menu-item,.s4-qlheader,.s4-qlheader:visited,.ms-menutoolbar td a,.ms-toolbar,.ms-listheaderlabel,.ms-viewselector,.ms-viewselectortext,.ms-viewselectorhover,.ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-vh,.ms-vh2,.ms-vh-icon,.ms-vh-icon-empty,.ms-vhImage,.ms-gb,.ms-gb2,.ms-gbload,.ms-vb,.ms-vb2,.ms-vb-tall,.ms-vb-user,.ms-vh2-nograd,.ms-vh3-nograd,.ms-vh2-nograd-icon,.ms-vh2-nofilter-icon,.ms-pb,.ms-pb-selected,.ms-ph,td.ms-vb,a.ms-addnew,.ms-ltviewselectormenuheader .ms-viewselector a,.ms-ltviewselectormenuheader .ms-viewselectorhover a,th.ms-vh,td.ms-vb,.s4-titletable,.ms-dlgTitleText,.ms-descriptiontext,.ms-formtoolbar,select,.ms-input,.ms-long,.ms-dtinput,.ms-dttimeinput,.ms-inputuserfield,.ms-toolbarContainer,div.ms-formfieldlabelcontainer span.ms-formfieldlabel,.ms-formfieldlabelcontainer,.description,.ms-linksection-level1 h3,.ms-linksection-level1 ul li a,.ms-pageinformation h3.ms-standardheader,table.ms-pageinformation,table.ms-createpageinformation,.ms-pageinformation table td,.ms-createpageinformation table td,th .ms-vb,.ms-vh2-nofilter-icon,th.ms-vh2-nograd,th.ms-vh2-nograd-icon,.ms-formdescription,.ms-authoringcontrols,.ms-paging,.ms-listedit .ms-standardheader,.ms-listedit .ms-linksectionheader,.ms-listedit .ms-linksectionheader .ms-standardheader,.ms-linksectionheader,.ms-SPZoneLabel,.ms-SPButton,.ms-wpadder-categoryColumn,.ms-wpadder-categoryColumn td,.ms-wpadder-items,.ms-wpadder-upload input,.ms-wpadder-upload button,.ms-wpadder-tabTable th,.ms-wpadder-description,.ms-wpadder-zoneArea button,.ms-WPTitle,.level-item,.level-item a,.level-item a:link,.level-description,.headertitle,.ms-WPBody td,.medium,groupheader,.ms-rtelong,.ms-longer,.ms-rtelonger,.ms-radiotext,.ms-rtedropdown,.ms-lookuptypeintextbox,.ms-rtefield,table.ms-disc td,table tr td.ms-disc-bordered-noleft,.ms-gridCol{font-size:1em;}.s4-title h2,.ms-socialNotif-text,.s4-search select.ms-sbscopes,.s4-search input.ms-sbplain,.article-content,.welcome-content,.s4-title .s4-pagedescription,.s4-title .s4uniqpermdescription,.ms-toolbar,.ms-listheaderlabel,.ms-gb .ms-standardheader,.ms-standardheader,.ms-gb,.ms-gb2,.ms-gbload,.ms-vb-tall,.ms-vb-user,.ms-pb,.ms-pb-selected td,.ms-vb,.ms-vb2,.ms-viewlsts-noitems > b,.s4-specialNavLinkList a:hover > span.ms-splinkbutton-text,.ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-formlabel,.ms-descriptiontext,.ms-formtoolbar,.ms-toolbarContainer,.description,.link-item,.ms-sectionheader,.ms-linksection-level1 h3,.ms-pageinformation h3.ms-standardheader,.ms-linksectionheader .ms-standardheader,.ms-linksectionheader,.ms-pageinformation th,.ms-createpageinformation th,th .ms-vb,.ms-vh2-nofilter-icon,th.ms-vh2-nograd,th.ms-vh2-nograd-icon,.ms-vh,.ms-vh2,.ms-vh-icon-empty,.ms-vhImage,.ms-vh2-nograd,.ms-vh3-nograd,.ms-vh2-nograd-icon,.ms-vh2-nofilter-icon,.ms-ph,.ms-propertysheet,.ms-pageinformation table td,.ms-createpageinformation table td,.ms-bottompaging .ms-paging,.ms-paging,.ms-listedit .ms-standardheader,.ms-listedit .ms-linksectionheader,.ms-listedit .ms-linksectionheader .ms-standardheader,.ms-listedit .ms-gb .ms-vh2-nofilter,.ms-listedit .ms-gb .ms-vh2,.tmt-name,.ms-SPZoneTitle,.ms-SPZoneLabel,.ms-rteElement-P,.level-description,.headertitle,.medium,groupheader,.ms-rtefield,table.ms-disc td{color:inherit;}.ms-viewlsts th.ms-vh2-nofilter{color:inherit!important;}.ms-cui-ribbon a:link,.ms-cui-ribbon a:visited,.ms-cui-ribbon a:hover,.ms-cui-ribbon a:active,.ms-cui-menu a:link,.ms-cui-menu a:visited,.ms-cui-menu a:hover,.ms-cui-menu a:active,.ms-siteactionsmenu > span > a,.ms-menutoolbar td a,.ms-menutoolbar td a:hover,.s4-specialNavLinkList a:hover > span.ms-splinkbutton-text,a.ms-socialNotif{text-decoration:none;}

@@ -1,0 +1,11 @@
+﻿a.no-direct-text-content {
+    margin: 0 !important;
+}
+    a.no-direct-text-content:after {
+        background-image: none !important;
+        padding: 0 !important;
+    }
+
+.dsf-legacy-blockquote {
+    margin: .5em 0 .5em 2em;
+}

@@ -1,0 +1,288 @@
+
+/* Style to DhssZen theme elements or SharePoint specific */
+
+body
+{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+#DhssZenContent
+{
+    max-width: 720px;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.DhssZenNav
+{
+    margin-bottom: 20px;
+}
+
+
+/* Right-side navigation */
+
+ul.root
+{
+    background-color: #eee;
+    border: 1px #15365b solid;
+}
+
+.menu ul
+{
+    margin: 0px;
+    padding: 0;
+}
+
+.menu ul ul
+{
+    margin: 0 10px;
+}
+
+.menu li
+{
+    margin: 0;
+    padding: 0 0 2px 0;
+}
+
+.menu .menu-item, .menu .menu-item .additional-background, .menu .menu-item .additional-background .menu-item-text
+{
+    display: block;
+}
+
+.menu-vertical .menu-item-text
+{
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+span.static
+{
+    padding: 2px 4px;
+    color: white;
+    background-color: #15365b;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: -1px;
+}
+
+a.static, a.static:link
+{
+    color: #033254;
+    padding: 1px 2px 1px 4px;
+}
+
+a.static:visited
+{
+    color: #033254;
+}
+
+a.static:hover
+{
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+/* Misc SharePoint elements */
+
+.s4-ca
+{
+    margin-left: 0;
+}
+
+.s4-breadcrumb-menu
+{
+    background: #f2f2f2;
+}
+
+.ms-hidden
+{
+    z-index: 3;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+    height: 1px;
+    overflow: hidden;
+    top: -2000px;
+}
+
+#s4-bodyContainer
+{
+    position: relative;
+}
+
+#s4-ribbonrow
+{
+    line-height: normal;
+    font-size: 70%;
+}
+
+.ms-formfieldvaluecontainer
+{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* RTE Markup Style Elements */
+h1.dz-Element-h1
+{
+    -ms-name: "Heading 1 (h1)";
+}
+h2.dz-Element-h2
+{
+    -ms-name: "Heading 2 (h2)";
+}
+h3.dz-Element-h3
+{
+    -ms-name: "Heading 3 (h3)";
+}
+h4.dz-Element-h4
+{
+    -ms-name: "Heading 4 (h4)";
+}
+h5.dz-Element-h5
+{
+    -ms-name: "Heading 5 (h5)";
+}
+p.dz-Element-p
+{
+    -ms-name: "Paragraph (p)";
+}
+div.dz-Element-CalloutLeft1
+{
+    -ms-name: "Callout Left (200)";
+}
+.dz-Element-CalloutLeft1
+{
+    background-color: #f0f0f0;
+    float: left;
+    width: 200px;
+    padding: 9px;
+    border: 1px solid #069;
+}
+div.dz-Element-CalloutLeft2
+{
+    -ms-name: "Callout Left (440)";
+}
+.dz-Element-CalloutLeft2
+{
+    background-color: #f0f0f0;
+    float: left;
+    width: 440px;
+    padding: 9px;
+    border: 1px solid #069;
+}
+div.dz-Element-CalloutRight1
+{
+    -ms-name: "Callout Right (200)";
+}
+.dz-Element-CalloutRight1
+{
+    background-color: #f0f0f0;
+    float: right;
+    width: 200px;
+    padding: 9px;
+    border: 1px solid #069;
+}
+div.dz-Element-CalloutRight2
+{
+    -ms-name: "Callout Right (440)";
+}
+.dz-Element-CalloutRight2
+{
+    background-color: #f0f0f0;
+    float: right;
+    width: 440px;
+    padding: 9px;
+    border: 1px solid #069;
+}
+div.dz-Element-Box
+{
+    -ms-name: "Box";
+}
+.dz-Element-Box
+{
+    background-color: #f0f0f0;
+    border: 1px solid #069;
+    padding: 9px;
+}
+div.dz-Element-grid1
+{
+    -ms-name: "Grid One (220)";
+}
+.dz-Element-grid1
+{
+    position: relative;
+    float: left;
+    width: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+}
+div.dz-Element-grid2
+{
+    -ms-name: "Grid Two (460)";
+}
+.dz-Element-grid2
+{
+    position: relative;
+    float: left;
+    width: 460px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+}
+div.dz-Element-grid3
+{
+    -ms-name: "Grid Three (700)";
+}
+.dz-Element-grid3
+{
+    position: relative;
+    float: left;
+    width: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+}
+div.dz-Element-grid4
+{
+    -ms-name: "Grid Four (940)";
+}
+.dz-Element-grid4
+{
+    position: relative;
+    float: left;
+    width: 940px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+}
+
+/* RTE Style Elements */
+
+.dz-Style-normal
+{
+    -ms-name: "Normal";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.dz-Style-strong
+{
+    -ms-name: "Strong (ctrl-b)";
+    font-weight: bold;
+}
+.dz-Style-em
+{
+    -ms-name: "Emphasis (ctrl-i)";
+    font-style: italic;
+}
+.dz-Style-underline
+{
+    -ms-name: "Underline (ctrl-u)";
+    text-decoration: underline; 
+}

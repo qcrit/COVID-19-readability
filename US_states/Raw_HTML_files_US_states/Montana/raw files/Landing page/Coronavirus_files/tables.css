@@ -1,0 +1,105 @@
+/*DPHHS Tables templates
+Build Date 08/25/2014
+Brad Ricker */
+
+
+table.callout {							/*This one was the yellowtable*/
+    border-top: 2px solid #008852;
+    border-left: 2px solid #008852;
+	border-bottom: 2px solid #008852;
+    border-right: 2px solid #008852;
+	background-color:#fff5ee;
+	width:auto;
+}
+
+.callout td{
+    padding:6px;
+	font-size: inherit;
+}
+
+.callout tr.title {
+    background: url(/Portals/85/Images/yellow_chart_gradient.png) repeat-x;
+    color: #d93228;
+    font-weight: bold;
+    vertical-align: middle;
+    height: 28px;
+}
+
+.callout tr.subtitle {
+    background-color: #fdf3b9;
+    color: #f8951f;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/***************************General Table Classes********************************/
+
+table td {vertical-align:top; padding:6px !important; font-size: 1.2em;
+line-height: 1.2em;
+/*letter-spacing: .05em;*/
+font-family:Georgia, "Times New Roman", Times, serif !important;}
+table th[scope=col]{vertical-align:middle; padding:4px !important; background-color:#dadada; font-size: 1.2em;
+line-height: 1.2em;
+letter-spacing: .05em;
+ }
+table th[scope=row]{ padding:4px !important; font-size: 1.2em;
+line-height: 1.2em;
+letter-spacing: .05em; }
+table p{font-size: inherit}
+
+table h1 {margin:2px;font-size: 180% !important;  }
+table h2 {margin:2px; font-size: 160% !important;  }
+table h3 {margin:2px; font-size: 135% !important; }
+table h4 {margin:2px; font-size: 125% !important;  }
+table h5 {margin:2px; }
+table tr h1{line-height:1em;}
+table tr h2{line-height:1em;}
+table tr h3{line-height:1em;}
+table tr h4{line-height:1em;}
+table tr h5{line-height:1em;}
+table tr h6{line-height:1em;}
+
+
+table.policymanuals td {padding:2px; vertical-align:top;
+	}
+
+table.outsideborder {
+	border:#000 1px solid;
+	}
+
+table.allborders {border-collapse: collapse; font-family:Georgia, "Times New Roman", Times, serif !important; }
+table.allborders td, th {
+border:#000 1px solid; padding: 4px; 
+	}
+	
+/*table.allborders h1, h2, h3, h4, h5, h6 {font-size: 1.2em !important;}	*/
+table.allborders p  {font-size: 1em;}
+
+/* this table created the rounded menu buttons*/
+table.menu {border-collapse: separate; border-spacing:20px; width:100%; font-size: .8em !important;}
+table.menu td {
+border:1px solid; padding:10px; background-color:#dadada; display: table-cell; vertical-align:middle; border-radius:20px
+	}
+
+/* Table with different odd and even row colors*/
+table.rowbackgrounds {border-collapse: collapse; }
+table.rowbackgrounds td, th {
+	border:#016893 1px solid; padding: 2px; 
+	}
+table.rowbackgrounds tr:nth-child(odd) {
+	background-color: #ffffff
+	}
+table.rowbackgrounds tr:nth-child(even) {
+	background-color: #e6e6e6
+}
+	
+table.center{ margin-left:auto !important; margin-right:auto !important;}
+
+/*Class to center a table - HTML 5 no longer supports align=center - Brad R 
+table.center {
+ margin-left:auto; 
+ margin-right:auto;
+ }
+ body .table .center{text-align:center;}*/
+
+

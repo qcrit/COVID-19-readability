@@ -1,0 +1,406 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    text-align: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #030c1b;
+}
+
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+
+ul, p
+{
+    margin: 1em 0;
+}
+
+ol 
+{
+    margin: 1em;
+    padding: 1em;
+    list-style: decimal;
+}
+
+li
+{
+    margin: .3em 0;
+}
+
+#soa-skip-content, #soa-skip-navigation
+{
+    position: absolute;
+    top: -200px;
+    z-index: -5;
+}
+
+#top-wrapper, #content-wrapper, #footer-wrapper
+{
+    width: 100%;
+    clear: both;
+    background-repeat: repeat-x;
+}
+
+#soa-bar, #soa-header, #soa-breadcrumbs, #soa-content, #soa-footer
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    clear: both;
+    background-repeat: repeat-x;
+}
+
+#top-wrapper
+{
+    padding-top: 15px;
+    background-image: url('../Images/bg-v.png');
+    background-position: 0 -120px;
+    font-size: .6em;
+}
+
+#top-wrapper, #content-wrapper
+{
+    background-color: #0a306a;
+}
+
+#footer-wrapper
+{
+    font-size: .7em;
+}
+
+#soa-header
+{
+    height: 90px;
+    background-image: url('../Images/bg-v.png');
+    background-position: 0 0;
+}
+
+#soa-banner
+{
+    display: block;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    width: 507px;
+    text-indent: -9999px;
+    height: 90px;
+    background: url('../Images/banner-dhss.jpg') top left no-repeat;
+}
+
+#soa-content
+{
+    overflow: auto;
+}
+
+#soa-content
+{
+    background: #fff;
+}
+
+#soa-bar
+{
+    display: block;
+    height: 27px;
+    background: #f9c033 url('../Images/bg-h.png') top left no-repeat;
+    position: relative;
+}
+
+#soa-title
+{
+    display: block;
+    float: left;
+    width: 170px;
+    height: 27px;
+    padding: 0;
+    color: #00006F;
+    text-decoration: none;
+    font-weight: bold;
+    text-indent: -9999px;
+}
+
+#soa-bar ul
+{
+    margin: 0;
+    padding: 0 5px 0 0;
+    float: right;
+}
+
+#soa-bar ul li
+{
+    display: inline;
+    list-style: none;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 7px;
+}
+
+#soa-bar ul li a
+{
+    color: #00006F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#soa-bar ul li a:hover, #soa-bar ul li a:focus
+{
+    text-decoration: underline;
+}
+
+#soa-search
+{
+    position: relative;
+    float: right;
+    padding: 15px 15px 0 0;
+    background: url('../Images/bg-h.png') -1990px 15px no-repeat;
+    width: 300px;
+    font-weight: bold;
+    color: #f5f5f5;
+    text-align: right;
+}
+
+#soa-searchquery
+{
+    background: transparent;
+    width: 205px;
+    height: 25px;
+    line-height: 25px;
+    color: #6D6D6D;
+    border: none;
+    position: relative;
+    margin: 0 0 8px 0;
+    padding: 0 70px 0 25px;
+    clear: both;
+}
+
+#soa-searchsubmit
+{
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 100%;
+    text-indent: -9999px;
+    width: 70px;
+    height: 25px;
+    background: url('../Images/bg-h.png') -1920px 0 no-repeat;
+    padding: 0;
+    margin: 0;
+    margin-left: -85px;
+    border: 0;
+    text-transform: capitalize;
+}
+
+#soa-breadcrumbs
+{
+    background-image: url('../Images/bg-v.png');
+    background-position: 0 -90px;
+    text-align: left;
+    text-indent: 10px;
+    border-bottom: solid 1px #d1d3d6;
+    color: #293042;
+    line-height: 2em;
+}
+
+#soa-breadcrumbs a
+{
+    color: #293042;
+    text-decoration: none;
+    padding: 0 5px 0 0;
+}
+
+#soa-breadcrumbs a:hover, #soa-breadcrumbs a:focus
+{
+    text-decoration: underline;
+}
+
+#footer-wrapper
+{
+    background-image: url('../Images/bg-v.png');
+    background-position: 0 -325px;
+    height: 200px;
+    font-size: .7em;
+}
+
+#soa-footer
+{
+    overflow: auto;
+    display: block;
+    width: 960px;
+    height: 80px;
+    padding: 16px 0 0 0;
+    text-align: left;
+    color: #CED4DF;
+    background: url('../Images/bg-h.png') -960px 100% no-repeat;
+}
+
+#soa-footer a
+{
+    color: #ced4df;
+    text-decoration: underline;
+}
+
+#soa-footer a:hover, #soa-footer a:focus
+{
+    text-decoration: none;
+}
+
+#soa-footer ul
+{
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+#soa-footer ul.footer
+{
+    float: right;
+}
+
+#soa-footer ul.menu li
+{
+    float: left;
+    padding-right: 10px;
+}
+
+#soa-footer ul.footer li
+{
+    float: left;
+    border-right: 1px solid #ced4df;
+    padding: 0 5px;
+}
+
+#soa-footer ul.footer li.last-child
+{
+    border-right: none;
+    padding-right: 0;
+}
+
+/* Menu */
+
+#menu
+{
+    clear: both;
+    width: 960px;
+    height: 22px;
+    background-color: #061c41;
+    border-bottom: 4px solid #637ba5;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+}
+/*This styles the first level list*/
+#menu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*This styles the first level list items*/
+#menu ul li
+{
+    margin: 0;
+    float: left;
+    color: #fff;
+}
+/*This styles the list item link*/
+#menu ul li a
+{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 15px 4px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/*This is the rollover effect on the link*/
+#menu ul li a:hover, #menu ul li a:focus
+{
+    color: #fff;
+    background-color: #637ba5;
+}
+/*This puts the rollover effect on the list item*/
+#menu ul li:hover, #menu ul li:focus, #menu ul li.sfhover
+{
+    color: #fff;
+    background-color: #061D40;
+}
+/*This does the main styling for all the dropdowns which are wrapped in divs depending on columns*/
+#menu ul li div
+{
+    padding: 0;
+    margin: 0 0 0 -1px;
+    position: absolute;
+    top: auto;
+    left: -999em;
+    z-index: 10;
+    border-bottom: 1px solid #637ba5;
+    border-left: 1px solid #637ba5;
+    border-right: 1px solid #637ba5;
+    background-color: white;
+}
+
+#menu > ul > li > ul
+{
+    top: auto;
+    left: auto;
+}
+/*This is the hover effect to get the dropdowns to appear*/
+#menu ul li:hover div, #menu ul li:focus div, #menu ul li.sfhover div
+{
+    left: auto;
+}
+/*This defines all the lists within lists that constitute the dropdown*/
+#menu ul li ul li
+{
+    float: none;
+    display: block;
+    text-align: left;
+    border: none;
+    width: 170px;
+    padding: 0;
+}
+/*This is all the links within the dropdown*/
+#menu ul li ul li a
+{
+    color: #1e2944;
+    text-decoration: none;
+    border: none;
+    margin: 0 1px;
+    padding: 6px 3px 6px 10px;
+}
+
+/*The hover effect on the links in the dropdown*/
+#menu ul li ul li a:hover, #menu ul li ul li a:focus
+{
+    color: #000;
+    background: none;
+    background-color: #d5def0;
+    border: 1px solid #c2cde0;
+    padding: 5px 2px 5px 9px;
+}
+#menu ul li ul li:hover, #menu ul li ul li:focus, #menu ul li ul li.sfhover
+{
+    background: none;
+}
+
+#menu ul li div ul
+{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: white;
+    font-size: 1em;
+}

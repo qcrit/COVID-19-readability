@@ -1,0 +1,940 @@
+@charset "utf-8";
+/* Buttons and Button Groups
+Created on 08/09/2016
+Brad Ricker*/
+
+/* No longer used - 12/02/2019 Brad
+.btn-group-lg>.btn,.btn-lg, .ecsb {
+background-color:#F37514 !important; /**Secondary background color on the button*
+padding: 10px 16px;
+font-size: inherit;
+line-height: .9 !important;
+border-radius: 6px;
+color: #ffffff;
+font-weight:bold;
+	
+}
+*/
+.btn-group, .btn-group-vertical .ecsb{
+	margin-left: 2em;
+	margin-bottom: 1em;
+	width: auto;
+}
+
+.btnOrange{
+	background-color:#f68933 !important;
+}
+
+.btnBlue{
+	background-color:#41c4dd !important;
+}
+
+.btnGreen{
+	background-color:#5d9732 !important;
+}
+
+ .dropdown-menu, .ul, .li
+ {
+	 font-size: 1em !important;
+	 list-style: none !important;
+ }
+ 
+ .menuGroup{
+	display: inline-block !important; 
+ }
+
+/**** Screen adjustment for smaller screens ********/
+@media only screen and (max-width: 800px) 
+{ /**Removes the secondary background on the button**/
+		.btn-group, .btn-group-vertical .ecsb {
+background-color:transparent!important;
+
+}
+	
+}
+
+@media only screen and (max-width: 600px) 
+{ 
+	.menuButton{
+		min-width:70%;
+			
+		
+	}
+	
+	
+}
+
+@media only screen
+and (min-device-width : 468px)
+and (max-device-width : 624px) {
+	.menuButton{ 
+		min-height:18em;
+		
+	}
+}
+
+
+/*********Grey button for menu items - this is generic for testing*****/
+
+.menuButton {
+	-moz-box-shadow:inset 0px 1px 3px 0px #899599;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #899599;
+	box-shadow:inset 0px 10px 13px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#317485;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+height:10em;
+width:30%;
+margin-right:1em;
+margin-bottom:1em;
+	border: outset;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+
+
+}
+.menuButton:hover {
+	background-color:#bab1ba;
+}
+.menuButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*************Menu Button 2 wide *******************/
+
+.menuButton2 {
+	-moz-box-shadow:inset 0px 1px 3px 0px #899599;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #899599;
+	box-shadow:inset 0px 10px 13px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#317485;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:larger;
+	font: bold;
+	padding:20px 10px 5px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+height:5.2em;
+width:45%;
+margin-left:1em;
+margin-right:1em;
+margin-bottom:1em;
+	border: outset;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center;
+
+
+}
+.menuButton2:hover {
+	background-color:#bab1ba;
+}
+.menuButton2:active {
+	position:relative;
+	top:1px;
+}
+/************Large menu button************************/
+
+.menuButtonLg {
+	-moz-box-shadow:inset 0px 1px 3px 0px #899599;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #899599;
+	box-shadow:inset 0px 10px 13px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#317485;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+height:10.75em;
+width:45%;
+margin-right:1em;
+margin-bottom:1em;
+	border: outset;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 2em;
+
+}
+.menuButtonLg:hover {
+	background-color:#bab1ba;
+}
+.menuButtonLg:active {
+	position:relative;
+	top:1px;
+}
+
+/************Small menu button************************/
+
+.menuButtonSm {
+	-moz-box-shadow:inset 0px 1px 3px 0px #899599;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #899599;
+	box-shadow:inset 0px 10px 13px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#317485;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:medium !important;
+	font-weight: bold;	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+height:5.75em;
+width:30%;
+margin-right:1em;
+margin-bottom:1em;
+	border: outset;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 2em;
+
+}
+.menuButtonSm:hover {
+	background-color:#bab1ba;
+}
+.menuButtonSm:active {
+	position:relative;
+	top:1px;
+}
+/*************Small menu button - 50%***********************/
+.menuButtonSm2 {
+	-moz-box-shadow:inset 0px 1px 3px 0px #899599;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #899599;
+	box-shadow:inset 0px 10px 13px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#317485;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:medium !important;
+	font-weight: bold;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+height:6em;
+width:47%;
+margin-right:1em;
+margin-bottom:1em;
+	border: outset;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 2em;
+
+}
+.menuButtonSm2:hover {
+	background-color:#bab1ba;
+}
+.menuButtonSm2:active {
+	position:relative;
+	top:1px;
+}
+/**********************Left and right Menu Column buttons ****************/
+
+.menuButtonMenu {
+	-moz-box-shadow:inset 0px 1px 3px 0px #899599;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #899599;
+	box-shadow:inset 0px 10px 13px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+height:6.25em;
+width:100%;
+margin-right:1em;
+margin-bottom:1em;
+	border: outset;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 2em;
+
+}
+
+.menuButtonMenuTall {
+	-moz-box-shadow:inset 0px 1px 3px 0px #899599;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #899599;
+	box-shadow:inset 0px 10px 13px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid #000000;
+	display:inline-block;
+	/*cursor:pointer;*/
+	color:#3a8a9e;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+height:auto;
+width:45%;
+margin-right:1em;
+margin-bottom:1em;
+	border: outset;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 2em;
+/*float:left; - Causing a wrapping issue */
+}
+.menuButtonMenuTall:hover {
+	background-color:#bab1ba;
+}
+.menuButtonMenuTall:active {
+	position:relative;
+	top:1px;
+}
+
+
+.menuButtonNavigation {
+	-moz-box-shadow:inset 0px 1px 3px 0px #899599;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #899599;
+	box-shadow:inset 0px 10px 13px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid #000000;
+	display:inline-block;
+	/*cursor:pointer;*/
+	color:#3a8a9e;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	padding:5px 5px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+height:auto;
+width:100%;
+margin-right:.5em;
+margin-bottom:.5em;
+	border: outset;
+	overflow:hidden;
+  align-items: center; 
+padding-top: .75em;
+
+}
+
+.menuButtonNavigation ul li{ 
+list-style:disc !important;
+}
+.menuButtonSm:hover {
+	background-color:#bab1ba;
+}
+.menuButtonSm:active {
+	position:relative;
+	top:1px;
+}
+
+/**********************CSHS Menu buttons ****************/
+
+.menuButtonOrange {
+
+	background-color:#f3932e;
+	-moz-border-radius:5px;
+
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#000000 !important;
+	font-size:larger;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:45%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonOrange:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonOrange a{text-decoration:none !important;
+color:#000000 !important;}
+
+.menuButtonBlue {
+
+	background-color:#8FD1CD;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#000000 !important;
+	font-size:larger;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:45%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonBlue:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonBlue a{text-decoration:none !important;
+color:#000000 !important;}
+
+.menuButtonGreen {
+
+	background-color:#50B074;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#000000 !important;
+	font-size:larger;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:45%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonGreen:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonGreen a{text-decoration:none !important;
+color:#000000 !important;}
+
+.menuButtonYellow {
+
+	background-color:#fde063;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:larger;
+	font-weight:bold;
+	color:#000000 !important;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:45%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonYellow:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonYellow a{text-decoration:none !important;
+color:#000000 !important;
+}
+
+/**************Same buttons as above but a little smaller******************/
+
+.menuButtonOrangeSm {
+
+	background-color:#f3932e;
+	-moz-border-radius:5px;
+
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#000000 !important;
+	font-size:larger;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:27%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonOrangeSm:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonOrangeSm a{text-decoration:none !important;
+color:#000000 !important;}
+
+.menuButtonBlueSm {
+
+	background-color:#8FD1CD;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#000000 !important;
+	font-size:larger;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:27%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonBlueSm:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonBlueSm a{text-decoration:none !important;
+color:#000000 !important;}
+
+.menuButtonGreenSm {
+
+	background-color:#50B074;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#000000 !important;
+	font-weight:bold;
+	font-size:larger;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:27%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonGreenSm:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonGreenSm a{text-decoration:none !important;
+color:#000000 !important;}
+
+.menuButtonYellowSm {
+
+	background-color:#fde063;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:larger;
+	font-weight:bold;
+	color:#000000 !important;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:27%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonYellowSm:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonYellowSm a{text-decoration:none !important;
+color:#000000 !important;}
+
+.menuButtonRedSm {
+
+	background-color:#a73a22;;
+	-moz-border-radius:5px;
+
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#ffffff !important;
+	font-size:larger;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+height:4.5em;
+width:27%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonRedSm:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonRedSm a{text-decoration:none !important;
+color:#ffffff !important;}
+
+/**********************Immunization****************/
+
+.menuButtonIZBlue {
+
+	display: inline-flex;
+	display:	-ms-inline-flex;
+	display:	-webkit-inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: .75em;
+	background-color:#63c2eb;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	/*display:inline-block;*/
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#000000 !important;
+	font-size:inherit;
+	/*padding:5px 5px;*/
+	text-decoration:none;
+height:4em;
+width:45%;
+margin-right:1em;
+	margin-bottom:.5em;
+	overflow:hidden;
+	/*	text-align: center;
+text-align: -moz-center;
+align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;*/
+
+}
+
+
+.menuButtonIZBlue:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonIZBlue a{text-decoration:none !important;
+color:#000000 !important;}
+
+.menuButtonIZGreen {
+
+	display: inline-flex;
+	display:	-ms-inline-flex;
+	display:	-webkit-inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: .75em;
+	background-color:#bde246;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	/*display:inline-block;*/
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	color:#000000 !important;
+	font-size:inherit;
+	/*padding:5px 5px;*/
+	text-decoration:none;
+height:4em;
+width:45%;
+margin-right:1em;
+	margin-bottom:.5em;
+	overflow:hidden;
+	/*	text-align: center;
+text-align: -moz-center;
+align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;*/
+
+}
+
+.menuButtonIZGreen:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonIZGreen a{text-decoration:none !important;
+color:#000000 !important;}
+
+     /**********************************responsive code for the above buttons****************************/
+	 
+		 
+	@media only screen and (max-width: 980px) 
+{ 
+	 .menuButtonBlueSm {
+		 height: 4.5em;
+		 width:40%
+
+	 }
+	
+	 .menuButtonOrangeSm {
+		 height: 4em;
+		 width:40%
+	 }
+	 
+	 	 .menuButtonGreenSm {
+		 height: 4.5em;
+			 width:40%
+	 }
+	 
+	 	 .menuButtonYellowSm {
+		 height: 4em;
+			 width:40%
+	 }
+}
+
+	 /************************************End of responsive code*************************************/
+/******************** Building Health Systems Buttons **********************************/
+.menuButtonBHSOrange {
+
+	background-color:#f39665;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	color:#000000 !important;
+	padding:5px 5px;
+	text-decoration:none;
+min-height:2.5em;
+min-width:45%;
+margin:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding: 1em;
+}
+
+.menuButtonBHSOrange:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonBHSOrange a{text-decoration:none !important;
+color:#000000 !important;}
+
+/****Green******/
+.menuButtonBHSGreen {
+	
+	background-color:#8BB58B;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	color:#000000 !important;
+	padding:5px 5px;
+	text-decoration:none;
+min-height:2.5em;
+min-width:30%;
+margin:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding: 1em;
+}
+
+.menuButtonBHSGreen:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonBHSGreen a{text-decoration:none !important;
+color:#000000 !important;}
+
+/*****Blue*****/
+.menuButtonBHSBlue {
+
+	background-color:#9CC8EC;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	color:#000000 !important;
+	padding:5px 5px;
+	text-decoration:none;
+min-height:2.5em;
+min-width:30%;
+margin:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding: 1em;
+}
+
+.menuButtonBHSBlue:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonBHSBlue a{text-decoration:none !important;
+color:#000000 !important;}
+
+/*********************End of Building Healthy Systems Buttons***********************/
+/************************************End of smaller buttons*****************************/
+
+.menuButtonNewbornScreening {
+
+	background-color:#f39665;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:inherit;
+	color:#000000 !important;
+	padding:5px 5px;
+	text-decoration:none;
+min-height:2.5em;
+width:45%;
+margin-right:1em;
+	margin-bottom:1em;
+	overflow:hidden;
+		text-align: center;
+	text-align: -moz-center;
+  align-items: center; 
+padding-top: 1.2em;
+	padding-bottom: .5em;
+}
+
+.menuButtonNewbornScreening:active {
+	position:relative;
+	top:1px;
+}
+.menuButtonNewbornScreening a{text-decoration:none !important;
+color:#000000 !important;}
+
+.customButton{
+width: 80%;
+    margin: auto;
+}
+
+.customButton img{
+   width: 20%;
+    float: left;
+    display: block;
+	padding-right: 20px;
+	padding-bottom: 1em;
+}
+
+dropdown-menu ul li {list-style:none;}
+
+
+.btnFontWhite{
+color:#ffffff !important;	
+}

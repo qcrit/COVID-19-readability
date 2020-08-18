@@ -1,0 +1,499 @@
+/* Agency Specific Styles */
+
+.group {
+	  content: ".";
+	  display: block;
+	  height: 0;
+	  overflow: hidden; /* My addition. Not sure it's a good idea, but there you go. */
+	  clear:both;
+}
+
+.agencyname {padding-top: .35em;}
+#header p.mainname {padding-top: 0;}
+
+@media only screen and (min-width: 640px) {
+	#header p.mainname {padding-top: .25em;}
+	.agencyname {padding-top: .5em;}
+}
+
+
+[class*="block-grid-"] {
+   margin: 0;
+   padding: 0;
+}
+.panel ul[class*="block-grid-"] {
+   margin: 0;
+   padding: 0;
+}
+.panel ul[class*="block-grid-"] li {
+   	padding-bottom: 0;
+	padding-left: .25em;
+	padding-right: .25em;
+}
+.panel ul[class*="block-grid-"] li a:hover img {
+   opacity: .7;
+}
+
+.thinpanel ul, .thinpanel ol, .thinpanel dl,
+.darkpanel ul, .darkpanel ol, .darkpanel dl,
+.darkpanelprint ul, .darkpanelprint ol, .darkpanelprint dl,  {
+    margin-left: 0.9375em;
+}
+.thinpanel li, .darkpanel li, darkpanelprint li {
+    margin-bottom: 0.3em;
+}
+
+.small-lists li, .panel ul li, .section-container ul li {font-size: .9em;}
+
+
+.healthgroups section p.title a {
+	background-color: #2B5077;
+	color: #fff;
+}
+.healthgroups section p.title a:hover {
+	background-color: #5481b1;
+}
+.section-auto.healthgroups > section.active  > .title a {
+	color: #fff;
+	background-color: #5481b1;
+}
+.healthgroups section.news p.title a {
+	background: #2B5077 left bottom no-repeat;
+	padding-left: 20px;
+	background-size: 60px;
+}
+.healthgroups section.researchers p.title a:hover, .healthgroups section.parents p.title a:hover, .healthgroups section.providers p.title a:hover {
+	background-color: #5481b1;
+}
+#header .agencyname a[href^="http://"], #header .agencyname a[href^="https://"] {
+    padding-left: 0px;
+}
+.coa p {
+	margin: 0;
+	margin-top: .8em;
+}
+
+/*
+.section-container.accordion.dropdown > section.active > .title a  {
+	background-color: rgba(255, 255, 255, .5);
+}
+
+*/
+
+.groupings li {
+	margin-bottom: 0px;
+	padding: .3em;
+}
+.groupings li a {
+	background: none;
+	padding: 0;
+}
+.groupings li a:hover img {
+	opacity: .5;
+}
+.darkpanel, .darkpanelprint {
+	background-color: rgba(5, 28, 51, .8);
+    
+}
+
+.rssheadline a[href$=".pdf"], .rssheadline a[href$=".PDF"] {
+    width: auto;
+    height: auto;
+}
+a[href^="http://"].rss , a[href^="https://"].rss  {
+	background: none;
+}
+.rss {color: #FF9600;}
+.panel .iwantto  {	background-color: #103356 ; background-color: rgba(15, 45, 77, 0.9);}
+.iwantto li a {
+	width: 100%;
+	min-height: 7em;
+	border-radius: .5em;
+	display: block;
+	padding: 0 .75em .5em .75em;
+	background: #AFCAEA url(../img/site/weebles/weeble-btn.png) left bottom repeat-x;
+	position: relative;
+	margin: .5em auto;
+	color: #0f2d4d;
+	text-shadow: .5px .5px 1px #FFF ;
+}
+.iwantto li a:hover {
+	background-color: rgba(175,202,234,.8);
+}
+.opt2 li a {
+width: 100%;
+	min-height: 5.5em;
+	border-radius: .5em;
+	display: block;
+	padding: 0;
+	background: #AFCAEA url(../img/site/weebles/weeble-btn.png) left bottom repeat-x;
+	position: relative;
+	margin: .5em auto;
+	color: #fff;
+	text-shadow: 1px 1px 1px #0f2d4d ;
+}
+.opt2 li a span {
+	position: absolute;
+	bottom: 0em;
+	left: .001%;
+	right: .001%;
+	font-size: .75em;
+	background-color: #0f2d4d;
+	background-color: rgba(15, 45, 77, .85);
+	/* display: block; */
+	padding: .5em .5em;
+	border-radius: 0 0 .5em .5em;
+	text-align: center;
+}
+.opt2 li a:hover {
+	text-decoration: underline;
+	background-color: rgba(175,202,234,.8);
+}
+.opt2 li a:hover span {
+	text-decoration: underline;
+	background-color: rgba(15, 45, 77, 1);
+}
+/*
+.iwantto li a span {
+	position: absolute;
+	bottom: .5em;
+	font-size: .75em;
+	text-align: center;
+	line-height: 1.3em;
+	background-color: rgba(255, 145, 27, .8);
+	border-radius: .7em;
+	padding: .5em;
+	color: rgba(5, 28, 51, 0.92);
+	left: 10%;
+	right: 10%;
+}
+
+*/
+
+/*
+
+.iwantto li a:hover span {
+	background-color: rgba(255, 145, 27, 1);
+}
+*/
+.section-container.tabs > section > .title a, .section-container.tabs > .section > .title a {
+	padding: .8em;
+}
+/*
+ Weebles on Index 
+.weebles {
+	background: #051c33;
+	background: rgba(5, 28, 51, 0.92);
+	position: relative;
+	margin: 0em 0 .5em 0;
+	text-align: center;
+	overflow: hidden;
+}
+.weebles h3 {
+	color: #EE7422;
+	position: absolute;
+	bottom: 0;
+	right: 1.5em;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	z-index: 999;
+}
+@media screen and (min-width: 726px) {
+	.weebles h3 {
+		position: absolute;
+		bottom: 0;
+		right: 1.5em;
+
+		margin: 0;
+		padding: 0;
+		font-size: 1em;
+		z-index: 999;
+	}
+}
+.weebles ul {
+	list-style-type: none;
+	height: auto;
+	text-align: center;
+	margin: .5em auto;
+	display: inline-block;
+}
+.weebles ul li {
+	list-style-type: none;
+	/* float: left; *//*
+	float: none;
+	display: inline-block;
+	margin: .25em;
+}
+.weebles ul li a {
+    min-height: auto;
+	display: inline-block;
+	position: relative;
+	padding: .5em;
+	border-radius: .125em;
+	background-color: #143a60;
+	border-top: solid 1px #2a5a8a;
+	border-bottom: solid 1px #010912;
+}
+.weebles ul li a:hover {
+	background-color: #1e476f;
+	color: #fff;
+}
+.weebles ul li a span.tip { display: inline;}
+.weebles ul li a .icon-left-dir {display: none;}
+.weebles ul li a:hover .icon-left-dir, .weebles ul li.weeble2 a.active .icon-left-dir {	display: none;}
+.weeble1 a, .weeble2 a, .weeble3 a, .weeble4 a, .weeble5 a, .weeble6 a, .weeble7 a, .weeble8 a, .weeble9 a, .weeble10 a {background: transparent;}
+@media screen and (min-width: 768px) {
+.weebles ul {	margin: 0 auto; line-height: 0; text-align: center;}
+.weebles ul li {
+	float: left;
+	margin: 0;
+}
+.weebles ul li a {
+    min-height: 85px;
+    padding: 0;
+	border-radius: 0;
+	background-color: transparent;
+	border-top: none;
+	border-bottom: none;
+	margin: 0;
+	line-height: 1.6;
+}
+.weebles ul li a:hover {
+
+	background-color: transparent;
+}
+.weebles ul li a span.tip, .weebles ul li a .icon-left-dir { display: none;}
+.weebles ul li a:hover span.tip, .weebles ul li.weeble2 a.active span.tip {
+	display: inline-block;
+	position: absolute;
+	left: 25px;
+	top: 10px;
+	background-color: #EE7422;
+	padding: .5em;
+	color: #fff;
+	border-radius: .8em;
+	z-index: 999;
+	min-width: 100px;
+	font-size: .7em;
+}
+.weebles ul li a:hover .icon-left-dir, .weebles ul li.weeble2 a.active .icon-left-dir {
+	display: inline;
+	position: absolute;
+	left: 9px;
+	top: 8px;
+	color: #EE7422;
+	z-index: 999;
+}
+
+.weeble1 a{background: transparent url(../img/site/weebles/WeebleGroup.png) left bottom no-repeat; width: 67.4px;	}
+.weeble2 a {background: transparent url(../img/site/weebles/weeble2.png) left bottom no-repeat; width: 17px;	}
+.weeble2 a:hover, .weeble2 a.active {background: transparent url(../img/site/weebles/weeble2.png) right bottom no-repeat;}
+.weeble3 a {background: transparent url(../img/site/weebles/WeebleGroup3.png) left bottom no-repeat; width: 34px;	}
+.weeble4 a {background: transparent url(../img/site/weebles/weeble4.png) left bottom no-repeat; width: 15px;}
+.weeble4 a:hover {background: transparent url(../img/site/weebles/weeble4.png) right bottom no-repeat; }
+.weebles ul li.weeble4 a:hover span.tip {	left: 25px;	top: 30px;}
+.weebles ul li.weeble4 a:hover .icon-left-dir {	left: 8px;	top: 30px;}
+.weeble5 a {background: transparent url(../img/site/weebles/WeebleGroup5.png) left bottom no-repeat; width: 48px;	}
+.weeble6 a {background: transparent url(../img/site/weebles/weeble6.png) left bottom no-repeat; width: 21px;}
+.weeble6 a:hover {background: transparent url(../img/site/weebles/weeble6.png) right bottom no-repeat; }
+.weebles ul li.weeble6 a:hover span.tip {	left: 28px;	top: 15px;}
+.weebles ul li.weeble6 a:hover .icon-left-dir {	left: 12px;	top: 15px;}
+.weeble7 a {background: transparent url(../img/site/weebles/WeebleGroup7.png) left bottom no-repeat; width: 81px;}
+.weeble8 a {background: transparent url(../img/site/weebles/weeble8.png) left bottom no-repeat; width: 18px;}
+.weeble8 a:hover {background: transparent url(../img/site/weebles/weeble8.png) right bottom no-repeat; }
+.weebles ul li.weeble8 a:hover span.tip {	left: 25px;	top: 30px;}
+.weebles ul li.weeble8 a:hover .icon-left-dir {	left: 8px;	top: 30px;}
+.weeble9 a {background: transparent url(../img/site/weebles/WeebleGroup9.png) left bottom no-repeat; width: 81px;}
+.weeble10 a {background: transparent url(../img/site/weebles/weeble10.png) left bottom no-repeat; width: 18px;}
+.weeble10 a:hover {background: transparent url(../img/site/weebles/weeble10.png) right bottom no-repeat; }
+.weebles ul li.weeble10 a:hover span.tip {	left: 27px;	top: 32px;}
+.weebles ul li.weeble10 a:hover .icon-left-dir {	left: 10px;	top: 32px;}
+}*/
+.healthgroups h4 {
+	margin-bottom: .125em;
+}
+
+/*.extras {display: none !important;}
+
+@media only screen and (min-width : 1080px) {
+	 .extras {display: block !important;}
+}
+*/
+
+.nobullets, ul.nobullets, ul.nobullets li, .panel ul.nobullets, .nobullet, ul.nobullet, ul.nobullet li, .panel ul.nobullet {
+	list-style-type: none;
+}
+.tabs ul.nobullets, .tabs ul.nobullet {
+	list-style-type: none;
+	margin-left: 0em;
+}
+.orbit-container .orbit-slides-container > * .orbit-caption  { background-color: transparent;}
+.orbit-caption p {
+	margin: 0;
+}
+.orbit-caption a {
+color: #fff;
+}
+ol.orbit-bullets {
+	margin-bottom: .5em;
+	display: inline-block;
+}
+.orbit-bullets li {
+	width: .75em;
+	height: .75em;
+	background-color: #ccc;
+	border-color: #ccc;
+}
+.orbit-bullets li.active {
+	background-color: #aaa;
+	border-color: #aaa;
+}
+.orbit-slide-number { display: none;}
+.footer .coa p {
+    margin-top: 0em;
+}
+@media only screen and (min-width: 430px) and (max-width: 768px) {
+	.footer .coa p {
+	    margin-top: 1.8em;
+	}
+}
+table .button {
+	padding: .5em;
+	font-size: .9em;
+	margin-top: .5em;
+	font-weight: normal;
+	letter-spacing: .02em;
+}
+/* Made Adjustmenst to the Social buttons in header */
+.socialmedia li a[href^="http://www.ri.gov/rss/8/pressrelease.rss"],
+.socialmedia li a[href^="http://www.twitter.com/rihealth"],
+.socialmedia li a[href^="http://www.facebook.com/HealthRI"],
+.socialmedia li a[href^="http://www.youtube.com/user/ridohealth/"],
+.socialmedia li a[href^="http://www.flickr.com/photos/rihealth/"],
+.socialmedia li a[href^="http://www.pinterest.com/rihealth"] {
+	background: rgba(0, 0, 0, 0.2);
+	padding: .25em;
+}
+.socialmedia li a:hover {
+	background: #fff;
+}
+
+
+.subject { margin-bottom: 0.5em;}
+/*.accordion ul li {list-style-type: none;}
+*/
+.jsdropdown span a {
+padding: .1em;
+display: block;
+margin-bottom: 1em;
+color: rgba(26,76,129, .7);
+background-color: rgba(198, 226, 254, 0.2);
+
+.jsdropdown .odd span a {background-color: rgba(26, 76, 129, 0.9);}
+.jsdropdown span a:hover {
+	background-color: white;
+}
+.jsdropdown .moreInfo {
+	margin-left: 1em;
+}
+
+
+
+.panel h1 {color: #fff;}
+.maintitle {
+	padding: .5em;
+	margin: 0;
+	font-size: 1.25em;
+	color: #0f2d4d ;
+}
+
+.flickrslideshow object, embed { height: 500px;}
+.section-container.accordion .content { padding-left: 0.9375em; }
+.section-container.simple.accordion section {
+	border-top: solid 1px #eee;
+	border-bottom: none;
+}
+.section-container.simple.accordion section .content ul { margin-left: 0;}
+
+.section-container.simple.accordion .title {
+    background: #ccc;
+    border: none;
+    font-weight: normal;
+	border-bottom: solid 1px #aaa;
+}
+
+.simple.accordion section p.title a {
+	background: transparent;
+	color: #0f2d4d;
+	padding: .35em .35em .35em .5em;
+}
+
+.simple.accordion section p.title a:hover, .section-container.simple.accordion section.active p.title {
+	background-color: #999;
+	color: #fff;
+}
+.section-container.simple.accordion section.active p.title a {
+	color: #fff;
+}
+
+.section-container.accordion section p.singlelink a  {	background-image: none;}
+
+.panel .placeholder { margin: 0;}
+
+.placeholder li img {
+	background-color: #ccc;
+	display: block;
+	min-height: 80px;
+}
+
+.section-container.accordion section p a[href^="mailto"], .section-container.accordion section p a[href^="MAILTO"] {
+    height: auto;
+}
+
+
+form {
+
+}
+fieldset {
+	border: solid 1px #0F2D4D;
+}
+
+fieldset legend {background-color: transparent;}
+label {color: #0F2D4D; text-shadow: none;}
+input[type="text"] {
+    background-color: #fff;
+	border-top: solid 1px #aaa;
+	height: auto;
+}
+form.custom .custom.dropdown .current, form .dropdown .current, form .dropdown .selected {background-color: transparent;}
+
+.button.tiny {
+	padding: .35em;
+	font-size: .8em;
+}
+
+.footermenu {background-color: rgba(26, 76, 129, 0.7) ;}
+.footermenu ul {
+	line-height: inherit;
+	margin: 0;
+}
+.footermenu ul li {
+	float: left;
+	margin-right: 1.5em;
+	list-style-type: none;
+}
+.footermenu ul li a {
+	display: inline-block;
+	padding: .75em 0;
+	font-size: .8em;
+	/*background-color: rgba(21, 61, 103, 0.8);*/
+	color: #fff;
+}
+.footermenu ul li a:hover {color: #000;}
+footer dd {
+	margin: 0;
+}
+
+footer ul li a[href^="http://"], footer ul li a[href^="https://"] {display: inline;}
+.tooltip {word-wrap: normal; width: 100px; font-size: .8em; font-weight: normal; display: inline-block; max-width: 250px;}
