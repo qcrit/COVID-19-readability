@@ -5,7 +5,7 @@ Readability analyses were performed using Readability Studio Professional, versi
 
 "Table_readability_data.xlsx" contains all of the raw readability data summarized in the Table ("Readability of COVID-19 Information from the WHO, CDC, ECDC, and Governments of 15 Countries") in the main paper. 
 
-Syntactic complexity data was generated using the L2 Syntactic Complexity Analyzer, version 3.3.3 (http://www.personal.psu.edu/xxl13/downloads/l2sca.html). Extensive documentation is available on the download page. The directory "syntactic_complexity" contains all of the raw L2 data, including the data on mean length of clause (MLC) and dependent clauses per T-unit (DC/T) summarized in the Table in the main paper.  
+Syntactic complexity data was generated using the L2 Syntactic Complexity Analyzer, version 3.3.3 (http://www.personal.psu.edu/xxl13/downloads/l2sca.html) with the input txt files described above. Extensive documentation is available on the download page. The directory "syntactic_complexity" contains all of the raw L2 data, including the data on mean length of clause (MLC) and dependent clauses per T-unit (DC/T) summarized in the Table in the main paper.  
 
 The Jupyter notebook "difficult_words_analysis.ipynb" in the directory "difficult_words" can be used to reproduce the analysis of difficult words and phrases listed in the CDC resource "Everyday Words for Public Health Communication" (https://www.cdc.gov/other/pdf/everydaywordsforpublichealthcommunication.pdf). 
 
